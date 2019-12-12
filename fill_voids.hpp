@@ -107,13 +107,9 @@ void _binary_fill_holes(
 
     size_t z = loc / fast_sxyv;
     size_t y = (loc - (z * sxyv)) / fast_sxv;
-    size_t x = loc - sxv * (y + z * syv);
+    size_t startx = y * sxv + z * sxyv;
 
-    visited[loc] = 1;
-    add_neighbors(visited, sxv, syv, szv, stack, loc, y, z);
-
-    for (size_t ix = x + 1; ix < sxv; ix++) {
-      size_t cur = loc + ix;
+    for (size_t cur = loc; cur < startx + sxv; cur++) {
       if (visited[cur]) {
         break;
       }
@@ -121,8 +117,8 @@ void _binary_fill_holes(
       add_neighbors(visited, sxv, syv, szv, stack, cur, y, z);
     }
 
-    for (size_t ix = x - 1; ix >= 0; ix--) {
-      size_t cur = loc + ix;
+    // avoid integer underflow
+    for (int64_t cur = static_cast<int64_t>(loc) - 1; cur >= static_cast<int64_t>(startx); cur--) {
       if (visited[cur]) {
         break;
       }
