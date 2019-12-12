@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/fill-voids.svg)](https://badge.fury.io/py/fill-voids)  
+
 # Fill Voids
 ```python
 import fill_voids
@@ -20,7 +22,7 @@ then labels everything not filled as foreground.
 ### pip Installation 
 
 ```bash
-pip install fill_voids
+pip install fill-voids
 ```
 
 If there's not binary for your platform and you have a C++ compiler try:
@@ -28,7 +30,7 @@ If there's not binary for your platform and you have a C++ compiler try:
 ```bash 
 sudo apt-get install python3-dev # This is for Ubuntu, but whatever is appropriate for you
 pip install numpy
-pip install fill_voids --no-binary :all:
+pip install fill-voids --no-binary :all:
 ```
 
 ### Current Algorithm
