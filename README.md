@@ -28,8 +28,7 @@ We improve performance significantly by using libdivide to make computing x,y,z 
 
 ### Binary Version Improvements  
 
-1. **Lower Memory:** Skip the allocating and painting steps by walking along each side of the image and adding newly encountered voids as seed points to the stack. This reduces the memory usage to near zero.
-2. **Faster Execution:** Use a scanline algorithm, which will take advantage of the memory layout and streaming capabilities of modern computers.
+It would be possible to skip the allocating and painting steps by walking along each side of the image and adding newly encountered voids as seed points to the stack. This reduces the memory usage to near zero.
 
 ### Multi-Label Improvements 
 
@@ -50,4 +49,4 @@ Similarly to the connected-components-3d and euclidean-distance-3d projects, in 
 Fig. 1: Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 0.1 (blue) scipy 1.3.3
 </p>
 
-fill_voids is currently significantly faster than scipy at significantly high memory cost. This cost is due to the stack size during flood fill.
+In this test, fill_voids is significantly faster than scipy at lower memory. 
