@@ -16,6 +16,20 @@ The current version of the improvements is to use a scan line flood fill of the 
 label everything not filled as foreground. This is already significantly faster and lower memory, but 
 we can do better by reducing memory usage and supporting multiple labels.
 
+### pip Installation 
+
+```bash
+pip install fill_voids
+```
+
+If there's not binary for your platform and you have a C++ compiler try:
+
+```bash 
+sudo apt-get install python3-dev # This is for Ubuntu, but whatever is appropriate for you
+pip install numpy
+pip install fill_voids --no-binary :all:
+```
+
 ### Current version
 
 1. Allocate a uint8 zeroed 3D image that is 2 voxels larger than the binary input image along each dimension.
