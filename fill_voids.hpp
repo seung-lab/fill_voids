@@ -109,13 +109,62 @@ void _binary_fill_holes(
     size_t y = (loc - (z * sxyv)) / fast_sxv;
     size_t startx = y * sxv + z * sxyv;
 
+    bool yplus = true;
+    bool yminus = true;
+    bool zplus = true;
+    bool zminus = true;
+
     for (size_t cur = loc; cur < startx + sxv; cur++) {
       if (visited[cur]) {
         break;
       }
       visited[cur] = 1;
-      add_neighbors(visited, sxv, syv, szv, stack, cur, y, z);
+      
+      if (y > 0) {
+        if (visited[cur-sxv]) {
+          yminus = true;
+        }
+        else if (yminus) {
+          stack.push( cur - sxv );
+          yminus = false;
+        }
+      }
+
+      if (y < syv - 1) {
+        if (visited[cur+sxv]) {
+          yplus = true;
+        }
+        else if (yplus) {
+          stack.push( cur + sxv );
+          yplus = false;
+        }
+      }
+
+      if (z > 0) {
+        if (visited[cur-sxyv]) {
+          zminus = true;
+        }
+        else if (zminus) {
+          stack.push( cur - sxyv );
+          zminus = false;
+        }
+      }
+
+      if (z < szv - 1) {
+        if (visited[cur+sxyv]) {
+          zplus = true;
+        }
+        else if (zplus) {
+          stack.push( cur + sxyv );
+          zplus = false;
+        }
+      }
     }
+
+    yplus = true;
+    yminus = true;
+    zplus = true;
+    zminus = true;
 
     // avoid integer underflow
     for (int64_t cur = static_cast<int64_t>(loc) - 1; cur >= static_cast<int64_t>(startx); cur--) {
@@ -123,7 +172,46 @@ void _binary_fill_holes(
         break;
       }
       visited[cur] = 1;
-      add_neighbors(visited, sxv, syv, szv, stack, cur, y, z);
+      
+      if (y > 0) {
+        if (visited[cur-sxv]) {
+          yminus = true;
+        }
+        else if (yminus) {
+          stack.push( cur - sxv );
+          yminus = false;
+        }
+      }
+
+      if (y < syv - 1) {
+        if (visited[cur+sxv]) {
+          yplus = true;
+        }
+        else if (yplus) {
+          stack.push( cur + sxv );
+          yplus = false;
+        }
+      }
+
+      if (z > 0) {
+        if (visited[cur-sxyv]) {
+          zminus = true;
+        }
+        else if (zminus) {
+          stack.push( cur - sxyv );
+          zminus = false;
+        }
+      }
+
+      if (z < szv - 1) {
+        if (visited[cur+sxyv]) {
+          zplus = true;
+        }
+        else if (zplus) {
+          stack.push( cur + sxyv );
+          zplus = false;
+        }
+      }
     }    
   }
 
