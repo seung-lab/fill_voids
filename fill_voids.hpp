@@ -33,6 +33,10 @@
 #ifndef FILLVOIDS_HPP
 #define FILLVOIDS_HPP
 
+#define BACKGROUND 0
+#define VISITED_BACKGROUND 1
+#define FOREGROUND 2
+
 namespace fill_voids {
 
 inline void add_neighbors(
@@ -43,9 +47,13 @@ inline void add_neighbors(
 ) {
   const size_t sxyv = sxv * syv;
 
+  // Only add a seed point if we've just 
+  // started OR have just passed a foreground
+  // voxel.
+
   if (y > 0) {
     if (visited[cur-sxv]) {
-      yminus = true;
+      yminus = yminus || (visited[cur-sxv] == FOREGROUND);
     }
     else if (yminus) {
       stack.push( cur - sxv );
@@ -55,7 +63,7 @@ inline void add_neighbors(
 
   if (y < syv - 1) {
     if (visited[cur+sxv]) {
-      yplus = true;
+      yplus = yplus || (visited[cur+sxv] == FOREGROUND);
     }
     else if (yplus) {
       stack.push( cur + sxv );
@@ -65,7 +73,7 @@ inline void add_neighbors(
 
   if (z > 0) {
     if (visited[cur-sxyv]) {
-      zminus = true;
+      zminus = zminus || (visited[cur-sxyv] == FOREGROUND);
     }
     else if (zminus) {
       stack.push( cur - sxyv );
@@ -75,7 +83,7 @@ inline void add_neighbors(
 
   if (z < szv - 1) {
     if (visited[cur+sxyv]) {
-      zplus = true;
+      zplus = zplus || (visited[cur+sxyv] == FOREGROUND);
     }
     else if (zplus) {
       stack.push( cur + sxyv );
@@ -83,7 +91,6 @@ inline void add_neighbors(
     }
   }
 }
-
 
 template <typename T>
 void _binary_fill_holes(
@@ -106,10 +113,10 @@ void _binary_fill_holes(
   uint8_t* visited = new uint8_t[sxyv * szv](); 
 
   // paint labels into visited offset by +<1,1,1>
-  // and mark all foreground as 2 so we can mark
-  // visited as 1 without overwriting foreground
-  // as we want foreground to be 2 and voids to 
-  // be 0
+  // and mark all foreground as 2 (FOREGROUND) 
+  // so we can mark visited as 1 (VISITED_BACKGROUND) 
+  // without overwriting foreground as we want foreground 
+  // to be 2 and voids to be 0 (BACKGROUND)
   for (size_t z = 0; z < sz; z++) {
     for (size_t y = 0; y < sy; y++) {
       for (size_t x = 0; x < sx; x++) {
@@ -146,7 +153,7 @@ void _binary_fill_holes(
       if (visited[cur]) {
         break;
       }
-      visited[cur] = 1;
+      visited[cur] = VISITED_BACKGROUND;
       add_neighbors(
         visited, stack,
         sxv, syv, szv, 
@@ -165,7 +172,7 @@ void _binary_fill_holes(
       if (visited[cur]) {
         break;
       }
-      visited[cur] = 1;
+      visited[cur] = VISITED_BACKGROUND;
       add_neighbors(
         visited, stack,
         sxv, syv, szv, 
@@ -179,7 +186,7 @@ void _binary_fill_holes(
     for (size_t y = 0; y < sy; y++) {
       for (size_t x = 0; x < sx; x++) {
         labels[ x + sx * y + sxy * z ] = static_cast<T>(
-          visited[ (x+1) + sxv * (y+1) + sxyv * (z+1) ] != 1
+          visited[ (x+1) + sxv * (y+1) + sxyv * (z+1) ] != VISITED_BACKGROUND
         );
       }
     }
@@ -190,5 +197,9 @@ void _binary_fill_holes(
 
 
 };
+
+#undef BACKGROUND
+#undef VISITED_BACKGROUND
+#undef FOREGROUND
 
 #endif
