@@ -1,4 +1,4 @@
-# fill_voids
+# fill_voids: Faster binary_fill_holes
 ```python
 import fill_voids
 
