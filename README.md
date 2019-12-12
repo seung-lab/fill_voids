@@ -38,7 +38,7 @@ Similarly to the connected-components-3d and euclidean-distance-3d projects, in 
 ### SciPy Comparison 
 
 <p style="font-style: italics;" align="center">
-<img height=384 src="https://raw.githubusercontent.com/seung-lab/fill_voids/comparison.png" alt="Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 0.1 (blue) scipy 1.3.3" /><br>
+<img height=384 src="https://raw.githubusercontent.com/seung-lab/fill_voids/master/comparison.png" alt="Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 0.1 (blue) scipy 1.3.3" /><br>
 Fig. 1: Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 0.1 (blue) scipy 1.3.3
 </p>
 
