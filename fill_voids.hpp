@@ -35,6 +35,28 @@
 
 namespace fill_voids {
 
+inline void add_neighbors(
+  uint8_t* visited, 
+  const size_t sxv, const size_t syv, const size_t szv, 
+  std::stack<size_t> &stack,
+  const size_t loc, const size_t y, const size_t z
+) {
+  const size_t sxyv = sxv * syv;
+  if (y > 0 && !visited[loc-sxv]) {
+    stack.push( loc - sxv );
+  }
+  if (y < syv - 1 && !visited[loc+sxv]) {
+    stack.push( loc + sxv );
+  }
+  if (z > 0 && !visited[loc-sxyv]) {
+    stack.push( loc - sxyv );
+  }
+  if (z < szv - 1 && !visited[loc+sxyv]) {
+    stack.push( loc + sxyv );
+  }
+}
+
+
 template <typename T>
 void _binary_fill_holes(
   T* labels, 
@@ -88,25 +110,25 @@ void _binary_fill_holes(
     size_t x = loc - sxv * (y + z * syv);
 
     visited[loc] = 1;
+    add_neighbors(visited, sxv, syv, szv, stack, loc, y, z);
 
-    if (x > 0 && !visited[loc-1]) {
-      stack.push( loc - 1 );
+    for (size_t ix = x + 1; ix < sxv; ix++) {
+      size_t cur = loc + ix;
+      if (visited[cur]) {
+        break;
+      }
+      visited[cur] = 1;
+      add_neighbors(visited, sxv, syv, szv, stack, cur, y, z);
     }
-    if (x < sxv - 1 && !visited[loc+1]) {
-      stack.push( loc + 1 );
-    }
-    if (y > 0 && !visited[loc-sxv]) {
-      stack.push( loc - sxv );
-    }
-    if (y < syv - 1 && !visited[loc+sxv]) {
-      stack.push( loc + sxv );
-    }
-    if (z > 0 && !visited[loc-sxyv]) {
-      stack.push( loc - sxyv );
-    }
-    if (z < szv - 1 && !visited[loc+sxyv]) {
-      stack.push( loc + sxyv );
-    }
+
+    for (size_t ix = x - 1; ix >= 0; ix--) {
+      size_t cur = loc + ix;
+      if (visited[cur]) {
+        break;
+      }
+      visited[cur] = 1;
+      add_neighbors(visited, sxv, syv, szv, stack, cur, y, z);
+    }    
   }
 
   for (size_t z = 0; z < sz; z++) {
