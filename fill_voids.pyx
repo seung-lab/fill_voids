@@ -70,7 +70,7 @@ cdef extern from "fill_voids.hpp" namespace "fill_voids":
     size_t sx, size_t sy, size_t sz
   )
 
-def fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+def fill(labels, in_place=False):
   """
   fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False)
 
@@ -81,6 +81,11 @@ def fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
 
   Return: a void filled binary image of the same dtype
   """
+  if labels.size == 0:
+    return labels
+  return _fill(labels, in_place)
+
+def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
   if not in_place:
     labels = np.copy(labels, order='F')
   else:

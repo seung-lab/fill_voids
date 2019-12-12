@@ -34,8 +34,12 @@ def test_dtypes():
     res = fill_voids.fill(binimg.astype(dtype), in_place=False)
     assert np.all(comparison == res)
 
+def test_zero_array():
+  labels = np.zeros((0,), dtype=np.uint8)
+  # just don't throw an exception
+  fill_voids.fill(labels, in_place=False)
+  fill_voids.fill(labels, in_place=True)
 
-
-
-
-
+  labels = np.zeros((128,128,128), dtype=np.uint8)
+  fill_voids.fill(labels, in_place=True)
+  assert not np.any(labels)
