@@ -1,5 +1,5 @@
 # fill_voids
-3D void filling algorithm, similar function as scipy.morphology.binary_fill_holes
+3D void filling algorithm, similar function as scipy.ndimage.morphology.binary_fill_holes
 
 The purpose of this repo is to make it convenient to improve upon the scipy hole filling 
 algorithm which only applies to binary images and uses slow serial dilations. 
@@ -34,3 +34,12 @@ Similarly to the connected-components-3d and euclidean-distance-3d projects, in 
 4. On encountering the void, record the last label seen and contour trace around it. If only that label is encountered during contour tracing, it is fillable. If another label is encountered, it is not fillable. 
 5. During the contour trace, mark the trace using an integer not already used, such as M+2. If that label is encountered in the future, you'll know what to fill between it and the next label encountered based on the fillable determination. This phase stops when either the twin of the first M+2 label is encountered or when futher contour tracing isn't possible (in the case of single voxel gaps).
 6. (Inner Labels) If another label is encountered in the middle of a void, contour trace around it and mark the boundary with the same M+2 label that started the current fill.
+
+### SciPy Comparison 
+
+<p style="font-style: italics;" align="center">
+<img height=384 src="https://raw.githubusercontent.com/seung-lab/fill_voids/comparison.png" alt="Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 0.1 (blue) scipy 1.3.3" /><br>
+Fig. 1: Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 0.1 (blue) scipy 1.3.3
+</p>
+
+fill_voids is currently significantly faster than scipy at significantly high memory cost. This cost is due to the stack size during flood fill.
