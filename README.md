@@ -1,4 +1,4 @@
-# fill_voids: Faster binary_fill_holes
+# fill_voids - High performance binary_fill_holes
 ```python
 import fill_voids
 
@@ -12,10 +12,9 @@ filled_image = fill_voids.fill(img, in_place=False) # in_place allows editing of
 The purpose of this repo is to make it convenient to improve upon the scipy hole filling 
 algorithm which only applies to binary images and uses slow serial dilations. 
 
-The current version of the improvements is to use a flood fill of the background and 
-label everything not filled as foreground. This is already significantly faster, but 
-we can do better by reducing memory usage, increasing speed further, and supporting multiple 
-labels.
+The current version of the improvements is to use a scan line flood fill of the background and 
+label everything not filled as foreground. This is already significantly faster and lower memory, but 
+we can do better by reducing memory usage and supporting multiple labels.
 
 ### Current version
 
@@ -24,7 +23,7 @@ labels.
 3. Flood fill (six connected) from a spot on the border (arbitarily taken to be (0,0,0)) and label the flood fill as 1.
 4. Write out a binary image the same size as the input from the temporary buffer where foreground is set as buffer != 1 (i.e. 0 or 2).
 
-We improve performance significantly by using libdivide to make computing x,y,z coordinates from array index faster, and also by testing whether a neighbor has been visited or contains foreground already before putting it on the stack.
+We improve performance significantly by using libdivide to make computing x,y,z coordinates from array index faster, by scanning right and left to take advantage of machine memory speed, by only placing a neighbor on the stack when we've either just started a scan or just passed a foreground pixel while scanning.
 
 ### Binary Version Improvements  
 
@@ -33,7 +32,6 @@ It would be possible to skip the allocating and painting steps by walking along 
 ### Multi-Label Improvements 
 
 Similarly to the connected-components-3d and euclidean-distance-3d projects, in connectomics, it can be common to want to apply void filling algorithms to all labels within a densely packed volume. A multi-label algorithm can be much faster than even the fastest serial application of a binary algorithm. Here's how this might go given an input image I:
-
 
 1. Compute M = max(I)
 2. Perform the fill as in the binary algorithm labeling the surrounding void as M+1. This means all voids are now either legitimate and can be filled or holes in-between labels.
@@ -49,4 +47,4 @@ Similarly to the connected-components-3d and euclidean-distance-3d projects, in 
 Fig. 1: Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 0.1 (blue) scipy 1.3.3
 </p>
 
-In this test, fill_voids is significantly faster than scipy at lower memory. 
+In this test, fill_voids is significantly faster than scipy at lower memory with `in_place=False`. 
