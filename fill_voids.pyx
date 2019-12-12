@@ -1,7 +1,7 @@
 """
-fill_voids
+Fill in holes in 3D binary images. 
 
-Fill in holes in 3D binary images. Similar to scipy.morphology.binary_fill_holes
+Similar to scipy.morphology.binary_fill_holes
 but designed to be more performant.
 
 The power of this library derives from the emptiness of space and the
@@ -51,7 +51,7 @@ import fastremap
 cdef extern from "math.h":
   float INFINITY
 
-ctypedef fused INTEGER: 
+ctypedef fused NUMBER: 
   int8_t
   int16_t
   int32_t
@@ -61,6 +61,8 @@ ctypedef fused INTEGER:
   uint32_t
   uint64_t
   unsigned char
+  float 
+  double
 
 cdef extern from "fill_voids.hpp" namespace "fill_voids":
   cdef void _binary_fill_holes[T](
@@ -68,7 +70,17 @@ cdef extern from "fill_voids.hpp" namespace "fill_voids":
     size_t sx, size_t sy, size_t sz
   )
 
-def fill(cnp.ndarray[INTEGER, cast=True, ndim=3] labels, in_place=False):
+def fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+  """
+  fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False)
+
+  labels: a binary valued numpy array of any common 
+    integer or floating dtype
+
+  in_place: bool, Allow modification of the input array (saves memory)
+
+  Return: a void filled binary image of the same dtype
+  """
   if not in_place:
     labels = np.copy(labels, order='F')
   else:

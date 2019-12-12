@@ -1,4 +1,12 @@
 # fill_voids
+```python
+import fill_voids
+
+img = ... # 3d binary image 
+filled_image = fill_voids.fill(img, in_place=False) # in_place allows editing of original image
+
+```
+
 3D void filling algorithm, similar function as scipy.ndimage.morphology.binary_fill_holes
 
 The purpose of this repo is to make it convenient to improve upon the scipy hole filling 
