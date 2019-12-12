@@ -36,23 +36,51 @@
 namespace fill_voids {
 
 inline void add_neighbors(
-  uint8_t* visited, 
+  uint8_t* visited, std::stack<size_t> &stack,
   const size_t sxv, const size_t syv, const size_t szv, 
-  std::stack<size_t> &stack,
-  const size_t loc, const size_t y, const size_t z
+  const size_t cur, const size_t y, const size_t z,
+  bool &yplus, bool &yminus, bool &zplus, bool &zminus
 ) {
   const size_t sxyv = sxv * syv;
-  if (y > 0 && !visited[loc-sxv]) {
-    stack.push( loc - sxv );
+
+  if (y > 0) {
+    if (visited[cur-sxv]) {
+      yminus = true;
+    }
+    else if (yminus) {
+      stack.push( cur - sxv );
+      yminus = false;
+    }
   }
-  if (y < syv - 1 && !visited[loc+sxv]) {
-    stack.push( loc + sxv );
+
+  if (y < syv - 1) {
+    if (visited[cur+sxv]) {
+      yplus = true;
+    }
+    else if (yplus) {
+      stack.push( cur + sxv );
+      yplus = false;
+    }
   }
-  if (z > 0 && !visited[loc-sxyv]) {
-    stack.push( loc - sxyv );
+
+  if (z > 0) {
+    if (visited[cur-sxyv]) {
+      zminus = true;
+    }
+    else if (zminus) {
+      stack.push( cur - sxyv );
+      zminus = false;
+    }
   }
-  if (z < szv - 1 && !visited[loc+sxyv]) {
-    stack.push( loc + sxyv );
+
+  if (z < szv - 1) {
+    if (visited[cur+sxyv]) {
+      zplus = true;
+    }
+    else if (zplus) {
+      stack.push( cur + sxyv );
+      zplus = false;
+    }
   }
 }
 
@@ -119,46 +147,12 @@ void _binary_fill_holes(
         break;
       }
       visited[cur] = 1;
-      
-      if (y > 0) {
-        if (visited[cur-sxv]) {
-          yminus = true;
-        }
-        else if (yminus) {
-          stack.push( cur - sxv );
-          yminus = false;
-        }
-      }
-
-      if (y < syv - 1) {
-        if (visited[cur+sxv]) {
-          yplus = true;
-        }
-        else if (yplus) {
-          stack.push( cur + sxv );
-          yplus = false;
-        }
-      }
-
-      if (z > 0) {
-        if (visited[cur-sxyv]) {
-          zminus = true;
-        }
-        else if (zminus) {
-          stack.push( cur - sxyv );
-          zminus = false;
-        }
-      }
-
-      if (z < szv - 1) {
-        if (visited[cur+sxyv]) {
-          zplus = true;
-        }
-        else if (zplus) {
-          stack.push( cur + sxyv );
-          zplus = false;
-        }
-      }
+      add_neighbors(
+        visited, stack,
+        sxv, syv, szv, 
+        cur, y, z,
+        yplus, yminus, zplus, zminus
+      );
     }
 
     yplus = true;
@@ -172,46 +166,12 @@ void _binary_fill_holes(
         break;
       }
       visited[cur] = 1;
-      
-      if (y > 0) {
-        if (visited[cur-sxv]) {
-          yminus = true;
-        }
-        else if (yminus) {
-          stack.push( cur - sxv );
-          yminus = false;
-        }
-      }
-
-      if (y < syv - 1) {
-        if (visited[cur+sxv]) {
-          yplus = true;
-        }
-        else if (yplus) {
-          stack.push( cur + sxv );
-          yplus = false;
-        }
-      }
-
-      if (z > 0) {
-        if (visited[cur-sxyv]) {
-          zminus = true;
-        }
-        else if (zminus) {
-          stack.push( cur - sxyv );
-          zminus = false;
-        }
-      }
-
-      if (z < szv - 1) {
-        if (visited[cur+sxyv]) {
-          zplus = true;
-        }
-        else if (zplus) {
-          stack.push( cur + sxyv );
-          zplus = false;
-        }
-      }
+      add_neighbors(
+        visited, stack,
+        sxv, syv, szv, 
+        cur, y, z,
+        yplus, yminus, zplus, zminus
+      );
     }    
   }
 
