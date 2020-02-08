@@ -94,31 +94,12 @@ inline void add_neighbors(
 }
 
 template <typename T>
-void _binary_fill_holes(
-  T* labels, 
-  const size_t sx, const size_t sy, const size_t sz
-) {
-
+void initialize_stack(
+    T* labels, 
+    const size_t sx, const size_t sy, const size_t sz,
+    std::stack<size_t> &stack
+  ) {
   const size_t sxy = sx * sy;
-  const size_t voxels = sx * sy * sz;
-
-  if (voxels == 0) {
-    return;
-  }
-
-  // paint labels into visited offset by +<1,1,1>
-  // and mark all foreground as 2 (FOREGROUND) 
-  // so we can mark visited as 1 (VISITED_BACKGROUND) 
-  // without overwriting foreground as we want foreground 
-  // to be 2 and voids to be 0 (BACKGROUND)
-  for (size_t i = 0; i < voxels; i++) {
-    labels[i] = static_cast<T>(static_cast<uint8_t>(labels[i] != 0) * 2);
-  }
-
-  const libdivide::divider<size_t> fast_sx(sx); 
-  const libdivide::divider<size_t> fast_sxy(sxy); 
-
-  std::stack<size_t> stack;
 
   bool placed_front = false;
   bool placed_back = false;
@@ -205,6 +186,34 @@ void _binary_fill_holes(
       }    
     }
   }
+}
+
+template <typename T>
+void _binary_fill_holes(
+  T* labels, 
+  const size_t sx, const size_t sy, const size_t sz
+) {
+
+  const size_t sxy = sx * sy;
+  const size_t voxels = sx * sy * sz;
+
+  if (voxels == 0) {
+    return;
+  }
+
+  // mark all foreground as 2 (FOREGROUND) 
+  // so we can mark visited as 1 (VISITED_BACKGROUND) 
+  // without overwriting foreground as we want foreground 
+  // to be 2 and voids to be 0 (BACKGROUND)
+  for (size_t i = 0; i < voxels; i++) {
+    labels[i] = static_cast<T>(static_cast<uint8_t>(labels[i] != 0) * 2);
+  }
+
+  const libdivide::divider<size_t> fast_sx(sx); 
+  const libdivide::divider<size_t> fast_sxy(sxy); 
+
+  std::stack<size_t> stack; 
+  initialize_stack(labels, sx, sy, sz, stack);
 
   while (!stack.empty()) {
     size_t loc = stack.top();
