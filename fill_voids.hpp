@@ -39,34 +39,35 @@
 
 namespace fill_voids {
 
+template <typename T>
 inline void add_neighbors(
-  uint8_t* visited, std::stack<size_t> &stack,
-  const size_t sxv, const size_t syv, const size_t szv, 
+  T* visited, std::stack<size_t> &stack,
+  const size_t sx, const size_t sy, const size_t sz, 
   const size_t cur, const size_t y, const size_t z,
   bool &yplus, bool &yminus, bool &zplus, bool &zminus
 ) {
-  const size_t sxyv = sxv * syv;
+  const size_t sxyv = sx * sy;
 
   // Only add a seed point if we've just 
   // started OR have just passed a foreground
   // voxel.
 
   if (y > 0) {
-    if (visited[cur-sxv]) {
-      yminus = yminus || (visited[cur-sxv] == FOREGROUND);
+    if (visited[cur-sx]) {
+      yminus = yminus || (visited[cur-sx] == FOREGROUND);
     }
     else if (yminus) {
-      stack.push( cur - sxv );
+      stack.push( cur - sx );
       yminus = false;
     }
   }
 
-  if (y < syv - 1) {
-    if (visited[cur+sxv]) {
-      yplus = yplus || (visited[cur+sxv] == FOREGROUND);
+  if (y < sy - 1) {
+    if (visited[cur+sx]) {
+      yplus = yplus || (visited[cur+sx] == FOREGROUND);
     }
     else if (yplus) {
-      stack.push( cur + sxv );
+      stack.push( cur + sx );
       yplus = false;
     }
   }
@@ -81,7 +82,7 @@ inline void add_neighbors(
     }
   }
 
-  if (z < szv - 1) {
+  if (z < sz - 1) {
     if (visited[cur+sxyv]) {
       zplus = zplus || (visited[cur+sxyv] == FOREGROUND);
     }
@@ -105,58 +106,131 @@ void _binary_fill_holes(
     return;
   }
 
-  const size_t sxv = sx + 2;
-  const size_t syv = sy + 2;
-  const size_t szv = sz + 2;
-  const size_t sxyv = sxv * syv;
-
-  uint8_t* visited = new uint8_t[sxyv * szv](); 
-
   // paint labels into visited offset by +<1,1,1>
   // and mark all foreground as 2 (FOREGROUND) 
   // so we can mark visited as 1 (VISITED_BACKGROUND) 
   // without overwriting foreground as we want foreground 
   // to be 2 and voids to be 0 (BACKGROUND)
-  for (size_t z = 0; z < sz; z++) {
-    for (size_t y = 0; y < sy; y++) {
-      for (size_t x = 0; x < sx; x++) {
-        size_t i = x + sx * y + sxy * z;
-        visited[(x+1) + sxv * (y+1) + sxyv * (z+1)] = static_cast<uint8_t>(labels[i] > 0) << 1;
+  for (size_t i = 0; i < voxels; i++) {
+    labels[i] = static_cast<T>(static_cast<uint8_t>(labels[i] != 0) * 2);
+  }
+
+  const libdivide::divider<size_t> fast_sx(sx); 
+  const libdivide::divider<size_t> fast_sxy(sxy); 
+
+  std::stack<size_t> stack;
+
+  bool placed_front = false;
+  bool placed_back = false;
+
+  size_t loc;
+  for (size_t y = 0; y < sy; y++) {
+    for (size_t x = 0; x < sx; x++) {
+      loc = x + sx * y;
+      if (labels[loc] == 0) {
+        if (!placed_front) {
+          stack.push(loc);
+        }
+        placed_front = true;
+      }
+      else {
+        placed_front = false;
+      }
+
+      loc = x + sx * y + sxy * (sz - 1);
+      if (labels[loc] == 0) {
+        if (!placed_back) {
+          stack.push(loc);
+        }
+        placed_back = true;
+      }
+      else {
+        placed_back = false;
       }
     }
   }
 
-  const libdivide::divider<size_t> fast_sxv(sxv); 
-  const libdivide::divider<size_t> fast_sxyv(sxyv); 
+  placed_front = false;
+  placed_back = false;
 
-  std::stack<size_t> stack;
-  stack.push(0);
+  for (size_t z = 0; z < sz; z++) {
+    for (size_t x = 0; x < sx; x++) {
+      loc = x + sxy * z;
+      if (labels[loc] == 0) {
+        if (!placed_front) {
+          stack.push(loc);
+        }
+        placed_front = true;
+      }
+      else {
+        placed_front = false;
+      }
+      loc = x + sx * (sy - 1) + sxy * z;
+      if (labels[loc] == 0) {
+        if (!placed_back) {
+          stack.push(loc);
+        }
+        placed_back = true;
+      }
+      else {
+        placed_back = false;
+      }  
+    }
+  }
+
+  placed_front = false;
+  placed_back = false;
+
+  for (size_t z = 0; z < sz; z++) {
+    for (size_t y = 0; y < sy; y++) {
+      loc = sx * y + sxy * z;
+      if (labels[loc] == 0) {
+        if (!placed_front) {
+          stack.push(loc);
+        }
+        placed_front = true;
+      }
+      else {
+        placed_front = false;
+      }
+      loc = (sx - 1) + sx * y + sxy * z;
+      if (labels[loc] == 0) {
+        if (!placed_back) {
+          stack.push(loc);
+        }
+        placed_back = true;
+      }
+      else {
+        placed_back = false;
+      }    
+    }
+  }
 
   while (!stack.empty()) {
     size_t loc = stack.top();
     stack.pop();
 
-    if (visited[loc]) {
+    if (labels[loc]) {
       continue;
     }
 
-    size_t z = loc / fast_sxyv;
-    size_t y = (loc - (z * sxyv)) / fast_sxv;
-    size_t startx = y * sxv + z * sxyv;
+    size_t z = loc / fast_sxy;
+    size_t y = (loc - (z * sxy)) / fast_sx;
+    size_t startx = y * sx + z * sxy;
 
     bool yplus = true;
     bool yminus = true;
     bool zplus = true;
     bool zminus = true;
 
-    for (size_t cur = loc; cur < startx + sxv; cur++) {
-      if (visited[cur]) {
+    for (size_t cur = loc; cur < startx + sx; cur++) {
+      if (labels[cur]) {
         break;
       }
-      visited[cur] = VISITED_BACKGROUND;
-      add_neighbors(
-        visited, stack,
-        sxv, syv, szv, 
+      labels[cur] = VISITED_BACKGROUND;
+      add_neighbors<T>(
+        labels, stack,
+        sx, sy, sz, 
         cur, y, z,
         yplus, yminus, zplus, zminus
       );
@@ -169,30 +243,22 @@ void _binary_fill_holes(
 
     // avoid integer underflow
     for (int64_t cur = static_cast<int64_t>(loc) - 1; cur >= static_cast<int64_t>(startx); cur--) {
-      if (visited[cur]) {
+      if (labels[cur]) {
         break;
       }
-      visited[cur] = VISITED_BACKGROUND;
-      add_neighbors(
-        visited, stack,
-        sxv, syv, szv, 
+      labels[cur] = VISITED_BACKGROUND;
+      add_neighbors<T>(
+        labels, stack,
+        sx, sy, sz, 
         cur, y, z,
         yplus, yminus, zplus, zminus
       );
     }    
   }
 
-  for (size_t z = 0; z < sz; z++) {
-    for (size_t y = 0; y < sy; y++) {
-      for (size_t x = 0; x < sx; x++) {
-        labels[ x + sx * y + sxy * z ] = static_cast<T>(
-          visited[ (x+1) + sxv * (y+1) + sxyv * (z+1) ] != VISITED_BACKGROUND
-        );
-      }
-    }
+  for (size_t i = 0; i < voxels; i++) {
+    labels[i] = static_cast<T>(labels[i] != VISITED_BACKGROUND);
   }
-
-  delete[] visited;
 }
 
 
