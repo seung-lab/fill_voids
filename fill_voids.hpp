@@ -171,7 +171,7 @@ void initialize_stack(
 }
 
 template <typename T>
-void binary_fill_holes(
+size_t binary_fill_holes(
   T* labels, 
   const size_t sx, const size_t sy, const size_t sz
 ) {
@@ -180,7 +180,7 @@ void binary_fill_holes(
   const size_t voxels = sx * sy * sz;
 
   if (voxels == 0) {
-    return;
+    return 0;
   }
 
   // mark all foreground as 2 (FOREGROUND) 
@@ -247,9 +247,13 @@ void binary_fill_holes(
     }    
   }
 
+  size_t num_filled = 0;
   for (size_t i = 0; i < voxels; i++) {
+    num_filled += static_cast<size_t>(labels[i] == BACKGROUND);
     labels[i] = static_cast<T>(labels[i] != VISITED_BACKGROUND);
   }
+
+  return num_filled;
 }
 
 
