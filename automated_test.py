@@ -1,4 +1,5 @@
 import fill_voids
+import scipy.ndimage
 from scipy.ndimage.morphology import binary_fill_holes
 
 from tqdm import tqdm
@@ -12,9 +13,18 @@ def test_scipy_comparison():
   segids = np.copy(SEGIDS)
   np.random.shuffle(segids)
 
-  for segid in tqdm(segids[:5]):
+  for segid in tqdm(segids[:10]):
+    print(segid)
     binimg = img == segid
-    fv = fill_voids.fill(binimg, in_place=True)
+    slices = scipy.ndimage.find_objects(binimg)[0]
+    binimg = binimg[slices]
+
+    orig_binimg = np.copy(binimg, order='F')
+    fv = fill_voids.fill(binimg, in_place=False)
+    fvip = fill_voids.fill(binimg, in_place=True)
+
+    assert np.all(fv == fvip)
+
     spy = binary_fill_holes(binimg)
 
     assert np.all(fv == spy)
