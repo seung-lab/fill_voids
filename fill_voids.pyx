@@ -65,27 +65,37 @@ ctypedef fused NUMBER:
   double
 
 cdef extern from "fill_voids.hpp" namespace "fill_voids":
-  cdef void binary_fill_holes[T](
+  cdef size_t binary_fill_holes[T](
     T* labels, 
     size_t sx, size_t sy, size_t sz
   )
 
-def fill(labels, in_place=False):
+def fill(labels, in_place=False, return_fill_count=False):
   """
-  fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False)
+  fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False)
 
   labels: a binary valued numpy array of any common 
     integer or floating dtype
 
   in_place: bool, Allow modification of the input array (saves memory)
+  return_fill_count: Also return the number of voxels that were filled in.
 
-  Return: a void filled binary image of the same dtype
+  Let IMG = a void filled binary image of the same dtype as labels
+
+  if return_fill_count:
+    Return: (IMG, number of filled in background voxels)
+  else:
+    Return: IMG
   """
   if labels.size == 0:
-    return labels
-  return _fill(labels, in_place)
+    if return_fill_count:
+      return (labels, 0)
+    else:
+      return labels
 
-def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+  return _fill(labels, in_place, return_fill_count)
+
+def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
   if not in_place:
     labels = np.copy(labels, order='F')
   else:
@@ -93,21 +103,25 @@ def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
 
   dtype = labels.dtype
 
+  cdef size_t num_filled = 0
+
   if dtype in (np.uint8, np.int8, np.bool):
-    binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype in (np.uint16, np.int16):
-    binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype in (np.uint32, np.int32):
-    binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype in (np.uint64, np.int64):
-    binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype == np.float32:
-    binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype == np.float64:
-    binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   else:
     raise TypeError("Type {} not supported.".format(dtype))
 
+  if return_fill_count:
+    return (labels, num_filled)
   return labels
 
 def void_shard():

@@ -1275,69 +1275,91 @@ struct __pyx_defaults21;
 typedef struct __pyx_defaults21 __pyx_defaults21;
 struct __pyx_defaults {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults1 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults2 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults3 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults4 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults5 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults6 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults7 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults8 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults9 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults10 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults11 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults12 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults13 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults14 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults15 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults16 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults17 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults18 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults19 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults20 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 struct __pyx_defaults21 {
   PyObject *__pyx_arg_in_place;
+  PyObject *__pyx_arg_return_fill_count;
 };
 
 /* "View.MemoryView":105
@@ -2707,9 +2729,9 @@ static PyObject *__pyx_builtin_IndexError;
 static const char __pyx_k_F[] = "F";
 static const char __pyx_k_O[] = "O";
 static const char __pyx_k_c[] = "c";
-static const char __pyx_k__2[] = "";
-static const char __pyx_k__3[] = "()";
-static const char __pyx_k__4[] = "|";
+static const char __pyx_k__3[] = "";
+static const char __pyx_k__4[] = "()";
+static const char __pyx_k__5[] = "|";
 static const char __pyx_k_id[] = "id";
 static const char __pyx_k_np[] = "np";
 static const char __pyx_k_new[] = "__new__";
@@ -2794,6 +2816,7 @@ static const char __pyx_k_reduce_ex[] = "__reduce_ex__";
 static const char __pyx_k_IndexError[] = "IndexError";
 static const char __pyx_k_ValueError[] = "ValueError";
 static const char __pyx_k_fill_voids[] = "fill_voids";
+static const char __pyx_k_num_filled[] = "num_filled";
 static const char __pyx_k_pyx_result[] = "__pyx_result";
 static const char __pyx_k_pyx_vtable[] = "__pyx_vtable__";
 static const char __pyx_k_signatures[] = "signatures";
@@ -2816,6 +2839,7 @@ static const char __pyx_k_pyx_PickleError[] = "__pyx_PickleError";
 static const char __pyx_k_setstate_cython[] = "__setstate_cython__";
 static const char __pyx_k_Play_Starcraft_2[] = "Play Starcraft 2!";
 static const char __pyx_k_pyx_unpickle_Enum[] = "__pyx_unpickle_Enum";
+static const char __pyx_k_return_fill_count[] = "return_fill_count";
 static const char __pyx_k_Type_not_supported[] = "Type {} not supported.";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_strided_and_direct[] = "<strided and direct>";
@@ -2888,9 +2912,9 @@ static PyObject *__pyx_kp_u_Type_not_supported;
 static PyObject *__pyx_kp_s_Unable_to_convert_item_to_object;
 static PyObject *__pyx_n_s_ValueError;
 static PyObject *__pyx_n_s_View_MemoryView;
-static PyObject *__pyx_kp_s__2;
 static PyObject *__pyx_kp_s__3;
 static PyObject *__pyx_kp_s__4;
+static PyObject *__pyx_kp_s__5;
 static PyObject *__pyx_n_s_allocate_buffer;
 static PyObject *__pyx_n_s_args;
 static PyObject *__pyx_n_s_array;
@@ -2953,6 +2977,7 @@ static PyObject *__pyx_n_s_ndim;
 static PyObject *__pyx_n_s_new;
 static PyObject *__pyx_kp_s_no_default___reduce___due_to_non;
 static PyObject *__pyx_n_s_np;
+static PyObject *__pyx_n_s_num_filled;
 static PyObject *__pyx_n_s_numpy;
 static PyObject *__pyx_kp_u_numpy_core_multiarray_failed_to;
 static PyObject *__pyx_kp_u_numpy_core_umath_failed_to_impor;
@@ -2973,6 +2998,7 @@ static PyObject *__pyx_n_s_range;
 static PyObject *__pyx_n_s_reduce;
 static PyObject *__pyx_n_s_reduce_cython;
 static PyObject *__pyx_n_s_reduce_ex;
+static PyObject *__pyx_n_s_return_fill_count;
 static PyObject *__pyx_n_s_setstate;
 static PyObject *__pyx_n_s_setstate_cython;
 static PyObject *__pyx_n_s_shape;
@@ -3005,30 +3031,30 @@ static PyObject *__pyx_n_s_unpack;
 static PyObject *__pyx_kp_s_unsigned_char;
 static PyObject *__pyx_n_s_update;
 static PyObject *__pyx_n_s_void_shard;
-static PyObject *__pyx_pf_10fill_voids_fill(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_fill(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
 static PyObject *__pyx_pf_10fill_voids_52__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_54__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_56__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_58__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_60__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_62__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_64__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_66__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_68__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_70__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_72__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count); /* proto */
 static PyObject *__pyx_pf_10fill_voids_4void_shard(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 static int __pyx_pf_7cpython_5array_5array___getbuffer__(arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info, CYTHON_UNUSED int __pyx_v_flags); /* proto */
 static void __pyx_pf_7cpython_5array_5array_2__releasebuffer__(CYTHON_UNUSED arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
@@ -3085,12 +3111,12 @@ static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_184977713;
 static PyObject *__pyx_int_neg_1;
 static PyObject *__pyx_k_;
-static PyObject *__pyx_tuple__5;
+static PyObject *__pyx_k__2;
 static PyObject *__pyx_tuple__6;
 static PyObject *__pyx_tuple__7;
 static PyObject *__pyx_tuple__8;
 static PyObject *__pyx_tuple__9;
-static PyObject *__pyx_slice__29;
+static PyObject *__pyx_slice__30;
 static PyObject *__pyx_tuple__10;
 static PyObject *__pyx_tuple__11;
 static PyObject *__pyx_tuple__12;
@@ -3110,49 +3136,54 @@ static PyObject *__pyx_tuple__25;
 static PyObject *__pyx_tuple__26;
 static PyObject *__pyx_tuple__27;
 static PyObject *__pyx_tuple__28;
-static PyObject *__pyx_tuple__30;
+static PyObject *__pyx_tuple__29;
 static PyObject *__pyx_tuple__31;
 static PyObject *__pyx_tuple__32;
 static PyObject *__pyx_tuple__33;
-static PyObject *__pyx_tuple__35;
-static PyObject *__pyx_tuple__38;
+static PyObject *__pyx_tuple__34;
+static PyObject *__pyx_tuple__36;
 static PyObject *__pyx_tuple__39;
 static PyObject *__pyx_tuple__40;
 static PyObject *__pyx_tuple__41;
 static PyObject *__pyx_tuple__42;
 static PyObject *__pyx_tuple__43;
-static PyObject *__pyx_codeobj__34;
-static PyObject *__pyx_codeobj__36;
+static PyObject *__pyx_tuple__44;
+static PyObject *__pyx_codeobj__35;
 static PyObject *__pyx_codeobj__37;
-static PyObject *__pyx_codeobj__44;
+static PyObject *__pyx_codeobj__38;
+static PyObject *__pyx_codeobj__45;
 /* Late includes */
 
 /* "fill_voids.pyx":73
  *   )
  * 
- * def fill(labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def fill(labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   """
- *   fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False)
+ *   fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False)
  */
 
 /* Python wrapper */
 static PyObject *__pyx_pw_10fill_voids_1fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_10fill_voids_fill[] = "\n  fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False)\n\n  labels: a binary valued numpy array of any common \n    integer or floating dtype\n\n  in_place: bool, Allow modification of the input array (saves memory)\n\n  Return: a void filled binary image of the same dtype\n  ";
+static char __pyx_doc_10fill_voids_fill[] = "\n  fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False)\n\n  labels: a binary valued numpy array of any common \n    integer or floating dtype\n\n  in_place: bool, Allow modification of the input array (saves memory)\n  return_fill_count: Also return the number of voxels that were filled in.\n\n  Let IMG = a void filled binary image of the same dtype as labels\n\n  if return_fill_count:\n    Return: (IMG, number of filled in background voxels)\n  else:\n    Return: IMG\n  ";
 static PyMethodDef __pyx_mdef_10fill_voids_1fill = {"fill", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_10fill_voids_1fill, METH_VARARGS|METH_KEYWORDS, __pyx_doc_10fill_voids_fill};
 static PyObject *__pyx_pw_10fill_voids_1fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     values[1] = ((PyObject *)Py_False);
+    values[2] = ((PyObject *)Py_False);
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -3171,12 +3202,20 @@ static PyObject *__pyx_pw_10fill_voids_1fill(PyObject *__pyx_self, PyObject *__p
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
         if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "fill") < 0)) __PYX_ERR(0, 73, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -3186,23 +3225,24 @@ static PyObject *__pyx_pw_10fill_voids_1fill(PyObject *__pyx_self, PyObject *__p
     }
     __pyx_v_labels = values[0];
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 73, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 73, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids.fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10fill_voids_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  __pyx_r = __pyx_pf_10fill_voids_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_fill(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_fill(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3213,52 +3253,93 @@ static PyObject *__pyx_pf_10fill_voids_fill(CYTHON_UNUSED PyObject *__pyx_self, 
   PyObject *__pyx_t_6 = NULL;
   __Pyx_RefNannySetupContext("fill", 0);
 
-  /* "fill_voids.pyx":84
- *   Return: a void filled binary image of the same dtype
+  /* "fill_voids.pyx":90
+ *     Return: IMG
  *   """
  *   if labels.size == 0:             # <<<<<<<<<<<<<<
- *     return labels
- *   return _fill(labels, in_place)
+ *     if return_fill_count:
+ *       return (labels, 0)
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_labels, __pyx_n_s_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 84, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_labels, __pyx_n_s_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 90, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 84, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 90, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 84, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "fill_voids.pyx":85
+    /* "fill_voids.pyx":91
  *   """
  *   if labels.size == 0:
- *     return labels             # <<<<<<<<<<<<<<
- *   return _fill(labels, in_place)
- * 
+ *     if return_fill_count:             # <<<<<<<<<<<<<<
+ *       return (labels, 0)
+ *     else:
  */
-    __Pyx_XDECREF(__pyx_r);
-    __Pyx_INCREF(__pyx_v_labels);
-    __pyx_r = __pyx_v_labels;
-    goto __pyx_L0;
+    __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 91, __pyx_L1_error)
+    if (__pyx_t_3) {
 
-    /* "fill_voids.pyx":84
- *   Return: a void filled binary image of the same dtype
+      /* "fill_voids.pyx":92
+ *   if labels.size == 0:
+ *     if return_fill_count:
+ *       return (labels, 0)             # <<<<<<<<<<<<<<
+ *     else:
+ *       return labels
+ */
+      __Pyx_XDECREF(__pyx_r);
+      __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 92, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_INCREF(__pyx_v_labels);
+      __Pyx_GIVEREF(__pyx_v_labels);
+      PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_labels);
+      __Pyx_INCREF(__pyx_int_0);
+      __Pyx_GIVEREF(__pyx_int_0);
+      PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_int_0);
+      __pyx_r = __pyx_t_2;
+      __pyx_t_2 = 0;
+      goto __pyx_L0;
+
+      /* "fill_voids.pyx":91
+ *   """
+ *   if labels.size == 0:
+ *     if return_fill_count:             # <<<<<<<<<<<<<<
+ *       return (labels, 0)
+ *     else:
+ */
+    }
+
+    /* "fill_voids.pyx":94
+ *       return (labels, 0)
+ *     else:
+ *       return labels             # <<<<<<<<<<<<<<
+ * 
+ *   return _fill(labels, in_place, return_fill_count)
+ */
+    /*else*/ {
+      __Pyx_XDECREF(__pyx_r);
+      __Pyx_INCREF(__pyx_v_labels);
+      __pyx_r = __pyx_v_labels;
+      goto __pyx_L0;
+    }
+
+    /* "fill_voids.pyx":90
+ *     Return: IMG
  *   """
  *   if labels.size == 0:             # <<<<<<<<<<<<<<
- *     return labels
- *   return _fill(labels, in_place)
+ *     if return_fill_count:
+ *       return (labels, 0)
  */
   }
 
-  /* "fill_voids.pyx":86
- *   if labels.size == 0:
- *     return labels
- *   return _fill(labels, in_place)             # <<<<<<<<<<<<<<
+  /* "fill_voids.pyx":96
+ *       return labels
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ *   return _fill(labels, in_place, return_fill_count)             # <<<<<<<<<<<<<<
+ * 
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  */
   __Pyx_XDECREF(__pyx_r);
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_fill); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 86, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_fill); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 96, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = NULL;
   __pyx_t_5 = 0;
@@ -3274,22 +3355,22 @@ static PyObject *__pyx_pf_10fill_voids_fill(CYTHON_UNUSED PyObject *__pyx_self, 
   }
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_1)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_v_labels, __pyx_v_in_place};
-    __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 86, __pyx_L1_error)
+    PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count};
+    __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_5, 3+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 96, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_2);
   } else
   #endif
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_v_labels, __pyx_v_in_place};
-    __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 86, __pyx_L1_error)
+    PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count};
+    __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_5, 3+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 96, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_2);
   } else
   #endif
   {
-    __pyx_t_6 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 86, __pyx_L1_error)
+    __pyx_t_6 = PyTuple_New(3+__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 96, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     if (__pyx_t_4) {
       __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_4); __pyx_t_4 = NULL;
@@ -3300,7 +3381,10 @@ static PyObject *__pyx_pf_10fill_voids_fill(CYTHON_UNUSED PyObject *__pyx_self, 
     __Pyx_INCREF(__pyx_v_in_place);
     __Pyx_GIVEREF(__pyx_v_in_place);
     PyTuple_SET_ITEM(__pyx_t_6, 1+__pyx_t_5, __pyx_v_in_place);
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_6, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 86, __pyx_L1_error)
+    __Pyx_INCREF(__pyx_v_return_fill_count);
+    __Pyx_GIVEREF(__pyx_v_return_fill_count);
+    PyTuple_SET_ITEM(__pyx_t_6, 2+__pyx_t_5, __pyx_v_return_fill_count);
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_6, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 96, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   }
@@ -3312,9 +3396,9 @@ static PyObject *__pyx_pf_10fill_voids_fill(CYTHON_UNUSED PyObject *__pyx_self, 
   /* "fill_voids.pyx":73
  *   )
  * 
- * def fill(labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def fill(labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   """
- *   fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False)
+ *   fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False)
  */
 
   /* function exit code */
@@ -3331,10 +3415,10 @@ static PyObject *__pyx_pf_10fill_voids_fill(CYTHON_UNUSED PyObject *__pyx_self, 
   return __pyx_r;
 }
 
-/* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+/* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -3354,6 +3438,7 @@ static PyObject *__pyx_pw_10fill_voids_3_fill(PyObject *__pyx_self, PyObject *__
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_signatures,&__pyx_n_s_args,&__pyx_n_s_kwargs,&__pyx_n_s_defaults,0};
     PyObject* values[4] = {0,0,0,0};
     values[1] = __pyx_k_;
+    values[2] = __pyx_k__2;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
@@ -3382,19 +3467,19 @@ static PyObject *__pyx_pw_10fill_voids_3_fill(PyObject *__pyx_self, PyObject *__
         }
         CYTHON_FALLTHROUGH;
         case  2:
-        if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_kwargs)) != 0)) kw_args--;
-        else {
-          __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 1, 4, 4, 2); __PYX_ERR(0, 88, __pyx_L3_error)
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_kwargs);
+          if (value) { values[2] = value; kw_args--; }
         }
         CYTHON_FALLTHROUGH;
         case  3:
         if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_defaults)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 1, 4, 4, 3); __PYX_ERR(0, 88, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 1, 4, 4, 3); __PYX_ERR(0, 98, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__pyx_fused_cpdef") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__pyx_fused_cpdef") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 4) {
       goto __pyx_L5_argtuple_error;
@@ -3411,7 +3496,7 @@ static PyObject *__pyx_pw_10fill_voids_3_fill(PyObject *__pyx_self, PyObject *__
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -3471,7 +3556,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
   int __pyx_t_18;
   __Pyx_RefNannySetupContext("_fill", 0);
   __Pyx_INCREF(__pyx_v_kwargs);
-  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
@@ -3485,7 +3570,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
     __pyx_t_2 = __pyx_t_4;
     goto __pyx_L4_bool_binop_done;
   }
-  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_kwargs); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_kwargs); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
   __pyx_t_3 = ((!__pyx_t_4) != 0);
   __pyx_t_2 = __pyx_t_3;
   __pyx_L4_bool_binop_done:;
@@ -3493,7 +3578,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
     __Pyx_INCREF(Py_None);
     __Pyx_DECREF_SET(__pyx_v_kwargs, Py_None);
   }
-  __pyx_t_1 = ((PyObject *)__Pyx_ImportNumPyArrayTypeIfAvailable()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = ((PyObject *)__Pyx_ImportNumPyArrayTypeIfAvailable()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_ndarray = ((PyTypeObject*)__pyx_t_1);
   __pyx_t_1 = 0;
@@ -3509,16 +3594,16 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_v_unsigned_char_is_signed = (!((((unsigned char)-1L) > 0) != 0));
   if (unlikely(__pyx_v_args == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-    __PYX_ERR(0, 88, __pyx_L1_error)
+    __PYX_ERR(0, 98, __pyx_L1_error)
   }
-  __pyx_t_5 = PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 98, __pyx_L1_error)
   __pyx_t_2 = ((0 < __pyx_t_5) != 0);
   if (__pyx_t_2) {
     if (unlikely(__pyx_v_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 88, __pyx_L1_error)
+      __PYX_ERR(0, 98, __pyx_L1_error)
     }
-    __pyx_t_1 = __Pyx_GetItemInt_Tuple(((PyObject*)__pyx_v_args), 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_GetItemInt_Tuple(((PyObject*)__pyx_v_args), 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_arg = __pyx_t_1;
     __pyx_t_1 = 0;
@@ -3533,18 +3618,18 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
   }
   if (unlikely(__pyx_v_kwargs == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 88, __pyx_L1_error)
+    __PYX_ERR(0, 98, __pyx_L1_error)
   }
-  __pyx_t_4 = (__Pyx_PyDict_ContainsTF(__pyx_n_s_labels, ((PyObject*)__pyx_v_kwargs), Py_EQ)); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_4 = (__Pyx_PyDict_ContainsTF(__pyx_n_s_labels, ((PyObject*)__pyx_v_kwargs), Py_EQ)); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
   __pyx_t_3 = (__pyx_t_4 != 0);
   __pyx_t_2 = __pyx_t_3;
   __pyx_L7_bool_binop_done:;
   if (__pyx_t_2) {
     if (unlikely(__pyx_v_kwargs == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 88, __pyx_L1_error)
+      __PYX_ERR(0, 98, __pyx_L1_error)
     }
-    __pyx_t_1 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_kwargs), __pyx_n_s_labels); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_kwargs), __pyx_n_s_labels); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_arg = __pyx_t_1;
     __pyx_t_1 = 0;
@@ -3553,31 +3638,31 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
   /*else*/ {
     if (unlikely(__pyx_v_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-      __PYX_ERR(0, 88, __pyx_L1_error)
+      __PYX_ERR(0, 98, __pyx_L1_error)
     }
-    __pyx_t_5 = PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 88, __pyx_L1_error)
-    __pyx_t_1 = PyInt_FromSsize_t(__pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 98, __pyx_L1_error)
+    __pyx_t_1 = PyInt_FromSsize_t(__pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_6 = PyTuple_New(3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_6 = PyTuple_New(3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_INCREF(__pyx_int_1);
     __Pyx_GIVEREF(__pyx_int_1);
     PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_int_1);
-    __Pyx_INCREF(__pyx_kp_s__2);
-    __Pyx_GIVEREF(__pyx_kp_s__2);
-    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_kp_s__2);
+    __Pyx_INCREF(__pyx_kp_s__3);
+    __Pyx_GIVEREF(__pyx_kp_s__3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_kp_s__3);
     __Pyx_GIVEREF(__pyx_t_1);
     PyTuple_SET_ITEM(__pyx_t_6, 2, __pyx_t_1);
     __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyString_Format(__pyx_kp_s_Expected_at_least_d_argument_s_g, __pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyString_Format(__pyx_kp_s_Expected_at_least_d_argument_s_g, __pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_Raise(__pyx_t_6, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __PYX_ERR(0, 88, __pyx_L1_error)
+    __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_L6:;
   while (1) {
@@ -3587,7 +3672,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = __Pyx_TypeCheck(__pyx_v_arg, __pyx_v_ndarray); 
       __pyx_t_2 = (__pyx_t_3 != 0);
       if (__pyx_t_2) {
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         __pyx_v_dtype = __pyx_t_6;
         __pyx_t_6 = 0;
@@ -3596,14 +3681,14 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_2 = __pyx_memoryview_check(__pyx_v_arg); 
       __pyx_t_3 = (__pyx_t_2 != 0);
       if (__pyx_t_3) {
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_base); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_base); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         __pyx_v_arg_base = __pyx_t_6;
         __pyx_t_6 = 0;
         __pyx_t_3 = __Pyx_TypeCheck(__pyx_v_arg_base, __pyx_v_ndarray); 
         __pyx_t_2 = (__pyx_t_3 != 0);
         if (__pyx_t_2) {
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg_base, __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg_base, __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
           __pyx_v_dtype = __pyx_t_6;
           __pyx_t_6 = 0;
@@ -3625,14 +3710,14 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_2 = (__pyx_v_dtype != Py_None);
       __pyx_t_3 = (__pyx_t_2 != 0);
       if (__pyx_t_3) {
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_dtype, __pyx_n_s_itemsize); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_dtype, __pyx_n_s_itemsize); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __pyx_v_itemsize = __pyx_t_5;
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_dtype, __pyx_n_s_kind); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_dtype, __pyx_n_s_kind); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_7 = __Pyx_PyObject_Ord(__pyx_t_6); if (unlikely(__pyx_t_7 == ((long)(long)(Py_UCS4)-1))) __PYX_ERR(0, 88, __pyx_L1_error)
+        __pyx_t_7 = __Pyx_PyObject_Ord(__pyx_t_6); if (unlikely(__pyx_t_7 == ((long)(long)(Py_UCS4)-1))) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __pyx_v_kind = __pyx_t_7;
         __pyx_v_dtype_signed = (__pyx_v_kind == 'i');
@@ -3645,9 +3730,9 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
             __pyx_t_3 = __pyx_t_2;
             goto __pyx_L16_bool_binop_done;
           }
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           if (__pyx_t_2) {
@@ -3659,7 +3744,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
           __pyx_t_3 = __pyx_t_2;
           __pyx_L16_bool_binop_done:;
           if (__pyx_t_3) {
-            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int8_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int8_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
             goto __pyx_L10_break;
           }
           __pyx_t_2 = (((sizeof(int16_t)) == __pyx_v_itemsize) != 0);
@@ -3668,9 +3753,9 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
             __pyx_t_3 = __pyx_t_2;
             goto __pyx_L20_bool_binop_done;
           }
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           if (__pyx_t_2) {
@@ -3682,7 +3767,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
           __pyx_t_3 = __pyx_t_2;
           __pyx_L20_bool_binop_done:;
           if (__pyx_t_3) {
-            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int16_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int16_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
             goto __pyx_L10_break;
           }
           __pyx_t_2 = (((sizeof(int32_t)) == __pyx_v_itemsize) != 0);
@@ -3691,9 +3776,9 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
             __pyx_t_3 = __pyx_t_2;
             goto __pyx_L24_bool_binop_done;
           }
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           if (__pyx_t_2) {
@@ -3705,7 +3790,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
           __pyx_t_3 = __pyx_t_2;
           __pyx_L24_bool_binop_done:;
           if (__pyx_t_3) {
-            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int32_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int32_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
             goto __pyx_L10_break;
           }
           __pyx_t_2 = (((sizeof(int64_t)) == __pyx_v_itemsize) != 0);
@@ -3714,9 +3799,9 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
             __pyx_t_3 = __pyx_t_2;
             goto __pyx_L28_bool_binop_done;
           }
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           if (__pyx_t_2) {
@@ -3728,7 +3813,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
           __pyx_t_3 = __pyx_t_2;
           __pyx_L28_bool_binop_done:;
           if (__pyx_t_3) {
-            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int64_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int64_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
             goto __pyx_L10_break;
           }
           __pyx_t_2 = (((sizeof(uint8_t)) == __pyx_v_itemsize) != 0);
@@ -3737,9 +3822,9 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
             __pyx_t_3 = __pyx_t_2;
             goto __pyx_L32_bool_binop_done;
           }
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           if (__pyx_t_2) {
@@ -3751,7 +3836,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
           __pyx_t_3 = __pyx_t_2;
           __pyx_L32_bool_binop_done:;
           if (__pyx_t_3) {
-            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint8_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint8_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
             goto __pyx_L10_break;
           }
           __pyx_t_2 = (((sizeof(uint16_t)) == __pyx_v_itemsize) != 0);
@@ -3760,9 +3845,9 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
             __pyx_t_3 = __pyx_t_2;
             goto __pyx_L36_bool_binop_done;
           }
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           if (__pyx_t_2) {
@@ -3774,7 +3859,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
           __pyx_t_3 = __pyx_t_2;
           __pyx_L36_bool_binop_done:;
           if (__pyx_t_3) {
-            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint16_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint16_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
             goto __pyx_L10_break;
           }
           __pyx_t_2 = (((sizeof(uint32_t)) == __pyx_v_itemsize) != 0);
@@ -3783,9 +3868,9 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
             __pyx_t_3 = __pyx_t_2;
             goto __pyx_L40_bool_binop_done;
           }
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           if (__pyx_t_2) {
@@ -3797,7 +3882,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
           __pyx_t_3 = __pyx_t_2;
           __pyx_L40_bool_binop_done:;
           if (__pyx_t_3) {
-            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint32_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint32_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
             goto __pyx_L10_break;
           }
           __pyx_t_2 = (((sizeof(uint64_t)) == __pyx_v_itemsize) != 0);
@@ -3806,9 +3891,9 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
             __pyx_t_3 = __pyx_t_2;
             goto __pyx_L44_bool_binop_done;
           }
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           if (__pyx_t_2) {
@@ -3820,7 +3905,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
           __pyx_t_3 = __pyx_t_2;
           __pyx_L44_bool_binop_done:;
           if (__pyx_t_3) {
-            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint64_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint64_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
             goto __pyx_L10_break;
           }
           __pyx_t_2 = (((sizeof(unsigned char)) == __pyx_v_itemsize) != 0);
@@ -3829,9 +3914,9 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
             __pyx_t_3 = __pyx_t_2;
             goto __pyx_L48_bool_binop_done;
           }
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           if (__pyx_t_2) {
@@ -3843,7 +3928,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
           __pyx_t_3 = __pyx_t_2;
           __pyx_L48_bool_binop_done:;
           if (__pyx_t_3) {
-            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_kp_s_unsigned_char, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_kp_s_unsigned_char, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
             goto __pyx_L10_break;
           }
           break;
@@ -3854,15 +3939,15 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
             __pyx_t_3 = __pyx_t_2;
             goto __pyx_L52_bool_binop_done;
           }
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           __pyx_t_3 = __pyx_t_2;
           __pyx_L52_bool_binop_done:;
           if (__pyx_t_3) {
-            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_float, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_float, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
             goto __pyx_L10_break;
           }
           __pyx_t_2 = (((sizeof(double)) == __pyx_v_itemsize) != 0);
@@ -3871,15 +3956,15 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
             __pyx_t_3 = __pyx_t_2;
             goto __pyx_L55_bool_binop_done;
           }
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_arg, __pyx_n_s_ndim); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           __pyx_t_3 = __pyx_t_2;
           __pyx_L55_bool_binop_done:;
           if (__pyx_t_3) {
-            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_double, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+            if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_double, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
             goto __pyx_L10_break;
           }
           break;
@@ -3906,7 +3991,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
         __PYX_XDEC_MEMVIEW((&__pyx_v_memslice), 1); 
-        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int8_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int8_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         goto __pyx_L10_break;
       }
       /*else*/ {
@@ -3928,7 +4013,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
         __PYX_XDEC_MEMVIEW((&__pyx_v_memslice), 1); 
-        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int16_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int16_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         goto __pyx_L10_break;
       }
       /*else*/ {
@@ -3950,7 +4035,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
         __PYX_XDEC_MEMVIEW((&__pyx_v_memslice), 1); 
-        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int32_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int32_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         goto __pyx_L10_break;
       }
       /*else*/ {
@@ -3972,7 +4057,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
         __PYX_XDEC_MEMVIEW((&__pyx_v_memslice), 1); 
-        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int64_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_int64_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         goto __pyx_L10_break;
       }
       /*else*/ {
@@ -3994,7 +4079,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
         __PYX_XDEC_MEMVIEW((&__pyx_v_memslice), 1); 
-        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint8_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint8_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         goto __pyx_L10_break;
       }
       /*else*/ {
@@ -4016,7 +4101,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
         __PYX_XDEC_MEMVIEW((&__pyx_v_memslice), 1); 
-        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint16_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint16_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         goto __pyx_L10_break;
       }
       /*else*/ {
@@ -4038,7 +4123,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
         __PYX_XDEC_MEMVIEW((&__pyx_v_memslice), 1); 
-        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint32_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint32_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         goto __pyx_L10_break;
       }
       /*else*/ {
@@ -4060,7 +4145,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
         __PYX_XDEC_MEMVIEW((&__pyx_v_memslice), 1); 
-        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint64_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_uint64_t, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         goto __pyx_L10_break;
       }
       /*else*/ {
@@ -4082,7 +4167,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
         __PYX_XDEC_MEMVIEW((&__pyx_v_memslice), 1); 
-        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_kp_s_unsigned_char, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_kp_s_unsigned_char, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         goto __pyx_L10_break;
       }
       /*else*/ {
@@ -4104,7 +4189,7 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
         __PYX_XDEC_MEMVIEW((&__pyx_v_memslice), 1); 
-        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_float, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_float, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         goto __pyx_L10_break;
       }
       /*else*/ {
@@ -4126,27 +4211,27 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
         __PYX_XDEC_MEMVIEW((&__pyx_v_memslice), 1); 
-        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_double, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, __pyx_n_s_double, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         goto __pyx_L10_break;
       }
       /*else*/ {
         PyErr_Clear(); 
       }
     }
-    if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, Py_None, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_SetItemInt(__pyx_v_dest_sig, 0, Py_None, long, 1, __Pyx_PyInt_From_long, 1, 0, 1) < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
     goto __pyx_L10_break;
   }
   __pyx_L10_break:;
-  __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_candidates = ((PyObject*)__pyx_t_6);
   __pyx_t_6 = 0;
   __pyx_t_5 = 0;
   if (unlikely(__pyx_v_signatures == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 88, __pyx_L1_error)
+    __PYX_ERR(0, 98, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_dict_iterator(((PyObject*)__pyx_v_signatures), 1, ((PyObject *)NULL), (&__pyx_t_9), (&__pyx_t_10)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_dict_iterator(((PyObject*)__pyx_v_signatures), 1, ((PyObject *)NULL), (&__pyx_t_9), (&__pyx_t_10)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_6);
   __pyx_t_6 = __pyx_t_1;
@@ -4154,12 +4239,12 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
   while (1) {
     __pyx_t_11 = __Pyx_dict_iter_next(__pyx_t_6, __pyx_t_9, &__pyx_t_5, &__pyx_t_1, NULL, NULL, __pyx_t_10);
     if (unlikely(__pyx_t_11 == 0)) break;
-    if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__pyx_t_11 == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_XDECREF_SET(__pyx_v_sig, __pyx_t_1);
     __pyx_t_1 = 0;
     __pyx_v_match_found = 0;
-    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_v_sig, __pyx_n_s_strip); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_v_sig, __pyx_n_s_strip); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __pyx_t_14 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_13))) {
@@ -4171,12 +4256,12 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_DECREF_SET(__pyx_t_13, function);
       }
     }
-    __pyx_t_12 = (__pyx_t_14) ? __Pyx_PyObject_Call2Args(__pyx_t_13, __pyx_t_14, __pyx_kp_s__3) : __Pyx_PyObject_CallOneArg(__pyx_t_13, __pyx_kp_s__3);
+    __pyx_t_12 = (__pyx_t_14) ? __Pyx_PyObject_Call2Args(__pyx_t_13, __pyx_t_14, __pyx_kp_s__4) : __Pyx_PyObject_CallOneArg(__pyx_t_13, __pyx_kp_s__4);
     __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
-    if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_n_s_split); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_n_s_split); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     __pyx_t_12 = NULL;
@@ -4189,29 +4274,29 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_DECREF_SET(__pyx_t_13, function);
       }
     }
-    __pyx_t_1 = (__pyx_t_12) ? __Pyx_PyObject_Call2Args(__pyx_t_13, __pyx_t_12, __pyx_kp_s__4) : __Pyx_PyObject_CallOneArg(__pyx_t_13, __pyx_kp_s__4);
+    __pyx_t_1 = (__pyx_t_12) ? __Pyx_PyObject_Call2Args(__pyx_t_13, __pyx_t_12, __pyx_kp_s__5) : __Pyx_PyObject_CallOneArg(__pyx_t_13, __pyx_kp_s__5);
     __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
     __Pyx_XDECREF_SET(__pyx_v_src_sig, __pyx_t_1);
     __pyx_t_1 = 0;
-    __pyx_t_15 = PyList_GET_SIZE(__pyx_v_dest_sig); if (unlikely(__pyx_t_15 == ((Py_ssize_t)-1))) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_15 = PyList_GET_SIZE(__pyx_v_dest_sig); if (unlikely(__pyx_t_15 == ((Py_ssize_t)-1))) __PYX_ERR(0, 98, __pyx_L1_error)
     __pyx_t_16 = __pyx_t_15;
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_i = __pyx_t_17;
-      __pyx_t_1 = __Pyx_GetItemInt_List(__pyx_v_dest_sig, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_GetItemInt_List(__pyx_v_dest_sig, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_XDECREF_SET(__pyx_v_dst_type, __pyx_t_1);
       __pyx_t_1 = 0;
       __pyx_t_3 = (__pyx_v_dst_type != Py_None);
       __pyx_t_2 = (__pyx_t_3 != 0);
       if (__pyx_t_2) {
-        __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_src_sig, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_src_sig, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
-        __pyx_t_13 = PyObject_RichCompare(__pyx_t_1, __pyx_v_dst_type, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 88, __pyx_L1_error)
+        __pyx_t_13 = PyObject_RichCompare(__pyx_t_1, __pyx_v_dst_type, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 88, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
         if (__pyx_t_2) {
           __pyx_v_match_found = 1;
@@ -4227,37 +4312,37 @@ static PyObject *__pyx_pf_10fill_voids_2_fill(CYTHON_UNUSED PyObject *__pyx_self
     __pyx_L104_break:;
     __pyx_t_2 = (__pyx_v_match_found != 0);
     if (__pyx_t_2) {
-      __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_candidates, __pyx_v_sig); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 88, __pyx_L1_error)
+      __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_candidates, __pyx_v_sig); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 98, __pyx_L1_error)
     }
   }
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __pyx_t_2 = (PyList_GET_SIZE(__pyx_v_candidates) != 0);
   __pyx_t_3 = ((!__pyx_t_2) != 0);
   if (__pyx_t_3) {
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_Raise(__pyx_t_6, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __PYX_ERR(0, 88, __pyx_L1_error)
+    __PYX_ERR(0, 98, __pyx_L1_error)
   }
-  __pyx_t_9 = PyList_GET_SIZE(__pyx_v_candidates); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_9 = PyList_GET_SIZE(__pyx_v_candidates); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 98, __pyx_L1_error)
   __pyx_t_3 = ((__pyx_t_9 > 1) != 0);
   if (__pyx_t_3) {
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_Raise(__pyx_t_6, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __PYX_ERR(0, 88, __pyx_L1_error)
+    __PYX_ERR(0, 98, __pyx_L1_error)
   }
   /*else*/ {
     __Pyx_XDECREF(__pyx_r);
     if (unlikely(__pyx_v_signatures == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 88, __pyx_L1_error)
+      __PYX_ERR(0, 98, __pyx_L1_error)
     }
-    __pyx_t_6 = __Pyx_GetItemInt_List(__pyx_v_candidates, 0, long, 1, __Pyx_PyInt_From_long, 1, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_GetItemInt_List(__pyx_v_candidates, 0, long, 1, __Pyx_PyInt_From_long, 1, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_13 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_signatures), __pyx_t_6); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_signatures), __pyx_t_6); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 98, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_r = __pyx_t_13;
@@ -4297,12 +4382,15 @@ static PyObject *__pyx_pf_10fill_voids_52__defaults__(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("__defaults__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults11, __pyx_self)->__pyx_arg_in_place);
   __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults11, __pyx_self)->__pyx_arg_in_place);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __Pyx_CyFunction_Defaults(__pyx_defaults11, __pyx_self)->__pyx_arg_in_place);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults11, __pyx_self)->__pyx_arg_return_fill_count);
+  __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults11, __pyx_self)->__pyx_arg_return_fill_count);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __Pyx_CyFunction_Defaults(__pyx_defaults11, __pyx_self)->__pyx_arg_return_fill_count);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -4332,18 +4420,22 @@ static PyMethodDef __pyx_fuse_0__pyx_mdef_10fill_voids_7_fill = {"__pyx_fuse_0_f
 static PyObject *__pyx_fuse_0__pyx_pw_10fill_voids_7_fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     __pyx_defaults11 *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(__pyx_defaults11, __pyx_self);
     values[1] = __pyx_dynamic_args->__pyx_arg_in_place;
+    values[2] = __pyx_dynamic_args->__pyx_arg_return_fill_count;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -4362,12 +4454,20 @@ static PyObject *__pyx_fuse_0__pyx_pw_10fill_voids_7_fill(PyObject *__pyx_self, 
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -4377,17 +4477,18 @@ static PyObject *__pyx_fuse_0__pyx_pw_10fill_voids_7_fill(PyObject *__pyx_self, 
     }
     __pyx_v_labels = ((PyArrayObject *)values[0]);
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids._fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10fill_voids_6_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_r = __pyx_pf_10fill_voids_6_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   goto __pyx_L0;
@@ -4398,8 +4499,9 @@ static PyObject *__pyx_fuse_0__pyx_pw_10fill_voids_7_fill(PyObject *__pyx_self, 
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_v_dtype = NULL;
+  size_t __pyx_v_num_filled;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_labels;
   __Pyx_Buffer __pyx_pybuffer_labels;
   PyObject *__pyx_r = NULL;
@@ -4441,47 +4543,47 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
 
-  /* "fill_voids.pyx":89
+  /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_2 = ((!__pyx_t_1) != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":90
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+    /* "fill_voids.pyx":100
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:
  *     labels = np.copy(labels, order='F')             # <<<<<<<<<<<<<<
  *   else:
  *     labels = fastremap.asfortranarray(labels)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_labels));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
     PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_labels));
-    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 100, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -4498,15 +4600,15 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "fill_voids.pyx":89
+    /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
@@ -4514,7 +4616,7 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
     goto __pyx_L3;
   }
 
-  /* "fill_voids.pyx":92
+  /* "fill_voids.pyx":102
  *     labels = np.copy(labels, order='F')
  *   else:
  *     labels = fastremap.asfortranarray(labels)             # <<<<<<<<<<<<<<
@@ -4522,9 +4624,9 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
  *   dtype = labels.dtype
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -4539,10 +4641,10 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, ((PyObject *)__pyx_v_labels)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_labels));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 102, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -4559,7 +4661,7 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 92, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
@@ -4567,63 +4669,72 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
   }
   __pyx_L3:;
 
-  /* "fill_voids.pyx":94
+  /* "fill_voids.pyx":104
  *     labels = fastremap.asfortranarray(labels)
  * 
  *   dtype = labels.dtype             # <<<<<<<<<<<<<<
  * 
- *   if dtype in (np.uint8, np.int8, np.bool):
+ *   cdef size_t num_filled = 0
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_dtype = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "fill_voids.pyx":96
+  /* "fill_voids.pyx":106
  *   dtype = labels.dtype
  * 
+ *   cdef size_t num_filled = 0             # <<<<<<<<<<<<<<
+ * 
+ *   if dtype in (np.uint8, np.int8, np.bool):
+ */
+  __pyx_v_num_filled = 0;
+
+  /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
+ * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L5_bool_binop_done:;
@@ -4631,12 +4742,12 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":97
+    /* "fill_voids.pyx":109
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_12 = 0;
     __pyx_t_13 = 0;
@@ -4656,51 +4767,51 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 97, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":96
- *   dtype = labels.dtype
+    /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":98
+  /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L8_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L8_bool_binop_done:;
@@ -4708,12 +4819,12 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":99
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":111
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_15 = 0;
     __pyx_t_16 = 0;
@@ -4733,51 +4844,51 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_17 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 99, __pyx_L1_error)
+      __PYX_ERR(0, 111, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":98
+    /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":100
+  /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L10_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L10_bool_binop_done:;
@@ -4785,12 +4896,12 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":101
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":113
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_18 = 0;
     __pyx_t_19 = 0;
@@ -4810,51 +4921,51 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_20 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 101, __pyx_L1_error)
+      __PYX_ERR(0, 113, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":100
+    /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":102
+  /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L12_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L12_bool_binop_done:;
@@ -4862,12 +4973,12 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":103
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":115
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_21 = 0;
     __pyx_t_22 = 0;
@@ -4887,44 +4998,44 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_23 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 103, __pyx_L1_error)
+      __PYX_ERR(0, 115, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":102
+    /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":104
+  /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":105
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":117
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_24 = 0;
     __pyx_t_25 = 0;
@@ -4944,42 +5055,42 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_26 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 105, __pyx_L1_error)
+      __PYX_ERR(0, 117, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":104
+    /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":106
+  /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(__pyx_t_2)) {
 
-    /* "fill_voids.pyx":107
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":119
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))
  */
@@ -5001,29 +5112,29 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_29 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 119, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(int8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":106
+    /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":109
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  /* "fill_voids.pyx":121
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))             # <<<<<<<<<<<<<<
  * 
- *   return labels
+ *   if return_fill_count:
  */
   /*else*/ {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -5037,21 +5148,62 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_dtype) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_dtype);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 109, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
   __pyx_L4:;
 
-  /* "fill_voids.pyx":111
+  /* "fill_voids.pyx":123
  *     raise TypeError("Type {} not supported.".format(dtype))
  * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fill_voids.pyx":124
+ * 
+ *   if return_fill_count:
+ *     return (labels, num_filled)             # <<<<<<<<<<<<<<
+ *   return labels
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyInt_FromSize_t(__pyx_v_num_filled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_INCREF(((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
+    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_6;
+    __pyx_t_6 = 0;
+    goto __pyx_L0;
+
+    /* "fill_voids.pyx":123
+ *     raise TypeError("Type {} not supported.".format(dtype))
+ * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  }
+
+  /* "fill_voids.pyx":125
+ *   if return_fill_count:
+ *     return (labels, num_filled)
  *   return labels             # <<<<<<<<<<<<<<
  * 
  * def void_shard():
@@ -5061,10 +5213,10 @@ static PyObject *__pyx_pf_10fill_voids_6_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_r = ((PyObject *)__pyx_v_labels);
   goto __pyx_L0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -5101,12 +5253,15 @@ static PyObject *__pyx_pf_10fill_voids_54__defaults__(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("__defaults__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults12, __pyx_self)->__pyx_arg_in_place);
   __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults12, __pyx_self)->__pyx_arg_in_place);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __Pyx_CyFunction_Defaults(__pyx_defaults12, __pyx_self)->__pyx_arg_in_place);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults12, __pyx_self)->__pyx_arg_return_fill_count);
+  __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults12, __pyx_self)->__pyx_arg_return_fill_count);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __Pyx_CyFunction_Defaults(__pyx_defaults12, __pyx_self)->__pyx_arg_return_fill_count);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -5136,18 +5291,22 @@ static PyMethodDef __pyx_fuse_1__pyx_mdef_10fill_voids_9_fill = {"__pyx_fuse_1_f
 static PyObject *__pyx_fuse_1__pyx_pw_10fill_voids_9_fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     __pyx_defaults12 *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(__pyx_defaults12, __pyx_self);
     values[1] = __pyx_dynamic_args->__pyx_arg_in_place;
+    values[2] = __pyx_dynamic_args->__pyx_arg_return_fill_count;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -5166,12 +5325,20 @@ static PyObject *__pyx_fuse_1__pyx_pw_10fill_voids_9_fill(PyObject *__pyx_self, 
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -5181,17 +5348,18 @@ static PyObject *__pyx_fuse_1__pyx_pw_10fill_voids_9_fill(PyObject *__pyx_self, 
     }
     __pyx_v_labels = ((PyArrayObject *)values[0]);
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids._fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10fill_voids_8_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_r = __pyx_pf_10fill_voids_8_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   goto __pyx_L0;
@@ -5202,8 +5370,9 @@ static PyObject *__pyx_fuse_1__pyx_pw_10fill_voids_9_fill(PyObject *__pyx_self, 
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_v_dtype = NULL;
+  size_t __pyx_v_num_filled;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_labels;
   __Pyx_Buffer __pyx_pybuffer_labels;
   PyObject *__pyx_r = NULL;
@@ -5245,47 +5414,47 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_int16_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_int16_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
 
-  /* "fill_voids.pyx":89
+  /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_2 = ((!__pyx_t_1) != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":90
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+    /* "fill_voids.pyx":100
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:
  *     labels = np.copy(labels, order='F')             # <<<<<<<<<<<<<<
  *   else:
  *     labels = fastremap.asfortranarray(labels)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_labels));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
     PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_labels));
-    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 100, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -5302,15 +5471,15 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "fill_voids.pyx":89
+    /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
@@ -5318,7 +5487,7 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
     goto __pyx_L3;
   }
 
-  /* "fill_voids.pyx":92
+  /* "fill_voids.pyx":102
  *     labels = np.copy(labels, order='F')
  *   else:
  *     labels = fastremap.asfortranarray(labels)             # <<<<<<<<<<<<<<
@@ -5326,9 +5495,9 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
  *   dtype = labels.dtype
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -5343,10 +5512,10 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, ((PyObject *)__pyx_v_labels)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_labels));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 102, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -5363,7 +5532,7 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 92, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
@@ -5371,63 +5540,72 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
   }
   __pyx_L3:;
 
-  /* "fill_voids.pyx":94
+  /* "fill_voids.pyx":104
  *     labels = fastremap.asfortranarray(labels)
  * 
  *   dtype = labels.dtype             # <<<<<<<<<<<<<<
  * 
- *   if dtype in (np.uint8, np.int8, np.bool):
+ *   cdef size_t num_filled = 0
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_dtype = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "fill_voids.pyx":96
+  /* "fill_voids.pyx":106
  *   dtype = labels.dtype
  * 
+ *   cdef size_t num_filled = 0             # <<<<<<<<<<<<<<
+ * 
+ *   if dtype in (np.uint8, np.int8, np.bool):
+ */
+  __pyx_v_num_filled = 0;
+
+  /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
+ * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L5_bool_binop_done:;
@@ -5435,12 +5613,12 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":97
+    /* "fill_voids.pyx":109
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_12 = 0;
     __pyx_t_13 = 0;
@@ -5460,51 +5638,51 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 97, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":96
- *   dtype = labels.dtype
+    /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":98
+  /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L8_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L8_bool_binop_done:;
@@ -5512,12 +5690,12 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":99
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":111
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_15 = 0;
     __pyx_t_16 = 0;
@@ -5537,51 +5715,51 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_17 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 99, __pyx_L1_error)
+      __PYX_ERR(0, 111, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":98
+    /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":100
+  /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L10_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L10_bool_binop_done:;
@@ -5589,12 +5767,12 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":101
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":113
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_18 = 0;
     __pyx_t_19 = 0;
@@ -5614,51 +5792,51 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_20 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 101, __pyx_L1_error)
+      __PYX_ERR(0, 113, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":100
+    /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":102
+  /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L12_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L12_bool_binop_done:;
@@ -5666,12 +5844,12 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":103
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":115
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_21 = 0;
     __pyx_t_22 = 0;
@@ -5691,44 +5869,44 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_23 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 103, __pyx_L1_error)
+      __PYX_ERR(0, 115, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":102
+    /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":104
+  /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":105
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":117
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_24 = 0;
     __pyx_t_25 = 0;
@@ -5748,42 +5926,42 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_26 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 105, __pyx_L1_error)
+      __PYX_ERR(0, 117, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":104
+    /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":106
+  /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(__pyx_t_2)) {
 
-    /* "fill_voids.pyx":107
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":119
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))
  */
@@ -5805,29 +5983,29 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
     } else if (unlikely(__pyx_t_29 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 119, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(int16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":106
+    /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":109
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  /* "fill_voids.pyx":121
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))             # <<<<<<<<<<<<<<
  * 
- *   return labels
+ *   if return_fill_count:
  */
   /*else*/ {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -5841,21 +6019,62 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_dtype) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_dtype);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 109, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
   __pyx_L4:;
 
-  /* "fill_voids.pyx":111
+  /* "fill_voids.pyx":123
  *     raise TypeError("Type {} not supported.".format(dtype))
  * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fill_voids.pyx":124
+ * 
+ *   if return_fill_count:
+ *     return (labels, num_filled)             # <<<<<<<<<<<<<<
+ *   return labels
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyInt_FromSize_t(__pyx_v_num_filled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_INCREF(((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
+    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_6;
+    __pyx_t_6 = 0;
+    goto __pyx_L0;
+
+    /* "fill_voids.pyx":123
+ *     raise TypeError("Type {} not supported.".format(dtype))
+ * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  }
+
+  /* "fill_voids.pyx":125
+ *   if return_fill_count:
+ *     return (labels, num_filled)
  *   return labels             # <<<<<<<<<<<<<<
  * 
  * def void_shard():
@@ -5865,10 +6084,10 @@ static PyObject *__pyx_pf_10fill_voids_8_fill(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_r = ((PyObject *)__pyx_v_labels);
   goto __pyx_L0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -5905,12 +6124,15 @@ static PyObject *__pyx_pf_10fill_voids_56__defaults__(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("__defaults__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults13, __pyx_self)->__pyx_arg_in_place);
   __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults13, __pyx_self)->__pyx_arg_in_place);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __Pyx_CyFunction_Defaults(__pyx_defaults13, __pyx_self)->__pyx_arg_in_place);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults13, __pyx_self)->__pyx_arg_return_fill_count);
+  __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults13, __pyx_self)->__pyx_arg_return_fill_count);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __Pyx_CyFunction_Defaults(__pyx_defaults13, __pyx_self)->__pyx_arg_return_fill_count);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -5940,18 +6162,22 @@ static PyMethodDef __pyx_fuse_2__pyx_mdef_10fill_voids_11_fill = {"__pyx_fuse_2_
 static PyObject *__pyx_fuse_2__pyx_pw_10fill_voids_11_fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     __pyx_defaults13 *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(__pyx_defaults13, __pyx_self);
     values[1] = __pyx_dynamic_args->__pyx_arg_in_place;
+    values[2] = __pyx_dynamic_args->__pyx_arg_return_fill_count;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -5970,12 +6196,20 @@ static PyObject *__pyx_fuse_2__pyx_pw_10fill_voids_11_fill(PyObject *__pyx_self,
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -5985,17 +6219,18 @@ static PyObject *__pyx_fuse_2__pyx_pw_10fill_voids_11_fill(PyObject *__pyx_self,
     }
     __pyx_v_labels = ((PyArrayObject *)values[0]);
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids._fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10fill_voids_10_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_r = __pyx_pf_10fill_voids_10_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   goto __pyx_L0;
@@ -6006,8 +6241,9 @@ static PyObject *__pyx_fuse_2__pyx_pw_10fill_voids_11_fill(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_v_dtype = NULL;
+  size_t __pyx_v_num_filled;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_labels;
   __Pyx_Buffer __pyx_pybuffer_labels;
   PyObject *__pyx_r = NULL;
@@ -6049,47 +6285,47 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
 
-  /* "fill_voids.pyx":89
+  /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_2 = ((!__pyx_t_1) != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":90
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+    /* "fill_voids.pyx":100
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:
  *     labels = np.copy(labels, order='F')             # <<<<<<<<<<<<<<
  *   else:
  *     labels = fastremap.asfortranarray(labels)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_labels));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
     PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_labels));
-    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 100, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -6106,15 +6342,15 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "fill_voids.pyx":89
+    /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
@@ -6122,7 +6358,7 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
     goto __pyx_L3;
   }
 
-  /* "fill_voids.pyx":92
+  /* "fill_voids.pyx":102
  *     labels = np.copy(labels, order='F')
  *   else:
  *     labels = fastremap.asfortranarray(labels)             # <<<<<<<<<<<<<<
@@ -6130,9 +6366,9 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
  *   dtype = labels.dtype
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -6147,10 +6383,10 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, ((PyObject *)__pyx_v_labels)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_labels));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 102, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -6167,7 +6403,7 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 92, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
@@ -6175,63 +6411,72 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
   }
   __pyx_L3:;
 
-  /* "fill_voids.pyx":94
+  /* "fill_voids.pyx":104
  *     labels = fastremap.asfortranarray(labels)
  * 
  *   dtype = labels.dtype             # <<<<<<<<<<<<<<
  * 
- *   if dtype in (np.uint8, np.int8, np.bool):
+ *   cdef size_t num_filled = 0
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_dtype = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "fill_voids.pyx":96
+  /* "fill_voids.pyx":106
  *   dtype = labels.dtype
  * 
+ *   cdef size_t num_filled = 0             # <<<<<<<<<<<<<<
+ * 
+ *   if dtype in (np.uint8, np.int8, np.bool):
+ */
+  __pyx_v_num_filled = 0;
+
+  /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
+ * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L5_bool_binop_done:;
@@ -6239,12 +6484,12 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":97
+    /* "fill_voids.pyx":109
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_12 = 0;
     __pyx_t_13 = 0;
@@ -6264,51 +6509,51 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 97, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":96
- *   dtype = labels.dtype
+    /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":98
+  /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L8_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L8_bool_binop_done:;
@@ -6316,12 +6561,12 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":99
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":111
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_15 = 0;
     __pyx_t_16 = 0;
@@ -6341,51 +6586,51 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_17 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 99, __pyx_L1_error)
+      __PYX_ERR(0, 111, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":98
+    /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":100
+  /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L10_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L10_bool_binop_done:;
@@ -6393,12 +6638,12 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":101
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":113
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_18 = 0;
     __pyx_t_19 = 0;
@@ -6418,51 +6663,51 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_20 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 101, __pyx_L1_error)
+      __PYX_ERR(0, 113, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":100
+    /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":102
+  /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L12_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L12_bool_binop_done:;
@@ -6470,12 +6715,12 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":103
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":115
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_21 = 0;
     __pyx_t_22 = 0;
@@ -6495,44 +6740,44 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_23 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 103, __pyx_L1_error)
+      __PYX_ERR(0, 115, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":102
+    /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":104
+  /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":105
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":117
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_24 = 0;
     __pyx_t_25 = 0;
@@ -6552,42 +6797,42 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_26 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 105, __pyx_L1_error)
+      __PYX_ERR(0, 117, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":104
+    /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":106
+  /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(__pyx_t_2)) {
 
-    /* "fill_voids.pyx":107
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":119
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))
  */
@@ -6609,29 +6854,29 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_29 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 119, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(int32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":106
+    /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":109
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  /* "fill_voids.pyx":121
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))             # <<<<<<<<<<<<<<
  * 
- *   return labels
+ *   if return_fill_count:
  */
   /*else*/ {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -6645,21 +6890,62 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_dtype) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_dtype);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 109, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
   __pyx_L4:;
 
-  /* "fill_voids.pyx":111
+  /* "fill_voids.pyx":123
  *     raise TypeError("Type {} not supported.".format(dtype))
  * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fill_voids.pyx":124
+ * 
+ *   if return_fill_count:
+ *     return (labels, num_filled)             # <<<<<<<<<<<<<<
+ *   return labels
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyInt_FromSize_t(__pyx_v_num_filled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_INCREF(((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
+    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_6;
+    __pyx_t_6 = 0;
+    goto __pyx_L0;
+
+    /* "fill_voids.pyx":123
+ *     raise TypeError("Type {} not supported.".format(dtype))
+ * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  }
+
+  /* "fill_voids.pyx":125
+ *   if return_fill_count:
+ *     return (labels, num_filled)
  *   return labels             # <<<<<<<<<<<<<<
  * 
  * def void_shard():
@@ -6669,10 +6955,10 @@ static PyObject *__pyx_pf_10fill_voids_10_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_r = ((PyObject *)__pyx_v_labels);
   goto __pyx_L0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -6709,12 +6995,15 @@ static PyObject *__pyx_pf_10fill_voids_58__defaults__(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("__defaults__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults14, __pyx_self)->__pyx_arg_in_place);
   __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults14, __pyx_self)->__pyx_arg_in_place);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __Pyx_CyFunction_Defaults(__pyx_defaults14, __pyx_self)->__pyx_arg_in_place);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults14, __pyx_self)->__pyx_arg_return_fill_count);
+  __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults14, __pyx_self)->__pyx_arg_return_fill_count);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __Pyx_CyFunction_Defaults(__pyx_defaults14, __pyx_self)->__pyx_arg_return_fill_count);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -6744,18 +7033,22 @@ static PyMethodDef __pyx_fuse_3__pyx_mdef_10fill_voids_13_fill = {"__pyx_fuse_3_
 static PyObject *__pyx_fuse_3__pyx_pw_10fill_voids_13_fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     __pyx_defaults14 *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(__pyx_defaults14, __pyx_self);
     values[1] = __pyx_dynamic_args->__pyx_arg_in_place;
+    values[2] = __pyx_dynamic_args->__pyx_arg_return_fill_count;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -6774,12 +7067,20 @@ static PyObject *__pyx_fuse_3__pyx_pw_10fill_voids_13_fill(PyObject *__pyx_self,
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -6789,17 +7090,18 @@ static PyObject *__pyx_fuse_3__pyx_pw_10fill_voids_13_fill(PyObject *__pyx_self,
     }
     __pyx_v_labels = ((PyArrayObject *)values[0]);
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids._fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10fill_voids_12_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_r = __pyx_pf_10fill_voids_12_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   goto __pyx_L0;
@@ -6810,8 +7112,9 @@ static PyObject *__pyx_fuse_3__pyx_pw_10fill_voids_13_fill(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_v_dtype = NULL;
+  size_t __pyx_v_num_filled;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_labels;
   __Pyx_Buffer __pyx_pybuffer_labels;
   PyObject *__pyx_r = NULL;
@@ -6853,47 +7156,47 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
 
-  /* "fill_voids.pyx":89
+  /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_2 = ((!__pyx_t_1) != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":90
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+    /* "fill_voids.pyx":100
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:
  *     labels = np.copy(labels, order='F')             # <<<<<<<<<<<<<<
  *   else:
  *     labels = fastremap.asfortranarray(labels)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_labels));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
     PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_labels));
-    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 100, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -6910,15 +7213,15 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "fill_voids.pyx":89
+    /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
@@ -6926,7 +7229,7 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
     goto __pyx_L3;
   }
 
-  /* "fill_voids.pyx":92
+  /* "fill_voids.pyx":102
  *     labels = np.copy(labels, order='F')
  *   else:
  *     labels = fastremap.asfortranarray(labels)             # <<<<<<<<<<<<<<
@@ -6934,9 +7237,9 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
  *   dtype = labels.dtype
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -6951,10 +7254,10 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, ((PyObject *)__pyx_v_labels)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_labels));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 102, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -6971,7 +7274,7 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 92, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
@@ -6979,63 +7282,72 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
   }
   __pyx_L3:;
 
-  /* "fill_voids.pyx":94
+  /* "fill_voids.pyx":104
  *     labels = fastremap.asfortranarray(labels)
  * 
  *   dtype = labels.dtype             # <<<<<<<<<<<<<<
  * 
- *   if dtype in (np.uint8, np.int8, np.bool):
+ *   cdef size_t num_filled = 0
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_dtype = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "fill_voids.pyx":96
+  /* "fill_voids.pyx":106
  *   dtype = labels.dtype
  * 
+ *   cdef size_t num_filled = 0             # <<<<<<<<<<<<<<
+ * 
+ *   if dtype in (np.uint8, np.int8, np.bool):
+ */
+  __pyx_v_num_filled = 0;
+
+  /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
+ * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L5_bool_binop_done:;
@@ -7043,12 +7355,12 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":97
+    /* "fill_voids.pyx":109
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_12 = 0;
     __pyx_t_13 = 0;
@@ -7068,51 +7380,51 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 97, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":96
- *   dtype = labels.dtype
+    /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":98
+  /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L8_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L8_bool_binop_done:;
@@ -7120,12 +7432,12 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":99
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":111
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_15 = 0;
     __pyx_t_16 = 0;
@@ -7145,51 +7457,51 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_17 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 99, __pyx_L1_error)
+      __PYX_ERR(0, 111, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":98
+    /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":100
+  /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L10_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L10_bool_binop_done:;
@@ -7197,12 +7509,12 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":101
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":113
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_18 = 0;
     __pyx_t_19 = 0;
@@ -7222,51 +7534,51 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_20 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 101, __pyx_L1_error)
+      __PYX_ERR(0, 113, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":100
+    /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":102
+  /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L12_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L12_bool_binop_done:;
@@ -7274,12 +7586,12 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":103
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":115
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_21 = 0;
     __pyx_t_22 = 0;
@@ -7299,44 +7611,44 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_23 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 103, __pyx_L1_error)
+      __PYX_ERR(0, 115, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":102
+    /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":104
+  /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":105
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":117
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_24 = 0;
     __pyx_t_25 = 0;
@@ -7356,42 +7668,42 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_26 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 105, __pyx_L1_error)
+      __PYX_ERR(0, 117, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":104
+    /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":106
+  /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(__pyx_t_2)) {
 
-    /* "fill_voids.pyx":107
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":119
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))
  */
@@ -7413,29 +7725,29 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_29 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 119, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(int64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":106
+    /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":109
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  /* "fill_voids.pyx":121
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))             # <<<<<<<<<<<<<<
  * 
- *   return labels
+ *   if return_fill_count:
  */
   /*else*/ {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -7449,21 +7761,62 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_dtype) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_dtype);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 109, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
   __pyx_L4:;
 
-  /* "fill_voids.pyx":111
+  /* "fill_voids.pyx":123
  *     raise TypeError("Type {} not supported.".format(dtype))
  * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fill_voids.pyx":124
+ * 
+ *   if return_fill_count:
+ *     return (labels, num_filled)             # <<<<<<<<<<<<<<
+ *   return labels
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyInt_FromSize_t(__pyx_v_num_filled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_INCREF(((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
+    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_6;
+    __pyx_t_6 = 0;
+    goto __pyx_L0;
+
+    /* "fill_voids.pyx":123
+ *     raise TypeError("Type {} not supported.".format(dtype))
+ * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  }
+
+  /* "fill_voids.pyx":125
+ *   if return_fill_count:
+ *     return (labels, num_filled)
  *   return labels             # <<<<<<<<<<<<<<
  * 
  * def void_shard():
@@ -7473,10 +7826,10 @@ static PyObject *__pyx_pf_10fill_voids_12_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_r = ((PyObject *)__pyx_v_labels);
   goto __pyx_L0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -7513,12 +7866,15 @@ static PyObject *__pyx_pf_10fill_voids_60__defaults__(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("__defaults__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults15, __pyx_self)->__pyx_arg_in_place);
   __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults15, __pyx_self)->__pyx_arg_in_place);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __Pyx_CyFunction_Defaults(__pyx_defaults15, __pyx_self)->__pyx_arg_in_place);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults15, __pyx_self)->__pyx_arg_return_fill_count);
+  __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults15, __pyx_self)->__pyx_arg_return_fill_count);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __Pyx_CyFunction_Defaults(__pyx_defaults15, __pyx_self)->__pyx_arg_return_fill_count);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -7548,18 +7904,22 @@ static PyMethodDef __pyx_fuse_4__pyx_mdef_10fill_voids_15_fill = {"__pyx_fuse_4_
 static PyObject *__pyx_fuse_4__pyx_pw_10fill_voids_15_fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     __pyx_defaults15 *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(__pyx_defaults15, __pyx_self);
     values[1] = __pyx_dynamic_args->__pyx_arg_in_place;
+    values[2] = __pyx_dynamic_args->__pyx_arg_return_fill_count;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -7578,12 +7938,20 @@ static PyObject *__pyx_fuse_4__pyx_pw_10fill_voids_15_fill(PyObject *__pyx_self,
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -7593,17 +7961,18 @@ static PyObject *__pyx_fuse_4__pyx_pw_10fill_voids_15_fill(PyObject *__pyx_self,
     }
     __pyx_v_labels = ((PyArrayObject *)values[0]);
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids._fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10fill_voids_14_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_r = __pyx_pf_10fill_voids_14_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   goto __pyx_L0;
@@ -7614,8 +7983,9 @@ static PyObject *__pyx_fuse_4__pyx_pw_10fill_voids_15_fill(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_v_dtype = NULL;
+  size_t __pyx_v_num_filled;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_labels;
   __Pyx_Buffer __pyx_pybuffer_labels;
   PyObject *__pyx_r = NULL;
@@ -7657,47 +8027,47 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_uint8_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_uint8_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
 
-  /* "fill_voids.pyx":89
+  /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_2 = ((!__pyx_t_1) != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":90
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+    /* "fill_voids.pyx":100
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:
  *     labels = np.copy(labels, order='F')             # <<<<<<<<<<<<<<
  *   else:
  *     labels = fastremap.asfortranarray(labels)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_labels));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
     PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_labels));
-    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 100, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -7714,15 +8084,15 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "fill_voids.pyx":89
+    /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
@@ -7730,7 +8100,7 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
     goto __pyx_L3;
   }
 
-  /* "fill_voids.pyx":92
+  /* "fill_voids.pyx":102
  *     labels = np.copy(labels, order='F')
  *   else:
  *     labels = fastremap.asfortranarray(labels)             # <<<<<<<<<<<<<<
@@ -7738,9 +8108,9 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
  *   dtype = labels.dtype
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -7755,10 +8125,10 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, ((PyObject *)__pyx_v_labels)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_labels));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 102, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -7775,7 +8145,7 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 92, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
@@ -7783,63 +8153,72 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
   }
   __pyx_L3:;
 
-  /* "fill_voids.pyx":94
+  /* "fill_voids.pyx":104
  *     labels = fastremap.asfortranarray(labels)
  * 
  *   dtype = labels.dtype             # <<<<<<<<<<<<<<
  * 
- *   if dtype in (np.uint8, np.int8, np.bool):
+ *   cdef size_t num_filled = 0
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_dtype = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "fill_voids.pyx":96
+  /* "fill_voids.pyx":106
  *   dtype = labels.dtype
  * 
+ *   cdef size_t num_filled = 0             # <<<<<<<<<<<<<<
+ * 
+ *   if dtype in (np.uint8, np.int8, np.bool):
+ */
+  __pyx_v_num_filled = 0;
+
+  /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
+ * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L5_bool_binop_done:;
@@ -7847,12 +8226,12 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":97
+    /* "fill_voids.pyx":109
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_12 = 0;
     __pyx_t_13 = 0;
@@ -7872,51 +8251,51 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 97, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":96
- *   dtype = labels.dtype
+    /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":98
+  /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L8_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L8_bool_binop_done:;
@@ -7924,12 +8303,12 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":99
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":111
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_15 = 0;
     __pyx_t_16 = 0;
@@ -7949,51 +8328,51 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_17 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 99, __pyx_L1_error)
+      __PYX_ERR(0, 111, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":98
+    /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":100
+  /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L10_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L10_bool_binop_done:;
@@ -8001,12 +8380,12 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":101
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":113
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_18 = 0;
     __pyx_t_19 = 0;
@@ -8026,51 +8405,51 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_20 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 101, __pyx_L1_error)
+      __PYX_ERR(0, 113, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":100
+    /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":102
+  /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L12_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L12_bool_binop_done:;
@@ -8078,12 +8457,12 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":103
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":115
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_21 = 0;
     __pyx_t_22 = 0;
@@ -8103,44 +8482,44 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_23 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 103, __pyx_L1_error)
+      __PYX_ERR(0, 115, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":102
+    /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":104
+  /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":105
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":117
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_24 = 0;
     __pyx_t_25 = 0;
@@ -8160,42 +8539,42 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_26 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 105, __pyx_L1_error)
+      __PYX_ERR(0, 117, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":104
+    /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":106
+  /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(__pyx_t_2)) {
 
-    /* "fill_voids.pyx":107
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":119
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))
  */
@@ -8217,29 +8596,29 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_29 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 119, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(uint8_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":106
+    /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":109
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  /* "fill_voids.pyx":121
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))             # <<<<<<<<<<<<<<
  * 
- *   return labels
+ *   if return_fill_count:
  */
   /*else*/ {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -8253,21 +8632,62 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_dtype) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_dtype);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 109, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
   __pyx_L4:;
 
-  /* "fill_voids.pyx":111
+  /* "fill_voids.pyx":123
  *     raise TypeError("Type {} not supported.".format(dtype))
  * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fill_voids.pyx":124
+ * 
+ *   if return_fill_count:
+ *     return (labels, num_filled)             # <<<<<<<<<<<<<<
+ *   return labels
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyInt_FromSize_t(__pyx_v_num_filled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_INCREF(((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
+    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_6;
+    __pyx_t_6 = 0;
+    goto __pyx_L0;
+
+    /* "fill_voids.pyx":123
+ *     raise TypeError("Type {} not supported.".format(dtype))
+ * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  }
+
+  /* "fill_voids.pyx":125
+ *   if return_fill_count:
+ *     return (labels, num_filled)
  *   return labels             # <<<<<<<<<<<<<<
  * 
  * def void_shard():
@@ -8277,10 +8697,10 @@ static PyObject *__pyx_pf_10fill_voids_14_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_r = ((PyObject *)__pyx_v_labels);
   goto __pyx_L0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -8317,12 +8737,15 @@ static PyObject *__pyx_pf_10fill_voids_62__defaults__(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("__defaults__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults16, __pyx_self)->__pyx_arg_in_place);
   __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults16, __pyx_self)->__pyx_arg_in_place);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __Pyx_CyFunction_Defaults(__pyx_defaults16, __pyx_self)->__pyx_arg_in_place);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults16, __pyx_self)->__pyx_arg_return_fill_count);
+  __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults16, __pyx_self)->__pyx_arg_return_fill_count);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __Pyx_CyFunction_Defaults(__pyx_defaults16, __pyx_self)->__pyx_arg_return_fill_count);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -8352,18 +8775,22 @@ static PyMethodDef __pyx_fuse_5__pyx_mdef_10fill_voids_17_fill = {"__pyx_fuse_5_
 static PyObject *__pyx_fuse_5__pyx_pw_10fill_voids_17_fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     __pyx_defaults16 *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(__pyx_defaults16, __pyx_self);
     values[1] = __pyx_dynamic_args->__pyx_arg_in_place;
+    values[2] = __pyx_dynamic_args->__pyx_arg_return_fill_count;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -8382,12 +8809,20 @@ static PyObject *__pyx_fuse_5__pyx_pw_10fill_voids_17_fill(PyObject *__pyx_self,
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -8397,17 +8832,18 @@ static PyObject *__pyx_fuse_5__pyx_pw_10fill_voids_17_fill(PyObject *__pyx_self,
     }
     __pyx_v_labels = ((PyArrayObject *)values[0]);
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids._fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10fill_voids_16_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_r = __pyx_pf_10fill_voids_16_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   goto __pyx_L0;
@@ -8418,8 +8854,9 @@ static PyObject *__pyx_fuse_5__pyx_pw_10fill_voids_17_fill(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_v_dtype = NULL;
+  size_t __pyx_v_num_filled;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_labels;
   __Pyx_Buffer __pyx_pybuffer_labels;
   PyObject *__pyx_r = NULL;
@@ -8461,47 +8898,47 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_uint16_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_uint16_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
 
-  /* "fill_voids.pyx":89
+  /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_2 = ((!__pyx_t_1) != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":90
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+    /* "fill_voids.pyx":100
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:
  *     labels = np.copy(labels, order='F')             # <<<<<<<<<<<<<<
  *   else:
  *     labels = fastremap.asfortranarray(labels)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_labels));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
     PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_labels));
-    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 100, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -8518,15 +8955,15 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "fill_voids.pyx":89
+    /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
@@ -8534,7 +8971,7 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
     goto __pyx_L3;
   }
 
-  /* "fill_voids.pyx":92
+  /* "fill_voids.pyx":102
  *     labels = np.copy(labels, order='F')
  *   else:
  *     labels = fastremap.asfortranarray(labels)             # <<<<<<<<<<<<<<
@@ -8542,9 +8979,9 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
  *   dtype = labels.dtype
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -8559,10 +8996,10 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, ((PyObject *)__pyx_v_labels)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_labels));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 102, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -8579,7 +9016,7 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 92, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
@@ -8587,63 +9024,72 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
   }
   __pyx_L3:;
 
-  /* "fill_voids.pyx":94
+  /* "fill_voids.pyx":104
  *     labels = fastremap.asfortranarray(labels)
  * 
  *   dtype = labels.dtype             # <<<<<<<<<<<<<<
  * 
- *   if dtype in (np.uint8, np.int8, np.bool):
+ *   cdef size_t num_filled = 0
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_dtype = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "fill_voids.pyx":96
+  /* "fill_voids.pyx":106
  *   dtype = labels.dtype
  * 
+ *   cdef size_t num_filled = 0             # <<<<<<<<<<<<<<
+ * 
+ *   if dtype in (np.uint8, np.int8, np.bool):
+ */
+  __pyx_v_num_filled = 0;
+
+  /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
+ * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L5_bool_binop_done:;
@@ -8651,12 +9097,12 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":97
+    /* "fill_voids.pyx":109
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_12 = 0;
     __pyx_t_13 = 0;
@@ -8676,51 +9122,51 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 97, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":96
- *   dtype = labels.dtype
+    /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":98
+  /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L8_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L8_bool_binop_done:;
@@ -8728,12 +9174,12 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":99
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":111
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_15 = 0;
     __pyx_t_16 = 0;
@@ -8753,51 +9199,51 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_17 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 99, __pyx_L1_error)
+      __PYX_ERR(0, 111, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":98
+    /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":100
+  /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L10_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L10_bool_binop_done:;
@@ -8805,12 +9251,12 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":101
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":113
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_18 = 0;
     __pyx_t_19 = 0;
@@ -8830,51 +9276,51 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_20 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 101, __pyx_L1_error)
+      __PYX_ERR(0, 113, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":100
+    /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":102
+  /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L12_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L12_bool_binop_done:;
@@ -8882,12 +9328,12 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":103
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":115
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_21 = 0;
     __pyx_t_22 = 0;
@@ -8907,44 +9353,44 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_23 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 103, __pyx_L1_error)
+      __PYX_ERR(0, 115, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":102
+    /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":104
+  /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":105
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":117
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_24 = 0;
     __pyx_t_25 = 0;
@@ -8964,42 +9410,42 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_26 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 105, __pyx_L1_error)
+      __PYX_ERR(0, 117, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":104
+    /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":106
+  /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(__pyx_t_2)) {
 
-    /* "fill_voids.pyx":107
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":119
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))
  */
@@ -9021,29 +9467,29 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_29 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 119, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(uint16_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":106
+    /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":109
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  /* "fill_voids.pyx":121
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))             # <<<<<<<<<<<<<<
  * 
- *   return labels
+ *   if return_fill_count:
  */
   /*else*/ {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -9057,21 +9503,62 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_dtype) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_dtype);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 109, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
   __pyx_L4:;
 
-  /* "fill_voids.pyx":111
+  /* "fill_voids.pyx":123
  *     raise TypeError("Type {} not supported.".format(dtype))
  * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fill_voids.pyx":124
+ * 
+ *   if return_fill_count:
+ *     return (labels, num_filled)             # <<<<<<<<<<<<<<
+ *   return labels
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyInt_FromSize_t(__pyx_v_num_filled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_INCREF(((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
+    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_6;
+    __pyx_t_6 = 0;
+    goto __pyx_L0;
+
+    /* "fill_voids.pyx":123
+ *     raise TypeError("Type {} not supported.".format(dtype))
+ * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  }
+
+  /* "fill_voids.pyx":125
+ *   if return_fill_count:
+ *     return (labels, num_filled)
  *   return labels             # <<<<<<<<<<<<<<
  * 
  * def void_shard():
@@ -9081,10 +9568,10 @@ static PyObject *__pyx_pf_10fill_voids_16_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_r = ((PyObject *)__pyx_v_labels);
   goto __pyx_L0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -9121,12 +9608,15 @@ static PyObject *__pyx_pf_10fill_voids_64__defaults__(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("__defaults__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults17, __pyx_self)->__pyx_arg_in_place);
   __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults17, __pyx_self)->__pyx_arg_in_place);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __Pyx_CyFunction_Defaults(__pyx_defaults17, __pyx_self)->__pyx_arg_in_place);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults17, __pyx_self)->__pyx_arg_return_fill_count);
+  __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults17, __pyx_self)->__pyx_arg_return_fill_count);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __Pyx_CyFunction_Defaults(__pyx_defaults17, __pyx_self)->__pyx_arg_return_fill_count);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -9156,18 +9646,22 @@ static PyMethodDef __pyx_fuse_6__pyx_mdef_10fill_voids_19_fill = {"__pyx_fuse_6_
 static PyObject *__pyx_fuse_6__pyx_pw_10fill_voids_19_fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     __pyx_defaults17 *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(__pyx_defaults17, __pyx_self);
     values[1] = __pyx_dynamic_args->__pyx_arg_in_place;
+    values[2] = __pyx_dynamic_args->__pyx_arg_return_fill_count;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -9186,12 +9680,20 @@ static PyObject *__pyx_fuse_6__pyx_pw_10fill_voids_19_fill(PyObject *__pyx_self,
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -9201,17 +9703,18 @@ static PyObject *__pyx_fuse_6__pyx_pw_10fill_voids_19_fill(PyObject *__pyx_self,
     }
     __pyx_v_labels = ((PyArrayObject *)values[0]);
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids._fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10fill_voids_18_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_r = __pyx_pf_10fill_voids_18_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   goto __pyx_L0;
@@ -9222,8 +9725,9 @@ static PyObject *__pyx_fuse_6__pyx_pw_10fill_voids_19_fill(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_v_dtype = NULL;
+  size_t __pyx_v_num_filled;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_labels;
   __Pyx_Buffer __pyx_pybuffer_labels;
   PyObject *__pyx_r = NULL;
@@ -9265,47 +9769,47 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_uint32_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_uint32_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
 
-  /* "fill_voids.pyx":89
+  /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_2 = ((!__pyx_t_1) != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":90
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+    /* "fill_voids.pyx":100
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:
  *     labels = np.copy(labels, order='F')             # <<<<<<<<<<<<<<
  *   else:
  *     labels = fastremap.asfortranarray(labels)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_labels));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
     PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_labels));
-    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 100, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -9322,15 +9826,15 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "fill_voids.pyx":89
+    /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
@@ -9338,7 +9842,7 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
     goto __pyx_L3;
   }
 
-  /* "fill_voids.pyx":92
+  /* "fill_voids.pyx":102
  *     labels = np.copy(labels, order='F')
  *   else:
  *     labels = fastremap.asfortranarray(labels)             # <<<<<<<<<<<<<<
@@ -9346,9 +9850,9 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
  *   dtype = labels.dtype
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -9363,10 +9867,10 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, ((PyObject *)__pyx_v_labels)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_labels));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 102, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -9383,7 +9887,7 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 92, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
@@ -9391,63 +9895,72 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
   }
   __pyx_L3:;
 
-  /* "fill_voids.pyx":94
+  /* "fill_voids.pyx":104
  *     labels = fastremap.asfortranarray(labels)
  * 
  *   dtype = labels.dtype             # <<<<<<<<<<<<<<
  * 
- *   if dtype in (np.uint8, np.int8, np.bool):
+ *   cdef size_t num_filled = 0
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_dtype = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "fill_voids.pyx":96
+  /* "fill_voids.pyx":106
  *   dtype = labels.dtype
  * 
+ *   cdef size_t num_filled = 0             # <<<<<<<<<<<<<<
+ * 
+ *   if dtype in (np.uint8, np.int8, np.bool):
+ */
+  __pyx_v_num_filled = 0;
+
+  /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
+ * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L5_bool_binop_done:;
@@ -9455,12 +9968,12 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":97
+    /* "fill_voids.pyx":109
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_12 = 0;
     __pyx_t_13 = 0;
@@ -9480,51 +9993,51 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 97, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":96
- *   dtype = labels.dtype
+    /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":98
+  /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L8_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L8_bool_binop_done:;
@@ -9532,12 +10045,12 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":99
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":111
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_15 = 0;
     __pyx_t_16 = 0;
@@ -9557,51 +10070,51 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_17 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 99, __pyx_L1_error)
+      __PYX_ERR(0, 111, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":98
+    /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":100
+  /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L10_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L10_bool_binop_done:;
@@ -9609,12 +10122,12 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":101
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":113
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_18 = 0;
     __pyx_t_19 = 0;
@@ -9634,51 +10147,51 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_20 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 101, __pyx_L1_error)
+      __PYX_ERR(0, 113, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":100
+    /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":102
+  /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L12_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L12_bool_binop_done:;
@@ -9686,12 +10199,12 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":103
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":115
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_21 = 0;
     __pyx_t_22 = 0;
@@ -9711,44 +10224,44 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_23 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 103, __pyx_L1_error)
+      __PYX_ERR(0, 115, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":102
+    /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":104
+  /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":105
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":117
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_24 = 0;
     __pyx_t_25 = 0;
@@ -9768,42 +10281,42 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_26 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 105, __pyx_L1_error)
+      __PYX_ERR(0, 117, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":104
+    /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":106
+  /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(__pyx_t_2)) {
 
-    /* "fill_voids.pyx":107
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":119
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))
  */
@@ -9825,29 +10338,29 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_29 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 119, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(uint32_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":106
+    /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":109
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  /* "fill_voids.pyx":121
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))             # <<<<<<<<<<<<<<
  * 
- *   return labels
+ *   if return_fill_count:
  */
   /*else*/ {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -9861,21 +10374,62 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_dtype) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_dtype);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 109, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
   __pyx_L4:;
 
-  /* "fill_voids.pyx":111
+  /* "fill_voids.pyx":123
  *     raise TypeError("Type {} not supported.".format(dtype))
  * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fill_voids.pyx":124
+ * 
+ *   if return_fill_count:
+ *     return (labels, num_filled)             # <<<<<<<<<<<<<<
+ *   return labels
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyInt_FromSize_t(__pyx_v_num_filled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_INCREF(((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
+    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_6;
+    __pyx_t_6 = 0;
+    goto __pyx_L0;
+
+    /* "fill_voids.pyx":123
+ *     raise TypeError("Type {} not supported.".format(dtype))
+ * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  }
+
+  /* "fill_voids.pyx":125
+ *   if return_fill_count:
+ *     return (labels, num_filled)
  *   return labels             # <<<<<<<<<<<<<<
  * 
  * def void_shard():
@@ -9885,10 +10439,10 @@ static PyObject *__pyx_pf_10fill_voids_18_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_r = ((PyObject *)__pyx_v_labels);
   goto __pyx_L0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -9925,12 +10479,15 @@ static PyObject *__pyx_pf_10fill_voids_66__defaults__(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("__defaults__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults18, __pyx_self)->__pyx_arg_in_place);
   __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults18, __pyx_self)->__pyx_arg_in_place);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __Pyx_CyFunction_Defaults(__pyx_defaults18, __pyx_self)->__pyx_arg_in_place);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults18, __pyx_self)->__pyx_arg_return_fill_count);
+  __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults18, __pyx_self)->__pyx_arg_return_fill_count);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __Pyx_CyFunction_Defaults(__pyx_defaults18, __pyx_self)->__pyx_arg_return_fill_count);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -9960,18 +10517,22 @@ static PyMethodDef __pyx_fuse_7__pyx_mdef_10fill_voids_21_fill = {"__pyx_fuse_7_
 static PyObject *__pyx_fuse_7__pyx_pw_10fill_voids_21_fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     __pyx_defaults18 *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(__pyx_defaults18, __pyx_self);
     values[1] = __pyx_dynamic_args->__pyx_arg_in_place;
+    values[2] = __pyx_dynamic_args->__pyx_arg_return_fill_count;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -9990,12 +10551,20 @@ static PyObject *__pyx_fuse_7__pyx_pw_10fill_voids_21_fill(PyObject *__pyx_self,
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -10005,17 +10574,18 @@ static PyObject *__pyx_fuse_7__pyx_pw_10fill_voids_21_fill(PyObject *__pyx_self,
     }
     __pyx_v_labels = ((PyArrayObject *)values[0]);
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids._fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10fill_voids_20_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_r = __pyx_pf_10fill_voids_20_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   goto __pyx_L0;
@@ -10026,8 +10596,9 @@ static PyObject *__pyx_fuse_7__pyx_pw_10fill_voids_21_fill(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_v_dtype = NULL;
+  size_t __pyx_v_num_filled;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_labels;
   __Pyx_Buffer __pyx_pybuffer_labels;
   PyObject *__pyx_r = NULL;
@@ -10069,47 +10640,47 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_uint64_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn_uint64_t, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
 
-  /* "fill_voids.pyx":89
+  /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_2 = ((!__pyx_t_1) != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":90
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+    /* "fill_voids.pyx":100
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:
  *     labels = np.copy(labels, order='F')             # <<<<<<<<<<<<<<
  *   else:
  *     labels = fastremap.asfortranarray(labels)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_labels));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
     PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_labels));
-    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 100, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -10126,15 +10697,15 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "fill_voids.pyx":89
+    /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
@@ -10142,7 +10713,7 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
     goto __pyx_L3;
   }
 
-  /* "fill_voids.pyx":92
+  /* "fill_voids.pyx":102
  *     labels = np.copy(labels, order='F')
  *   else:
  *     labels = fastremap.asfortranarray(labels)             # <<<<<<<<<<<<<<
@@ -10150,9 +10721,9 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
  *   dtype = labels.dtype
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -10167,10 +10738,10 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, ((PyObject *)__pyx_v_labels)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_labels));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 102, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -10187,7 +10758,7 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 92, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
@@ -10195,63 +10766,72 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
   }
   __pyx_L3:;
 
-  /* "fill_voids.pyx":94
+  /* "fill_voids.pyx":104
  *     labels = fastremap.asfortranarray(labels)
  * 
  *   dtype = labels.dtype             # <<<<<<<<<<<<<<
  * 
- *   if dtype in (np.uint8, np.int8, np.bool):
+ *   cdef size_t num_filled = 0
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_dtype = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "fill_voids.pyx":96
+  /* "fill_voids.pyx":106
  *   dtype = labels.dtype
  * 
+ *   cdef size_t num_filled = 0             # <<<<<<<<<<<<<<
+ * 
+ *   if dtype in (np.uint8, np.int8, np.bool):
+ */
+  __pyx_v_num_filled = 0;
+
+  /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
+ * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L5_bool_binop_done:;
@@ -10259,12 +10839,12 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":97
+    /* "fill_voids.pyx":109
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_12 = 0;
     __pyx_t_13 = 0;
@@ -10284,51 +10864,51 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 97, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":96
- *   dtype = labels.dtype
+    /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":98
+  /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L8_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L8_bool_binop_done:;
@@ -10336,12 +10916,12 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":99
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":111
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_15 = 0;
     __pyx_t_16 = 0;
@@ -10361,51 +10941,51 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_17 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 99, __pyx_L1_error)
+      __PYX_ERR(0, 111, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":98
+    /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":100
+  /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L10_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L10_bool_binop_done:;
@@ -10413,12 +10993,12 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":101
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":113
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_18 = 0;
     __pyx_t_19 = 0;
@@ -10438,51 +11018,51 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_20 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 101, __pyx_L1_error)
+      __PYX_ERR(0, 113, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":100
+    /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":102
+  /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L12_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L12_bool_binop_done:;
@@ -10490,12 +11070,12 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":103
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":115
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_21 = 0;
     __pyx_t_22 = 0;
@@ -10515,44 +11095,44 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_23 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 103, __pyx_L1_error)
+      __PYX_ERR(0, 115, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":102
+    /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":104
+  /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":105
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":117
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_24 = 0;
     __pyx_t_25 = 0;
@@ -10572,42 +11152,42 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_26 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 105, __pyx_L1_error)
+      __PYX_ERR(0, 117, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":104
+    /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":106
+  /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(__pyx_t_2)) {
 
-    /* "fill_voids.pyx":107
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":119
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))
  */
@@ -10629,29 +11209,29 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_29 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 119, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(uint64_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":106
+    /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":109
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  /* "fill_voids.pyx":121
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))             # <<<<<<<<<<<<<<
  * 
- *   return labels
+ *   if return_fill_count:
  */
   /*else*/ {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -10665,21 +11245,62 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_dtype) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_dtype);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 109, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
   __pyx_L4:;
 
-  /* "fill_voids.pyx":111
+  /* "fill_voids.pyx":123
  *     raise TypeError("Type {} not supported.".format(dtype))
  * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fill_voids.pyx":124
+ * 
+ *   if return_fill_count:
+ *     return (labels, num_filled)             # <<<<<<<<<<<<<<
+ *   return labels
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyInt_FromSize_t(__pyx_v_num_filled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_INCREF(((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
+    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_6;
+    __pyx_t_6 = 0;
+    goto __pyx_L0;
+
+    /* "fill_voids.pyx":123
+ *     raise TypeError("Type {} not supported.".format(dtype))
+ * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  }
+
+  /* "fill_voids.pyx":125
+ *   if return_fill_count:
+ *     return (labels, num_filled)
  *   return labels             # <<<<<<<<<<<<<<
  * 
  * def void_shard():
@@ -10689,10 +11310,10 @@ static PyObject *__pyx_pf_10fill_voids_20_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_r = ((PyObject *)__pyx_v_labels);
   goto __pyx_L0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -10729,12 +11350,15 @@ static PyObject *__pyx_pf_10fill_voids_68__defaults__(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("__defaults__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults19, __pyx_self)->__pyx_arg_in_place);
   __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults19, __pyx_self)->__pyx_arg_in_place);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __Pyx_CyFunction_Defaults(__pyx_defaults19, __pyx_self)->__pyx_arg_in_place);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults19, __pyx_self)->__pyx_arg_return_fill_count);
+  __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults19, __pyx_self)->__pyx_arg_return_fill_count);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __Pyx_CyFunction_Defaults(__pyx_defaults19, __pyx_self)->__pyx_arg_return_fill_count);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -10764,18 +11388,22 @@ static PyMethodDef __pyx_fuse_8__pyx_mdef_10fill_voids_23_fill = {"__pyx_fuse_8_
 static PyObject *__pyx_fuse_8__pyx_pw_10fill_voids_23_fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     __pyx_defaults19 *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(__pyx_defaults19, __pyx_self);
     values[1] = __pyx_dynamic_args->__pyx_arg_in_place;
+    values[2] = __pyx_dynamic_args->__pyx_arg_return_fill_count;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -10794,12 +11422,20 @@ static PyObject *__pyx_fuse_8__pyx_pw_10fill_voids_23_fill(PyObject *__pyx_self,
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -10809,17 +11445,18 @@ static PyObject *__pyx_fuse_8__pyx_pw_10fill_voids_23_fill(PyObject *__pyx_self,
     }
     __pyx_v_labels = ((PyArrayObject *)values[0]);
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids._fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10fill_voids_22_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_r = __pyx_pf_10fill_voids_22_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   goto __pyx_L0;
@@ -10830,8 +11467,9 @@ static PyObject *__pyx_fuse_8__pyx_pw_10fill_voids_23_fill(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_v_dtype = NULL;
+  size_t __pyx_v_num_filled;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_labels;
   __Pyx_Buffer __pyx_pybuffer_labels;
   PyObject *__pyx_r = NULL;
@@ -10873,47 +11511,47 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_unsigned_char, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_unsigned_char, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
 
-  /* "fill_voids.pyx":89
+  /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_2 = ((!__pyx_t_1) != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":90
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+    /* "fill_voids.pyx":100
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:
  *     labels = np.copy(labels, order='F')             # <<<<<<<<<<<<<<
  *   else:
  *     labels = fastremap.asfortranarray(labels)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_labels));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
     PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_labels));
-    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 100, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -10930,15 +11568,15 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "fill_voids.pyx":89
+    /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
@@ -10946,7 +11584,7 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
     goto __pyx_L3;
   }
 
-  /* "fill_voids.pyx":92
+  /* "fill_voids.pyx":102
  *     labels = np.copy(labels, order='F')
  *   else:
  *     labels = fastremap.asfortranarray(labels)             # <<<<<<<<<<<<<<
@@ -10954,9 +11592,9 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
  *   dtype = labels.dtype
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -10971,10 +11609,10 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, ((PyObject *)__pyx_v_labels)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_labels));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 102, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -10991,7 +11629,7 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 92, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
@@ -10999,63 +11637,72 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
   }
   __pyx_L3:;
 
-  /* "fill_voids.pyx":94
+  /* "fill_voids.pyx":104
  *     labels = fastremap.asfortranarray(labels)
  * 
  *   dtype = labels.dtype             # <<<<<<<<<<<<<<
  * 
- *   if dtype in (np.uint8, np.int8, np.bool):
+ *   cdef size_t num_filled = 0
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_dtype = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "fill_voids.pyx":96
+  /* "fill_voids.pyx":106
  *   dtype = labels.dtype
  * 
+ *   cdef size_t num_filled = 0             # <<<<<<<<<<<<<<
+ * 
+ *   if dtype in (np.uint8, np.int8, np.bool):
+ */
+  __pyx_v_num_filled = 0;
+
+  /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
+ * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L5_bool_binop_done:;
@@ -11063,12 +11710,12 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":97
+    /* "fill_voids.pyx":109
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_12 = 0;
     __pyx_t_13 = 0;
@@ -11088,51 +11735,51 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 97, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":96
- *   dtype = labels.dtype
+    /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":98
+  /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L8_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L8_bool_binop_done:;
@@ -11140,12 +11787,12 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":99
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":111
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_15 = 0;
     __pyx_t_16 = 0;
@@ -11165,51 +11812,51 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_17 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 99, __pyx_L1_error)
+      __PYX_ERR(0, 111, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":98
+    /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":100
+  /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L10_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L10_bool_binop_done:;
@@ -11217,12 +11864,12 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":101
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":113
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_18 = 0;
     __pyx_t_19 = 0;
@@ -11242,51 +11889,51 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_20 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 101, __pyx_L1_error)
+      __PYX_ERR(0, 113, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":100
+    /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":102
+  /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L12_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L12_bool_binop_done:;
@@ -11294,12 +11941,12 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":103
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":115
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_21 = 0;
     __pyx_t_22 = 0;
@@ -11319,44 +11966,44 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_23 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 103, __pyx_L1_error)
+      __PYX_ERR(0, 115, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":102
+    /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":104
+  /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":105
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":117
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_24 = 0;
     __pyx_t_25 = 0;
@@ -11376,42 +12023,42 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_26 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 105, __pyx_L1_error)
+      __PYX_ERR(0, 117, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":104
+    /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":106
+  /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(__pyx_t_2)) {
 
-    /* "fill_voids.pyx":107
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":119
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))
  */
@@ -11433,29 +12080,29 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_29 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 119, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(unsigned char *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":106
+    /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":109
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  /* "fill_voids.pyx":121
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))             # <<<<<<<<<<<<<<
  * 
- *   return labels
+ *   if return_fill_count:
  */
   /*else*/ {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -11469,21 +12116,62 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_dtype) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_dtype);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 109, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
   __pyx_L4:;
 
-  /* "fill_voids.pyx":111
+  /* "fill_voids.pyx":123
  *     raise TypeError("Type {} not supported.".format(dtype))
  * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fill_voids.pyx":124
+ * 
+ *   if return_fill_count:
+ *     return (labels, num_filled)             # <<<<<<<<<<<<<<
+ *   return labels
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyInt_FromSize_t(__pyx_v_num_filled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_INCREF(((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
+    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_6;
+    __pyx_t_6 = 0;
+    goto __pyx_L0;
+
+    /* "fill_voids.pyx":123
+ *     raise TypeError("Type {} not supported.".format(dtype))
+ * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  }
+
+  /* "fill_voids.pyx":125
+ *   if return_fill_count:
+ *     return (labels, num_filled)
  *   return labels             # <<<<<<<<<<<<<<
  * 
  * def void_shard():
@@ -11493,10 +12181,10 @@ static PyObject *__pyx_pf_10fill_voids_22_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_r = ((PyObject *)__pyx_v_labels);
   goto __pyx_L0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -11533,12 +12221,15 @@ static PyObject *__pyx_pf_10fill_voids_70__defaults__(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("__defaults__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults20, __pyx_self)->__pyx_arg_in_place);
   __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults20, __pyx_self)->__pyx_arg_in_place);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __Pyx_CyFunction_Defaults(__pyx_defaults20, __pyx_self)->__pyx_arg_in_place);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults20, __pyx_self)->__pyx_arg_return_fill_count);
+  __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults20, __pyx_self)->__pyx_arg_return_fill_count);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __Pyx_CyFunction_Defaults(__pyx_defaults20, __pyx_self)->__pyx_arg_return_fill_count);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -11568,18 +12259,22 @@ static PyMethodDef __pyx_fuse_9__pyx_mdef_10fill_voids_25_fill = {"__pyx_fuse_9_
 static PyObject *__pyx_fuse_9__pyx_pw_10fill_voids_25_fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     __pyx_defaults20 *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(__pyx_defaults20, __pyx_self);
     values[1] = __pyx_dynamic_args->__pyx_arg_in_place;
+    values[2] = __pyx_dynamic_args->__pyx_arg_return_fill_count;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -11598,12 +12293,20 @@ static PyObject *__pyx_fuse_9__pyx_pw_10fill_voids_25_fill(PyObject *__pyx_self,
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -11613,17 +12316,18 @@ static PyObject *__pyx_fuse_9__pyx_pw_10fill_voids_25_fill(PyObject *__pyx_self,
     }
     __pyx_v_labels = ((PyArrayObject *)values[0]);
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids._fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10fill_voids_24_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_r = __pyx_pf_10fill_voids_24_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   goto __pyx_L0;
@@ -11634,8 +12338,9 @@ static PyObject *__pyx_fuse_9__pyx_pw_10fill_voids_25_fill(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_v_dtype = NULL;
+  size_t __pyx_v_num_filled;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_labels;
   __Pyx_Buffer __pyx_pybuffer_labels;
   PyObject *__pyx_r = NULL;
@@ -11677,47 +12382,47 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_float, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_float, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
 
-  /* "fill_voids.pyx":89
+  /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_2 = ((!__pyx_t_1) != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":90
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+    /* "fill_voids.pyx":100
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:
  *     labels = np.copy(labels, order='F')             # <<<<<<<<<<<<<<
  *   else:
  *     labels = fastremap.asfortranarray(labels)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_labels));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
     PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_labels));
-    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 100, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -11734,15 +12439,15 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "fill_voids.pyx":89
+    /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
@@ -11750,7 +12455,7 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
     goto __pyx_L3;
   }
 
-  /* "fill_voids.pyx":92
+  /* "fill_voids.pyx":102
  *     labels = np.copy(labels, order='F')
  *   else:
  *     labels = fastremap.asfortranarray(labels)             # <<<<<<<<<<<<<<
@@ -11758,9 +12463,9 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
  *   dtype = labels.dtype
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -11775,10 +12480,10 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, ((PyObject *)__pyx_v_labels)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_labels));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 102, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -11795,7 +12500,7 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 92, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
@@ -11803,63 +12508,72 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
   }
   __pyx_L3:;
 
-  /* "fill_voids.pyx":94
+  /* "fill_voids.pyx":104
  *     labels = fastremap.asfortranarray(labels)
  * 
  *   dtype = labels.dtype             # <<<<<<<<<<<<<<
  * 
- *   if dtype in (np.uint8, np.int8, np.bool):
+ *   cdef size_t num_filled = 0
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_dtype = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "fill_voids.pyx":96
+  /* "fill_voids.pyx":106
  *   dtype = labels.dtype
  * 
+ *   cdef size_t num_filled = 0             # <<<<<<<<<<<<<<
+ * 
+ *   if dtype in (np.uint8, np.int8, np.bool):
+ */
+  __pyx_v_num_filled = 0;
+
+  /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
+ * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L5_bool_binop_done:;
@@ -11867,12 +12581,12 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":97
+    /* "fill_voids.pyx":109
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_12 = 0;
     __pyx_t_13 = 0;
@@ -11892,51 +12606,51 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 97, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":96
- *   dtype = labels.dtype
+    /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":98
+  /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L8_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L8_bool_binop_done:;
@@ -11944,12 +12658,12 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":99
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":111
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_15 = 0;
     __pyx_t_16 = 0;
@@ -11969,51 +12683,51 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_17 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 99, __pyx_L1_error)
+      __PYX_ERR(0, 111, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":98
+    /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":100
+  /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L10_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L10_bool_binop_done:;
@@ -12021,12 +12735,12 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":101
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":113
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_18 = 0;
     __pyx_t_19 = 0;
@@ -12046,51 +12760,51 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_20 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 101, __pyx_L1_error)
+      __PYX_ERR(0, 113, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":100
+    /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":102
+  /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L12_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L12_bool_binop_done:;
@@ -12098,12 +12812,12 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":103
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":115
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_21 = 0;
     __pyx_t_22 = 0;
@@ -12123,44 +12837,44 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_23 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 103, __pyx_L1_error)
+      __PYX_ERR(0, 115, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":102
+    /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":104
+  /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":105
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":117
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_24 = 0;
     __pyx_t_25 = 0;
@@ -12180,42 +12894,42 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_26 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 105, __pyx_L1_error)
+      __PYX_ERR(0, 117, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":104
+    /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":106
+  /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(__pyx_t_2)) {
 
-    /* "fill_voids.pyx":107
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":119
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))
  */
@@ -12237,29 +12951,29 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_29 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 119, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(float *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":106
+    /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":109
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  /* "fill_voids.pyx":121
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))             # <<<<<<<<<<<<<<
  * 
- *   return labels
+ *   if return_fill_count:
  */
   /*else*/ {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -12273,21 +12987,62 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_dtype) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_dtype);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 109, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
   __pyx_L4:;
 
-  /* "fill_voids.pyx":111
+  /* "fill_voids.pyx":123
  *     raise TypeError("Type {} not supported.".format(dtype))
  * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fill_voids.pyx":124
+ * 
+ *   if return_fill_count:
+ *     return (labels, num_filled)             # <<<<<<<<<<<<<<
+ *   return labels
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyInt_FromSize_t(__pyx_v_num_filled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_INCREF(((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
+    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_6;
+    __pyx_t_6 = 0;
+    goto __pyx_L0;
+
+    /* "fill_voids.pyx":123
+ *     raise TypeError("Type {} not supported.".format(dtype))
+ * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  }
+
+  /* "fill_voids.pyx":125
+ *   if return_fill_count:
+ *     return (labels, num_filled)
  *   return labels             # <<<<<<<<<<<<<<
  * 
  * def void_shard():
@@ -12297,10 +13052,10 @@ static PyObject *__pyx_pf_10fill_voids_24_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_r = ((PyObject *)__pyx_v_labels);
   goto __pyx_L0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -12337,12 +13092,15 @@ static PyObject *__pyx_pf_10fill_voids_72__defaults__(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("__defaults__", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults21, __pyx_self)->__pyx_arg_in_place);
   __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults21, __pyx_self)->__pyx_arg_in_place);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __Pyx_CyFunction_Defaults(__pyx_defaults21, __pyx_self)->__pyx_arg_in_place);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_INCREF(__Pyx_CyFunction_Defaults(__pyx_defaults21, __pyx_self)->__pyx_arg_return_fill_count);
+  __Pyx_GIVEREF(__Pyx_CyFunction_Defaults(__pyx_defaults21, __pyx_self)->__pyx_arg_return_fill_count);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __Pyx_CyFunction_Defaults(__pyx_defaults21, __pyx_self)->__pyx_arg_return_fill_count);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -12372,18 +13130,22 @@ static PyMethodDef __pyx_fuse_10__pyx_mdef_10fill_voids_27_fill = {"__pyx_fuse_1
 static PyObject *__pyx_fuse_10__pyx_pw_10fill_voids_27_fill(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_labels = 0;
   PyObject *__pyx_v_in_place = 0;
+  PyObject *__pyx_v_return_fill_count = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_fill (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,0};
-    PyObject* values[2] = {0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_labels,&__pyx_n_s_in_place,&__pyx_n_s_return_fill_count,0};
+    PyObject* values[3] = {0,0,0};
     __pyx_defaults21 *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(__pyx_defaults21, __pyx_self);
     values[1] = __pyx_dynamic_args->__pyx_arg_in_place;
+    values[2] = __pyx_dynamic_args->__pyx_arg_return_fill_count;
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -12402,12 +13164,20 @@ static PyObject *__pyx_fuse_10__pyx_pw_10fill_voids_27_fill(PyObject *__pyx_self
           PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_in_place);
           if (value) { values[1] = value; kw_args--; }
         }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_return_fill_count);
+          if (value) { values[2] = value; kw_args--; }
+        }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 88, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_fill") < 0)) __PYX_ERR(0, 98, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
         CYTHON_FALLTHROUGH;
         case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -12417,17 +13187,18 @@ static PyObject *__pyx_fuse_10__pyx_pw_10fill_voids_27_fill(PyObject *__pyx_self
     }
     __pyx_v_labels = ((PyArrayObject *)values[0]);
     __pyx_v_in_place = values[1];
+    __pyx_v_return_fill_count = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 88, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_fill", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 98, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fill_voids._fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10fill_voids_26_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_labels), __pyx_ptype_5numpy_ndarray, 1, "labels", 0))) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_r = __pyx_pf_10fill_voids_26_fill(__pyx_self, __pyx_v_labels, __pyx_v_in_place, __pyx_v_return_fill_count);
 
   /* function exit code */
   goto __pyx_L0;
@@ -12438,8 +13209,9 @@ static PyObject *__pyx_fuse_10__pyx_pw_10fill_voids_27_fill(PyObject *__pyx_self
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_labels, PyObject *__pyx_v_in_place, PyObject *__pyx_v_return_fill_count) {
   PyObject *__pyx_v_dtype = NULL;
+  size_t __pyx_v_num_filled;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_labels;
   __Pyx_Buffer __pyx_pybuffer_labels;
   PyObject *__pyx_r = NULL;
@@ -12481,47 +13253,47 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_double, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 88, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_double, PyBUF_FORMAT| PyBUF_STRIDES, 3, 1, __pyx_stack) == -1)) __PYX_ERR(0, 98, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
 
-  /* "fill_voids.pyx":89
+  /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_2 = ((!__pyx_t_1) != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":90
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+    /* "fill_voids.pyx":100
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:
  *     labels = np.copy(labels, order='F')             # <<<<<<<<<<<<<<
  *   else:
  *     labels = fastremap.asfortranarray(labels)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_labels));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
     PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_labels));
-    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_order, __pyx_n_u_F) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 100, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 100, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -12538,15 +13310,15 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 90, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "fill_voids.pyx":89
+    /* "fill_voids.pyx":99
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
  *   if not in_place:             # <<<<<<<<<<<<<<
  *     labels = np.copy(labels, order='F')
  *   else:
@@ -12554,7 +13326,7 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
     goto __pyx_L3;
   }
 
-  /* "fill_voids.pyx":92
+  /* "fill_voids.pyx":102
  *     labels = np.copy(labels, order='F')
  *   else:
  *     labels = fastremap.asfortranarray(labels)             # <<<<<<<<<<<<<<
@@ -12562,9 +13334,9 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
  *   dtype = labels.dtype
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_fastremap); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_asfortranarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -12579,10 +13351,10 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, ((PyObject *)__pyx_v_labels)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_labels));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 102, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 92, __pyx_L1_error)
+    if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 102, __pyx_L1_error)
     __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -12599,7 +13371,7 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_labels.diminfo[1].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_labels.diminfo[1].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_labels.diminfo[2].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_labels.diminfo[2].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[2];
-      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 92, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
     }
     __pyx_t_7 = 0;
     __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
@@ -12607,63 +13379,72 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
   }
   __pyx_L3:;
 
-  /* "fill_voids.pyx":94
+  /* "fill_voids.pyx":104
  *     labels = fastremap.asfortranarray(labels)
  * 
  *   dtype = labels.dtype             # <<<<<<<<<<<<<<
  * 
- *   if dtype in (np.uint8, np.int8, np.bool):
+ *   cdef size_t num_filled = 0
  */
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_labels), __pyx_n_s_dtype); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_v_dtype = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "fill_voids.pyx":96
+  /* "fill_voids.pyx":106
  *   dtype = labels.dtype
  * 
+ *   cdef size_t num_filled = 0             # <<<<<<<<<<<<<<
+ * 
+ *   if dtype in (np.uint8, np.int8, np.bool):
+ */
+  __pyx_v_num_filled = 0;
+
+  /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
+ * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L5_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L5_bool_binop_done:;
@@ -12671,12 +13452,12 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":97
+    /* "fill_voids.pyx":109
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_12 = 0;
     __pyx_t_13 = 0;
@@ -12696,51 +13477,51 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 97, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint8_t>(((uint8_t *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_14, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":96
- *   dtype = labels.dtype
+    /* "fill_voids.pyx":108
+ *   cdef size_t num_filled = 0
  * 
  *   if dtype in (np.uint8, np.int8, np.bool):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":98
+  /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L8_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L8_bool_binop_done:;
@@ -12748,12 +13529,12 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":99
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":111
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_15 = 0;
     __pyx_t_16 = 0;
@@ -12773,51 +13554,51 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_17 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 99, __pyx_L1_error)
+      __PYX_ERR(0, 111, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint16_t>(((uint16_t *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_17, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":98
+    /* "fill_voids.pyx":110
  *   if dtype in (np.uint8, np.int8, np.bool):
- *     binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint16, np.int16):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":100
+  /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_1) {
   } else {
     __pyx_t_2 = __pyx_t_1;
     goto __pyx_L10_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = __pyx_t_1;
   __pyx_L10_bool_binop_done:;
@@ -12825,12 +13606,12 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "fill_voids.pyx":101
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":113
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_18 = 0;
     __pyx_t_19 = 0;
@@ -12850,51 +13631,51 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_20 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 101, __pyx_L1_error)
+      __PYX_ERR(0, 113, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint32_t>(((uint32_t *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_19, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_20, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":100
+    /* "fill_voids.pyx":112
  *   elif dtype in (np.uint16, np.int16):
- *     binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint32, np.int32):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":102
+  /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
   __Pyx_INCREF(__pyx_v_dtype);
   __pyx_t_6 = __pyx_v_dtype;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_uint64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (!__pyx_t_2) {
   } else {
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L12_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int64); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_3 = PyObject_RichCompare(__pyx_t_6, __pyx_t_5, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 102, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = __pyx_t_2;
   __pyx_L12_bool_binop_done:;
@@ -12902,12 +13683,12 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":103
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":115
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_21 = 0;
     __pyx_t_22 = 0;
@@ -12927,44 +13708,44 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_23 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 103, __pyx_L1_error)
+      __PYX_ERR(0, 115, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<uint64_t>(((uint64_t *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_23, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":102
+    /* "fill_voids.pyx":114
  *   elif dtype in (np.uint32, np.int32):
- *     binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype in (np.uint64, np.int64):             # <<<<<<<<<<<<<<
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":104
+  /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (__pyx_t_2) {
 
-    /* "fill_voids.pyx":105
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":117
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  */
     __pyx_t_24 = 0;
     __pyx_t_25 = 0;
@@ -12984,42 +13765,42 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_26 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 105, __pyx_L1_error)
+      __PYX_ERR(0, 117, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<float>(((float *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_25, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_26, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":104
+    /* "fill_voids.pyx":116
  *   elif dtype in (np.uint64, np.int64):
- *     binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float32:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":106
+  /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_v_dtype, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(__pyx_t_2)) {
 
-    /* "fill_voids.pyx":107
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    /* "fill_voids.pyx":119
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])             # <<<<<<<<<<<<<<
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))
  */
@@ -13041,29 +13822,29 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
     } else if (unlikely(__pyx_t_29 >= __pyx_pybuffernd_labels.diminfo[2].shape)) __pyx_t_8 = 2;
     if (unlikely(__pyx_t_8 != -1)) {
       __Pyx_RaiseBufferIndexError(__pyx_t_8);
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 119, __pyx_L1_error)
     }
-    fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
+    __pyx_v_num_filled = fill_voids::binary_fill_holes<double>(((double *)(&(*__Pyx_BufPtrStrided3d(double *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_labels.diminfo[0].strides, __pyx_t_28, __pyx_pybuffernd_labels.diminfo[1].strides, __pyx_t_29, __pyx_pybuffernd_labels.diminfo[2].strides)))), (__pyx_v_labels->dimensions[0]), (__pyx_v_labels->dimensions[1]), (__pyx_v_labels->dimensions[2]));
 
-    /* "fill_voids.pyx":106
+    /* "fill_voids.pyx":118
  *   elif dtype == np.float32:
- *     binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   elif dtype == np.float64:             # <<<<<<<<<<<<<<
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  */
     goto __pyx_L4;
   }
 
-  /* "fill_voids.pyx":109
- *     binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  /* "fill_voids.pyx":121
+ *     num_filled = binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
  *   else:
  *     raise TypeError("Type {} not supported.".format(dtype))             # <<<<<<<<<<<<<<
  * 
- *   return labels
+ *   if return_fill_count:
  */
   /*else*/ {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Type_not_supported, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -13077,21 +13858,62 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
     }
     __pyx_t_6 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_dtype) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_dtype);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 109, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
   __pyx_L4:;
 
-  /* "fill_voids.pyx":111
+  /* "fill_voids.pyx":123
  *     raise TypeError("Type {} not supported.".format(dtype))
  * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_return_fill_count); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fill_voids.pyx":124
+ * 
+ *   if return_fill_count:
+ *     return (labels, num_filled)             # <<<<<<<<<<<<<<
+ *   return labels
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyInt_FromSize_t(__pyx_v_num_filled); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_INCREF(((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_labels));
+    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_labels));
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_6;
+    __pyx_t_6 = 0;
+    goto __pyx_L0;
+
+    /* "fill_voids.pyx":123
+ *     raise TypeError("Type {} not supported.".format(dtype))
+ * 
+ *   if return_fill_count:             # <<<<<<<<<<<<<<
+ *     return (labels, num_filled)
+ *   return labels
+ */
+  }
+
+  /* "fill_voids.pyx":125
+ *   if return_fill_count:
+ *     return (labels, num_filled)
  *   return labels             # <<<<<<<<<<<<<<
  * 
  * def void_shard():
@@ -13101,10 +13923,10 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_r = ((PyObject *)__pyx_v_labels);
   goto __pyx_L0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
@@ -13134,7 +13956,7 @@ static PyObject *__pyx_pf_10fill_voids_26_fill(CYTHON_UNUSED PyObject *__pyx_sel
   return __pyx_r;
 }
 
-/* "fill_voids.pyx":113
+/* "fill_voids.pyx":127
  *   return labels
  * 
  * def void_shard():             # <<<<<<<<<<<<<<
@@ -13163,17 +13985,17 @@ static PyObject *__pyx_pf_10fill_voids_4void_shard(CYTHON_UNUSED PyObject *__pyx
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("void_shard", 0);
 
-  /* "fill_voids.pyx":115
+  /* "fill_voids.pyx":129
  * def void_shard():
  *   """??? what's this ???"""
  *   print("Play Starcraft 2!")             # <<<<<<<<<<<<<<
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 129, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "fill_voids.pyx":113
+  /* "fill_voids.pyx":127
  *   return labels
  * 
  * def void_shard():             # <<<<<<<<<<<<<<
@@ -13948,7 +14770,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 272, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 272, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -14004,7 +14826,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  * 
  *             info.buf = PyArray_DATA(self)
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 276, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 276, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -14262,7 +15084,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  */
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 306, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 306, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_Raise(__pyx_t_3, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -15142,7 +15964,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  */
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 856, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 856, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_Raise(__pyx_t_3, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -15210,7 +16032,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             # One could encode it in the format string and have Cython
  *             # complain instead, BUT: < and > in format strings also imply
  */
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 860, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 860, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_Raise(__pyx_t_3, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -15319,7 +16141,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  */
-        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 880, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 880, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_Raise(__pyx_t_4, 0, 0, 0);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -15947,7 +16769,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1038, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1038, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -16076,7 +16898,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1044, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1044, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -16202,7 +17024,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1050, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1050, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -16446,7 +17268,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *         if itemsize <= 0:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 133, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__16, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 133, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -16478,7 +17300,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *         if not isinstance(format, bytes):
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__16, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 136, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__17, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 136, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -16605,7 +17427,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  * 
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__17, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 148, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__18, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 148, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -16879,7 +17701,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *             if self.dtype_is_object:
  */
-      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__18, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(3, 176, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__19, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(3, 176, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_Raise(__pyx_t_10, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
@@ -17120,7 +17942,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array_2__getbuffer__(stru
  *         info.buf = self.data
  *         info.len = self.len
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__19, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 192, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__20, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 192, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -17836,7 +18658,7 @@ static PyObject *__pyx_pf___pyx_array___reduce_cython__(CYTHON_UNUSED struct __p
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__20, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__21, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -17889,7 +18711,7 @@ static PyObject *__pyx_pf___pyx_array_2__setstate_cython__(CYTHON_UNUSED struct 
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__21, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__22, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -19572,7 +20394,7 @@ static int __pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_6__setit
  * 
  *         have_slices, index = _unellipsify(index, self.view.ndim)
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__22, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(3, 418, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__23, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(3, 418, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -20605,7 +21427,7 @@ static PyObject *__pyx_memoryview_convert_item_to_object(struct __pyx_memoryview
  *         else:
  *             if len(self.view.format) == 1:
  */
-      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__23, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(3, 495, __pyx_L5_except_error)
+      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__24, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(3, 495, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_Raise(__pyx_t_6, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -20961,7 +21783,7 @@ static int __pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_8__getbu
  * 
  *         if flags & PyBUF_ND:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__24, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 520, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__25, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 520, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -21501,7 +22323,7 @@ static PyObject *__pyx_pf_15View_dot_MemoryView_10memoryview_7strides___get__(st
  * 
  *         return tuple([stride for stride in self.view.strides[:self.view.ndim]])
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__25, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(3, 570, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__26, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(3, 570, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -21615,7 +22437,7 @@ static PyObject *__pyx_pf_15View_dot_MemoryView_10memoryview_10suboffsets___get_
     __Pyx_XDECREF(__pyx_r);
     __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->view.ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(3, 577, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = PyNumber_Multiply(__pyx_tuple__26, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 577, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Multiply(__pyx_tuple__27, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(3, 577, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_r = __pyx_t_3;
@@ -22620,7 +23442,7 @@ static PyObject *__pyx_pf___pyx_memoryview___reduce_cython__(CYTHON_UNUSED struc
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__27, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__28, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -22673,7 +23495,7 @@ static PyObject *__pyx_pf___pyx_memoryview_2__setstate_cython__(CYTHON_UNUSED st
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__28, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__29, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -23024,9 +23846,9 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
         __Pyx_GOTREF(__pyx_t_7);
         { Py_ssize_t __pyx_temp;
           for (__pyx_temp=0; __pyx_temp < ((__pyx_v_ndim - __pyx_t_8) + 1); __pyx_temp++) {
-            __Pyx_INCREF(__pyx_slice__29);
-            __Pyx_GIVEREF(__pyx_slice__29);
-            PyList_SET_ITEM(__pyx_t_7, __pyx_temp, __pyx_slice__29);
+            __Pyx_INCREF(__pyx_slice__30);
+            __Pyx_GIVEREF(__pyx_slice__30);
+            PyList_SET_ITEM(__pyx_t_7, __pyx_temp, __pyx_slice__30);
           }
         }
         __pyx_t_9 = __Pyx_PyList_Extend(__pyx_v_result, __pyx_t_7); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(3, 682, __pyx_L1_error)
@@ -23059,7 +23881,7 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
  *         else:
  */
       /*else*/ {
-        __pyx_t_9 = __Pyx_PyList_Append(__pyx_v_result, __pyx_slice__29); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(3, 685, __pyx_L1_error)
+        __pyx_t_9 = __Pyx_PyList_Append(__pyx_v_result, __pyx_slice__30); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(3, 685, __pyx_L1_error)
       }
       __pyx_L7:;
 
@@ -23199,9 +24021,9 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
     __Pyx_GOTREF(__pyx_t_3);
     { Py_ssize_t __pyx_temp;
       for (__pyx_temp=0; __pyx_temp < __pyx_v_nslices; __pyx_temp++) {
-        __Pyx_INCREF(__pyx_slice__29);
-        __Pyx_GIVEREF(__pyx_slice__29);
-        PyList_SET_ITEM(__pyx_t_3, __pyx_temp, __pyx_slice__29);
+        __Pyx_INCREF(__pyx_slice__30);
+        __Pyx_GIVEREF(__pyx_slice__30);
+        PyList_SET_ITEM(__pyx_t_3, __pyx_temp, __pyx_slice__30);
       }
     }
     __pyx_t_9 = __Pyx_PyList_Extend(__pyx_v_result, __pyx_t_3); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(3, 696, __pyx_L1_error)
@@ -23325,7 +24147,7 @@ static PyObject *assert_direct_dimensions(Py_ssize_t *__pyx_v_suboffsets, int __
  * 
  * 
  */
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__30, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(3, 703, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__31, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(3, 703, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_Raise(__pyx_t_5, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -25488,7 +26310,7 @@ static PyObject *__pyx_pf___pyx_memoryviewslice___reduce_cython__(CYTHON_UNUSED 
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__31, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__32, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -25541,7 +26363,7 @@ static PyObject *__pyx_pf___pyx_memoryviewslice_2__setstate_cython__(CYTHON_UNUS
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__32, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__33, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -29867,9 +30689,9 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_Unable_to_convert_item_to_object, __pyx_k_Unable_to_convert_item_to_object, sizeof(__pyx_k_Unable_to_convert_item_to_object), 0, 0, 1, 0},
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
   {&__pyx_n_s_View_MemoryView, __pyx_k_View_MemoryView, sizeof(__pyx_k_View_MemoryView), 0, 0, 1, 1},
-  {&__pyx_kp_s__2, __pyx_k__2, sizeof(__pyx_k__2), 0, 0, 1, 0},
   {&__pyx_kp_s__3, __pyx_k__3, sizeof(__pyx_k__3), 0, 0, 1, 0},
   {&__pyx_kp_s__4, __pyx_k__4, sizeof(__pyx_k__4), 0, 0, 1, 0},
+  {&__pyx_kp_s__5, __pyx_k__5, sizeof(__pyx_k__5), 0, 0, 1, 0},
   {&__pyx_n_s_allocate_buffer, __pyx_k_allocate_buffer, sizeof(__pyx_k_allocate_buffer), 0, 0, 1, 1},
   {&__pyx_n_s_args, __pyx_k_args, sizeof(__pyx_k_args), 0, 0, 1, 1},
   {&__pyx_n_s_array, __pyx_k_array, sizeof(__pyx_k_array), 0, 0, 1, 1},
@@ -29932,6 +30754,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_new, __pyx_k_new, sizeof(__pyx_k_new), 0, 0, 1, 1},
   {&__pyx_kp_s_no_default___reduce___due_to_non, __pyx_k_no_default___reduce___due_to_non, sizeof(__pyx_k_no_default___reduce___due_to_non), 0, 0, 1, 0},
   {&__pyx_n_s_np, __pyx_k_np, sizeof(__pyx_k_np), 0, 0, 1, 1},
+  {&__pyx_n_s_num_filled, __pyx_k_num_filled, sizeof(__pyx_k_num_filled), 0, 0, 1, 1},
   {&__pyx_n_s_numpy, __pyx_k_numpy, sizeof(__pyx_k_numpy), 0, 0, 1, 1},
   {&__pyx_kp_u_numpy_core_multiarray_failed_to, __pyx_k_numpy_core_multiarray_failed_to, sizeof(__pyx_k_numpy_core_multiarray_failed_to), 0, 1, 0, 0},
   {&__pyx_kp_u_numpy_core_umath_failed_to_impor, __pyx_k_numpy_core_umath_failed_to_impor, sizeof(__pyx_k_numpy_core_umath_failed_to_impor), 0, 1, 0, 0},
@@ -29952,6 +30775,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_reduce, __pyx_k_reduce, sizeof(__pyx_k_reduce), 0, 0, 1, 1},
   {&__pyx_n_s_reduce_cython, __pyx_k_reduce_cython, sizeof(__pyx_k_reduce_cython), 0, 0, 1, 1},
   {&__pyx_n_s_reduce_ex, __pyx_k_reduce_ex, sizeof(__pyx_k_reduce_ex), 0, 0, 1, 1},
+  {&__pyx_n_s_return_fill_count, __pyx_k_return_fill_count, sizeof(__pyx_k_return_fill_count), 0, 0, 1, 1},
   {&__pyx_n_s_setstate, __pyx_k_setstate, sizeof(__pyx_k_setstate), 0, 0, 1, 1},
   {&__pyx_n_s_setstate_cython, __pyx_k_setstate_cython, sizeof(__pyx_k_setstate_cython), 0, 0, 1, 1},
   {&__pyx_n_s_shape, __pyx_k_shape, sizeof(__pyx_k_shape), 0, 0, 1, 1},
@@ -29987,9 +30811,9 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {0, 0, 0, 0, 0, 0, 0}
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_n_s_print); if (!__pyx_builtin_print) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_n_s_print); if (!__pyx_builtin_print) __PYX_ERR(0, 129, __pyx_L1_error)
   __pyx_builtin_MemoryError = __Pyx_GetBuiltinName(__pyx_n_s_MemoryError); if (!__pyx_builtin_MemoryError) __PYX_ERR(1, 109, __pyx_L1_error)
   __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(2, 272, __pyx_L1_error)
   __pyx_builtin_RuntimeError = __Pyx_GetBuiltinName(__pyx_n_s_RuntimeError); if (!__pyx_builtin_RuntimeError) __PYX_ERR(2, 856, __pyx_L1_error)
@@ -30007,29 +30831,29 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
-  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_kp_s_No_matching_signature_found); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__5);
-  __Pyx_GIVEREF(__pyx_tuple__5);
-  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_s_Function_call_with_ambiguous_arg); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_s_No_matching_signature_found); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
+  __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_s_Function_call_with_ambiguous_arg); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__7);
+  __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "fill_voids.pyx":115
+  /* "fill_voids.pyx":129
  * def void_shard():
  *   """??? what's this ???"""
  *   print("Play Starcraft 2!")             # <<<<<<<<<<<<<<
  * 
  */
-  __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_u_Play_Starcraft_2); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 115, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__7);
-  __Pyx_GIVEREF(__pyx_tuple__7);
+  __pyx_tuple__8 = PyTuple_Pack(1, __pyx_kp_u_Play_Starcraft_2); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 129, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__8);
+  __Pyx_GIVEREF(__pyx_tuple__8);
 
   /* "../.virtualenvs/fill_voids/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
@@ -30038,9 +30862,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  */
-  __pyx_tuple__8 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_C_contiguous); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(2, 272, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__8);
-  __Pyx_GIVEREF(__pyx_tuple__8);
+  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_C_contiguous); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 272, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__9);
+  __Pyx_GIVEREF(__pyx_tuple__9);
 
   /* "../.virtualenvs/fill_voids/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
@@ -30049,9 +30873,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *             info.buf = PyArray_DATA(self)
  */
-  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_Fortran_contiguou); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 276, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__9);
-  __Pyx_GIVEREF(__pyx_tuple__9);
+  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_Fortran_contiguou); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 276, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__10);
+  __Pyx_GIVEREF(__pyx_tuple__10);
 
   /* "../.virtualenvs/fill_voids/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
  *                 if ((descr.byteorder == c'>' and little_endian) or
@@ -30060,9 +30884,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  */
-  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_u_Non_native_byte_order_not_suppor); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 306, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__10);
-  __Pyx_GIVEREF(__pyx_tuple__10);
+  __pyx_tuple__11 = PyTuple_Pack(1, __pyx_kp_u_Non_native_byte_order_not_suppor); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(2, 306, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__11);
+  __Pyx_GIVEREF(__pyx_tuple__11);
 
   /* "../.virtualenvs/fill_voids/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
  * 
@@ -30071,9 +30895,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  */
-  __pyx_tuple__11 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(2, 856, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__11);
-  __Pyx_GIVEREF(__pyx_tuple__11);
+  __pyx_tuple__12 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(2, 856, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__12);
+  __Pyx_GIVEREF(__pyx_tuple__12);
 
   /* "../.virtualenvs/fill_voids/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
  *             t = child.type_num
@@ -30082,9 +30906,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  */
-  __pyx_tuple__12 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor_2); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(2, 880, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__12);
-  __Pyx_GIVEREF(__pyx_tuple__12);
+  __pyx_tuple__13 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor_2); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(2, 880, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__13);
+  __Pyx_GIVEREF(__pyx_tuple__13);
 
   /* "../.virtualenvs/fill_voids/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
  *         _import_array()
@@ -30093,9 +30917,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__13 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(2, 1038, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__13);
-  __Pyx_GIVEREF(__pyx_tuple__13);
+  __pyx_tuple__14 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(2, 1038, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__14);
+  __Pyx_GIVEREF(__pyx_tuple__14);
 
   /* "../.virtualenvs/fill_voids/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
  *         _import_umath()
@@ -30104,9 +30928,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__14 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(2, 1044, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__14);
-  __Pyx_GIVEREF(__pyx_tuple__14);
+  __pyx_tuple__15 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(2, 1044, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__15);
+  __Pyx_GIVEREF(__pyx_tuple__15);
 
   /* "View.MemoryView":133
  * 
@@ -30115,9 +30939,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if itemsize <= 0:
  */
-  __pyx_tuple__15 = PyTuple_Pack(1, __pyx_kp_s_Empty_shape_tuple_for_cython_arr); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(3, 133, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__15);
-  __Pyx_GIVEREF(__pyx_tuple__15);
+  __pyx_tuple__16 = PyTuple_Pack(1, __pyx_kp_s_Empty_shape_tuple_for_cython_arr); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(3, 133, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__16);
+  __Pyx_GIVEREF(__pyx_tuple__16);
 
   /* "View.MemoryView":136
  * 
@@ -30126,9 +30950,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if not isinstance(format, bytes):
  */
-  __pyx_tuple__16 = PyTuple_Pack(1, __pyx_kp_s_itemsize_0_for_cython_array); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(3, 136, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__16);
-  __Pyx_GIVEREF(__pyx_tuple__16);
+  __pyx_tuple__17 = PyTuple_Pack(1, __pyx_kp_s_itemsize_0_for_cython_array); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(3, 136, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__17);
+  __Pyx_GIVEREF(__pyx_tuple__17);
 
   /* "View.MemoryView":148
  * 
@@ -30137,9 +30961,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__17 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_shape_and_str); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(3, 148, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__17);
-  __Pyx_GIVEREF(__pyx_tuple__17);
+  __pyx_tuple__18 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_shape_and_str); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(3, 148, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__18);
+  __Pyx_GIVEREF(__pyx_tuple__18);
 
   /* "View.MemoryView":176
  *             self.data = <char *>malloc(self.len)
@@ -30148,9 +30972,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *             if self.dtype_is_object:
  */
-  __pyx_tuple__18 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_array_data); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(3, 176, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__18);
-  __Pyx_GIVEREF(__pyx_tuple__18);
+  __pyx_tuple__19 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_array_data); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(3, 176, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__19);
+  __Pyx_GIVEREF(__pyx_tuple__19);
 
   /* "View.MemoryView":192
  *             bufmode = PyBUF_F_CONTIGUOUS | PyBUF_ANY_CONTIGUOUS
@@ -30159,9 +30983,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         info.buf = self.data
  *         info.len = self.len
  */
-  __pyx_tuple__19 = PyTuple_Pack(1, __pyx_kp_s_Can_only_create_a_buffer_that_is); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(3, 192, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__19);
-  __Pyx_GIVEREF(__pyx_tuple__19);
+  __pyx_tuple__20 = PyTuple_Pack(1, __pyx_kp_s_Can_only_create_a_buffer_that_is); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(3, 192, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__20);
+  __Pyx_GIVEREF(__pyx_tuple__20);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -30169,18 +30993,18 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__20 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(3, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__20);
-  __Pyx_GIVEREF(__pyx_tuple__20);
+  __pyx_tuple__21 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(3, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__21);
+  __Pyx_GIVEREF(__pyx_tuple__21);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__21 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(3, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__21);
-  __Pyx_GIVEREF(__pyx_tuple__21);
+  __pyx_tuple__22 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(3, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__22);
+  __Pyx_GIVEREF(__pyx_tuple__22);
 
   /* "View.MemoryView":418
  *     def __setitem__(memoryview self, object index, object value):
@@ -30189,9 +31013,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         have_slices, index = _unellipsify(index, self.view.ndim)
  */
-  __pyx_tuple__22 = PyTuple_Pack(1, __pyx_kp_s_Cannot_assign_to_read_only_memor); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(3, 418, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__22);
-  __Pyx_GIVEREF(__pyx_tuple__22);
+  __pyx_tuple__23 = PyTuple_Pack(1, __pyx_kp_s_Cannot_assign_to_read_only_memor); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(3, 418, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__23);
+  __Pyx_GIVEREF(__pyx_tuple__23);
 
   /* "View.MemoryView":495
  *             result = struct.unpack(self.view.format, bytesitem)
@@ -30200,9 +31024,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         else:
  *             if len(self.view.format) == 1:
  */
-  __pyx_tuple__23 = PyTuple_Pack(1, __pyx_kp_s_Unable_to_convert_item_to_object); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(3, 495, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__23);
-  __Pyx_GIVEREF(__pyx_tuple__23);
+  __pyx_tuple__24 = PyTuple_Pack(1, __pyx_kp_s_Unable_to_convert_item_to_object); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(3, 495, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__24);
+  __Pyx_GIVEREF(__pyx_tuple__24);
 
   /* "View.MemoryView":520
  *     def __getbuffer__(self, Py_buffer *info, int flags):
@@ -30211,9 +31035,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if flags & PyBUF_ND:
  */
-  __pyx_tuple__24 = PyTuple_Pack(1, __pyx_kp_s_Cannot_create_writable_memory_vi); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(3, 520, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__24);
-  __Pyx_GIVEREF(__pyx_tuple__24);
+  __pyx_tuple__25 = PyTuple_Pack(1, __pyx_kp_s_Cannot_create_writable_memory_vi); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(3, 520, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__25);
+  __Pyx_GIVEREF(__pyx_tuple__25);
 
   /* "View.MemoryView":570
  *         if self.view.strides == NULL:
@@ -30222,9 +31046,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         return tuple([stride for stride in self.view.strides[:self.view.ndim]])
  */
-  __pyx_tuple__25 = PyTuple_Pack(1, __pyx_kp_s_Buffer_view_does_not_expose_stri); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(3, 570, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__25);
-  __Pyx_GIVEREF(__pyx_tuple__25);
+  __pyx_tuple__26 = PyTuple_Pack(1, __pyx_kp_s_Buffer_view_does_not_expose_stri); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(3, 570, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__26);
+  __Pyx_GIVEREF(__pyx_tuple__26);
 
   /* "View.MemoryView":577
  *     def suboffsets(self):
@@ -30233,12 +31057,12 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         return tuple([suboffset for suboffset in self.view.suboffsets[:self.view.ndim]])
  */
-  __pyx_tuple__26 = PyTuple_New(1); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(3, 577, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__26);
+  __pyx_tuple__27 = PyTuple_New(1); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(3, 577, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__27);
   __Pyx_INCREF(__pyx_int_neg_1);
   __Pyx_GIVEREF(__pyx_int_neg_1);
-  PyTuple_SET_ITEM(__pyx_tuple__26, 0, __pyx_int_neg_1);
-  __Pyx_GIVEREF(__pyx_tuple__26);
+  PyTuple_SET_ITEM(__pyx_tuple__27, 0, __pyx_int_neg_1);
+  __Pyx_GIVEREF(__pyx_tuple__27);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -30246,18 +31070,18 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__27 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(3, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__27);
-  __Pyx_GIVEREF(__pyx_tuple__27);
+  __pyx_tuple__28 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(3, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__28);
+  __Pyx_GIVEREF(__pyx_tuple__28);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__28 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(3, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__28);
-  __Pyx_GIVEREF(__pyx_tuple__28);
+  __pyx_tuple__29 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(3, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__29);
+  __Pyx_GIVEREF(__pyx_tuple__29);
 
   /* "View.MemoryView":682
  *         if item is Ellipsis:
@@ -30266,9 +31090,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                 seen_ellipsis = True
  *             else:
  */
-  __pyx_slice__29 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__29)) __PYX_ERR(3, 682, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_slice__29);
-  __Pyx_GIVEREF(__pyx_slice__29);
+  __pyx_slice__30 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__30)) __PYX_ERR(3, 682, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_slice__30);
+  __Pyx_GIVEREF(__pyx_slice__30);
 
   /* "View.MemoryView":703
  *     for suboffset in suboffsets[:ndim]:
@@ -30277,9 +31101,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__30 = PyTuple_Pack(1, __pyx_kp_s_Indirect_dimensions_not_supporte); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(3, 703, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__30);
-  __Pyx_GIVEREF(__pyx_tuple__30);
+  __pyx_tuple__31 = PyTuple_Pack(1, __pyx_kp_s_Indirect_dimensions_not_supporte); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(3, 703, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__31);
+  __Pyx_GIVEREF(__pyx_tuple__31);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -30287,51 +31111,51 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__31 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(3, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__31);
-  __Pyx_GIVEREF(__pyx_tuple__31);
+  __pyx_tuple__32 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(3, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__32);
+  __Pyx_GIVEREF(__pyx_tuple__32);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__32 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(3, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__32);
-  __Pyx_GIVEREF(__pyx_tuple__32);
+  __pyx_tuple__33 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(3, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__33);
+  __Pyx_GIVEREF(__pyx_tuple__33);
 
   /* "fill_voids.pyx":73
  *   )
  * 
- * def fill(labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def fill(labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   """
- *   fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False)
+ *   fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False)
  */
-  __pyx_tuple__33 = PyTuple_Pack(2, __pyx_n_s_labels, __pyx_n_s_in_place); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 73, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__33);
-  __Pyx_GIVEREF(__pyx_tuple__33);
-  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_fill_voids_pyx, __pyx_n_s_fill_2, 73, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_tuple__34 = PyTuple_Pack(3, __pyx_n_s_labels, __pyx_n_s_in_place, __pyx_n_s_return_fill_count); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__34);
+  __Pyx_GIVEREF(__pyx_tuple__34);
+  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_fill_voids_pyx, __pyx_n_s_fill_2, 73, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 73, __pyx_L1_error)
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
-  __pyx_tuple__35 = PyTuple_Pack(3, __pyx_n_s_labels, __pyx_n_s_in_place, __pyx_n_s_dtype); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__35);
-  __Pyx_GIVEREF(__pyx_tuple__35);
-  __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_fill_voids_pyx, __pyx_n_s_fill, 88, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_tuple__36 = PyTuple_Pack(5, __pyx_n_s_labels, __pyx_n_s_in_place, __pyx_n_s_return_fill_count, __pyx_n_s_dtype, __pyx_n_s_num_filled); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__36);
+  __Pyx_GIVEREF(__pyx_tuple__36);
+  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_fill_voids_pyx, __pyx_n_s_fill, 98, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 98, __pyx_L1_error)
 
-  /* "fill_voids.pyx":113
+  /* "fill_voids.pyx":127
  *   return labels
  * 
  * def void_shard():             # <<<<<<<<<<<<<<
  *   """??? what's this ???"""
  *   print("Play Starcraft 2!")
  */
-  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_fill_voids_pyx, __pyx_n_s_void_shard, 113, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 113, __pyx_L1_error)
+  __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_fill_voids_pyx, __pyx_n_s_void_shard, 127, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) __PYX_ERR(0, 127, __pyx_L1_error)
 
   /* "View.MemoryView":286
  *         return self.name
@@ -30340,9 +31164,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef strided = Enum("<strided and direct>") # default
  * cdef indirect = Enum("<strided and indirect>")
  */
-  __pyx_tuple__38 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct_or_indirect); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(3, 286, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__38);
-  __Pyx_GIVEREF(__pyx_tuple__38);
+  __pyx_tuple__39 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct_or_indirect); if (unlikely(!__pyx_tuple__39)) __PYX_ERR(3, 286, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__39);
+  __Pyx_GIVEREF(__pyx_tuple__39);
 
   /* "View.MemoryView":287
  * 
@@ -30351,9 +31175,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef indirect = Enum("<strided and indirect>")
  * 
  */
-  __pyx_tuple__39 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct); if (unlikely(!__pyx_tuple__39)) __PYX_ERR(3, 287, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__39);
-  __Pyx_GIVEREF(__pyx_tuple__39);
+  __pyx_tuple__40 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(3, 287, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__40);
+  __Pyx_GIVEREF(__pyx_tuple__40);
 
   /* "View.MemoryView":288
  * cdef generic = Enum("<strided and direct or indirect>")
@@ -30362,9 +31186,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__40 = PyTuple_Pack(1, __pyx_kp_s_strided_and_indirect); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(3, 288, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__40);
-  __Pyx_GIVEREF(__pyx_tuple__40);
+  __pyx_tuple__41 = PyTuple_Pack(1, __pyx_kp_s_strided_and_indirect); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(3, 288, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__41);
+  __Pyx_GIVEREF(__pyx_tuple__41);
 
   /* "View.MemoryView":291
  * 
@@ -30373,9 +31197,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef indirect_contiguous = Enum("<contiguous and indirect>")
  * 
  */
-  __pyx_tuple__41 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_direct); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(3, 291, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__41);
-  __Pyx_GIVEREF(__pyx_tuple__41);
+  __pyx_tuple__42 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_direct); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(3, 291, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__42);
+  __Pyx_GIVEREF(__pyx_tuple__42);
 
   /* "View.MemoryView":292
  * 
@@ -30384,19 +31208,19 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__42 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_indirect); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(3, 292, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__42);
-  __Pyx_GIVEREF(__pyx_tuple__42);
+  __pyx_tuple__43 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_indirect); if (unlikely(!__pyx_tuple__43)) __PYX_ERR(3, 292, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__43);
+  __Pyx_GIVEREF(__pyx_tuple__43);
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_Enum(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
  */
-  __pyx_tuple__43 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__43)) __PYX_ERR(3, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__43);
-  __Pyx_GIVEREF(__pyx_tuple__43);
-  __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__43, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) __PYX_ERR(3, 1, __pyx_L1_error)
+  __pyx_tuple__44 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(3, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__44);
+  __Pyx_GIVEREF(__pyx_tuple__44);
+  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(3, 1, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -30834,187 +31658,252 @@ if (!__Pyx_RefNanny) {
   /* "fill_voids.pyx":73
  *   )
  * 
- * def fill(labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def fill(labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   """
- *   fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False)
+ *   fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False)
  */
   __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10fill_voids_1fill, NULL, __pyx_n_s_fill_voids); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_fill_2, __pyx_t_1) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "fill_voids.pyx":88
- *   return _fill(labels, in_place)
+  /* "fill_voids.pyx":98
+ *   return _fill(labels, in_place, return_fill_count)
  * 
- * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):             # <<<<<<<<<<<<<<
+ * def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):             # <<<<<<<<<<<<<<
  *   if not in_place:
  *     labels = np.copy(labels, order='F')
  */
-  __pyx_t_1 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
-  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
+  __Pyx_GIVEREF(__pyx_t_2);
+  PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_k_ = __pyx_t_2;
+  __Pyx_GIVEREF(__pyx_t_2);
+  __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_k__2 = __pyx_t_2;
+  __Pyx_GIVEREF(__pyx_t_2);
+  __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(11); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_10fill_voids_7_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_k_ = __pyx_t_1;
-  __Pyx_GIVEREF(__pyx_t_1);
-  __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(11); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_1, sizeof(__pyx_defaults11), 2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_Defaults(__pyx_defaults11, __pyx_t_1)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_GIVEREF(__pyx_t_4);
+  __pyx_t_4 = 0;
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_Defaults(__pyx_defaults11, __pyx_t_1)->__pyx_arg_return_fill_count = __pyx_t_4;
+  __Pyx_GIVEREF(__pyx_t_4);
+  __pyx_t_4 = 0;
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_1, __pyx_pf_10fill_voids_52__defaults__);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_int8_t, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_10fill_voids_9_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_10fill_voids_7_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults11), 1)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_1, sizeof(__pyx_defaults12), 2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_Defaults(__pyx_defaults11, __pyx_t_3)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_CyFunction_Defaults(__pyx_defaults12, __pyx_t_1)->__pyx_arg_in_place = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_10fill_voids_52__defaults__);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_int8_t, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_10fill_voids_9_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults12), 1)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_Defaults(__pyx_defaults12, __pyx_t_3)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_CyFunction_Defaults(__pyx_defaults12, __pyx_t_1)->__pyx_arg_return_fill_count = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_10fill_voids_54__defaults__);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_int16_t, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_fuse_2__pyx_mdef_10fill_voids_11_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults13), 1)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_1, __pyx_pf_10fill_voids_54__defaults__);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_int16_t, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_2__pyx_mdef_10fill_voids_11_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_1, sizeof(__pyx_defaults13), 2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_Defaults(__pyx_defaults13, __pyx_t_3)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_CyFunction_Defaults(__pyx_defaults13, __pyx_t_1)->__pyx_arg_in_place = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_10fill_voids_56__defaults__);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_int32_t, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_fuse_3__pyx_mdef_10fill_voids_13_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults14), 1)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_Defaults(__pyx_defaults14, __pyx_t_3)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_CyFunction_Defaults(__pyx_defaults13, __pyx_t_1)->__pyx_arg_return_fill_count = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_10fill_voids_58__defaults__);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_int64_t, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_fuse_4__pyx_mdef_10fill_voids_15_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults15), 1)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_1, __pyx_pf_10fill_voids_56__defaults__);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_int32_t, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_3__pyx_mdef_10fill_voids_13_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_1, sizeof(__pyx_defaults14), 2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_Defaults(__pyx_defaults15, __pyx_t_3)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_CyFunction_Defaults(__pyx_defaults14, __pyx_t_1)->__pyx_arg_in_place = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_10fill_voids_60__defaults__);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_uint8_t, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_fuse_5__pyx_mdef_10fill_voids_17_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults16), 1)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_Defaults(__pyx_defaults16, __pyx_t_3)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_CyFunction_Defaults(__pyx_defaults14, __pyx_t_1)->__pyx_arg_return_fill_count = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_10fill_voids_62__defaults__);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_uint16_t, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_fuse_6__pyx_mdef_10fill_voids_19_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults17), 1)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_1, __pyx_pf_10fill_voids_58__defaults__);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_int64_t, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_4__pyx_mdef_10fill_voids_15_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_1, sizeof(__pyx_defaults15), 2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_Defaults(__pyx_defaults17, __pyx_t_3)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_CyFunction_Defaults(__pyx_defaults15, __pyx_t_1)->__pyx_arg_in_place = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_10fill_voids_64__defaults__);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_uint32_t, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_fuse_7__pyx_mdef_10fill_voids_21_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults18), 1)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_Defaults(__pyx_defaults18, __pyx_t_3)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_CyFunction_Defaults(__pyx_defaults15, __pyx_t_1)->__pyx_arg_return_fill_count = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_10fill_voids_66__defaults__);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_uint64_t, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_fuse_8__pyx_mdef_10fill_voids_23_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults19), 1)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_1, __pyx_pf_10fill_voids_60__defaults__);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_uint8_t, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_5__pyx_mdef_10fill_voids_17_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_1, sizeof(__pyx_defaults16), 2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_Defaults(__pyx_defaults19, __pyx_t_3)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_CyFunction_Defaults(__pyx_defaults16, __pyx_t_1)->__pyx_arg_in_place = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_10fill_voids_68__defaults__);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_kp_s_unsigned_char, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_fuse_9__pyx_mdef_10fill_voids_25_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults20), 1)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_Defaults(__pyx_defaults20, __pyx_t_3)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_CyFunction_Defaults(__pyx_defaults16, __pyx_t_1)->__pyx_arg_return_fill_count = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_10fill_voids_70__defaults__);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_float, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_fuse_10__pyx_mdef_10fill_voids_27_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_3, sizeof(__pyx_defaults21), 1)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_1, __pyx_pf_10fill_voids_62__defaults__);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_uint16_t, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_6__pyx_mdef_10fill_voids_19_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_1, sizeof(__pyx_defaults17), 2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_CyFunction_Defaults(__pyx_defaults21, __pyx_t_3)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_CyFunction_Defaults(__pyx_defaults17, __pyx_t_1)->__pyx_arg_in_place = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_3, __pyx_pf_10fill_voids_72__defaults__);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_double, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_Defaults(__pyx_defaults17, __pyx_t_1)->__pyx_arg_return_fill_count = __pyx_t_4;
+  __Pyx_GIVEREF(__pyx_t_4);
+  __pyx_t_4 = 0;
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_1, __pyx_pf_10fill_voids_64__defaults__);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_uint32_t, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_7__pyx_mdef_10fill_voids_21_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_1, sizeof(__pyx_defaults18), 2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_Defaults(__pyx_defaults18, __pyx_t_1)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_GIVEREF(__pyx_t_4);
+  __pyx_t_4 = 0;
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_Defaults(__pyx_defaults18, __pyx_t_1)->__pyx_arg_return_fill_count = __pyx_t_4;
+  __Pyx_GIVEREF(__pyx_t_4);
+  __pyx_t_4 = 0;
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_1, __pyx_pf_10fill_voids_66__defaults__);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_uint64_t, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_8__pyx_mdef_10fill_voids_23_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_1, sizeof(__pyx_defaults19), 2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_Defaults(__pyx_defaults19, __pyx_t_1)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_GIVEREF(__pyx_t_4);
+  __pyx_t_4 = 0;
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_Defaults(__pyx_defaults19, __pyx_t_1)->__pyx_arg_return_fill_count = __pyx_t_4;
+  __Pyx_GIVEREF(__pyx_t_4);
+  __pyx_t_4 = 0;
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_1, __pyx_pf_10fill_voids_68__defaults__);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_kp_s_unsigned_char, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_9__pyx_mdef_10fill_voids_25_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_1, sizeof(__pyx_defaults20), 2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_Defaults(__pyx_defaults20, __pyx_t_1)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_GIVEREF(__pyx_t_4);
+  __pyx_t_4 = 0;
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_Defaults(__pyx_defaults20, __pyx_t_1)->__pyx_arg_return_fill_count = __pyx_t_4;
+  __Pyx_GIVEREF(__pyx_t_4);
+  __pyx_t_4 = 0;
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_1, __pyx_pf_10fill_voids_70__defaults__);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_float, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_10__pyx_mdef_10fill_voids_27_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_1, sizeof(__pyx_defaults21), 2)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_Defaults(__pyx_defaults21, __pyx_t_1)->__pyx_arg_in_place = __pyx_t_4;
+  __Pyx_GIVEREF(__pyx_t_4);
+  __pyx_t_4 = 0;
+  __pyx_t_4 = __Pyx_PyBool_FromLong(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_CyFunction_Defaults(__pyx_defaults21, __pyx_t_1)->__pyx_arg_return_fill_count = __pyx_t_4;
+  __Pyx_GIVEREF(__pyx_t_4);
+  __pyx_t_4 = 0;
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_1, __pyx_pf_10fill_voids_72__defaults__);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_double, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_mdef_10fill_voids_3_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_t_3);
+  ((__pyx_FusedFunctionObject *) __pyx_t_1)->__signatures__ = __pyx_t_2;
+  __Pyx_GIVEREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_fill, __pyx_t_1) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __pyx_FusedFunction_NewEx(&__pyx_mdef_10fill_voids_3_fill, 0, __pyx_n_s_fill, NULL, __pyx_n_s_fill_voids, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_2);
-  ((__pyx_FusedFunctionObject *) __pyx_t_3)->__signatures__ = __pyx_t_1;
-  __Pyx_GIVEREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_fill, __pyx_t_3) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "fill_voids.pyx":113
+  /* "fill_voids.pyx":127
  *   return labels
  * 
  * def void_shard():             # <<<<<<<<<<<<<<
  *   """??? what's this ???"""
  *   print("Play Starcraft 2!")
  */
-  __pyx_t_4 = PyCFunction_NewEx(&__pyx_mdef_10fill_voids_5void_shard, NULL, __pyx_n_s_fill_voids); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 113, __pyx_L1_error)
+  __pyx_t_4 = PyCFunction_NewEx(&__pyx_mdef_10fill_voids_5void_shard, NULL, __pyx_n_s_fill_voids); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 127, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_void_shard, __pyx_t_4) < 0) __PYX_ERR(0, 113, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_void_shard, __pyx_t_4) < 0) __PYX_ERR(0, 127, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "fill_voids.pyx":1
@@ -31047,7 +31936,7 @@ if (!__Pyx_RefNanny) {
  * cdef strided = Enum("<strided and direct>") # default
  * cdef indirect = Enum("<strided and indirect>")
  */
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__38, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(3, 286, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__39, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(3, 286, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_XGOTREF(generic);
   __Pyx_DECREF_SET(generic, __pyx_t_4);
@@ -31061,7 +31950,7 @@ if (!__Pyx_RefNanny) {
  * cdef indirect = Enum("<strided and indirect>")
  * 
  */
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__39, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(3, 287, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__40, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(3, 287, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_XGOTREF(strided);
   __Pyx_DECREF_SET(strided, __pyx_t_4);
@@ -31075,7 +31964,7 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  */
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__40, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(3, 288, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__41, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(3, 288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_XGOTREF(indirect);
   __Pyx_DECREF_SET(indirect, __pyx_t_4);
@@ -31089,7 +31978,7 @@ if (!__Pyx_RefNanny) {
  * cdef indirect_contiguous = Enum("<contiguous and indirect>")
  * 
  */
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__41, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(3, 291, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__42, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(3, 291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_XGOTREF(contiguous);
   __Pyx_DECREF_SET(contiguous, __pyx_t_4);
@@ -31103,7 +31992,7 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  */
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__42, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(3, 292, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__43, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(3, 292, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_XGOTREF(indirect_contiguous);
   __Pyx_DECREF_SET(indirect_contiguous, __pyx_t_4);

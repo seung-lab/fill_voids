@@ -53,3 +53,14 @@ def test_zero_array():
   labels = np.zeros((128,128,128), dtype=np.uint8)
   fill_voids.fill(labels, in_place=True)
   assert not np.any(labels)
+
+def test_return_count():
+  labels = np.ones((10, 10, 10), dtype=bool)
+  labels[3:6,3:6,3:6] = False
+
+  filled = fill_voids.fill(labels)
+  assert np.all(filled == 1)
+
+  filled, ct = fill_voids.fill(labels, return_fill_count=True)
+  assert np.any(labels == False)
+  assert ct == 27
