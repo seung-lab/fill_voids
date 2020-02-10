@@ -159,7 +159,7 @@ void initialize_stack(
 }
 
 template <typename T>
-void _binary_fill_holes(
+void binary_fill_holes(
   T* labels, 
   const size_t sx, const size_t sy, const size_t sz
 ) {
