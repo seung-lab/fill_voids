@@ -65,7 +65,7 @@ ctypedef fused NUMBER:
   double
 
 cdef extern from "fill_voids.hpp" namespace "fill_voids":
-  cdef void _binary_fill_holes[T](
+  cdef void binary_fill_holes[T](
     T* labels, 
     size_t sx, size_t sy, size_t sz
   )
@@ -89,22 +89,22 @@ def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
   if not in_place:
     labels = np.copy(labels, order='F')
   else:
-    label = fastremap.asfortranarray(labels)
+    labels = fastremap.asfortranarray(labels)
 
   dtype = labels.dtype
 
   if dtype in (np.uint8, np.int8, np.bool):
-    _binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    binary_fill_holes[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype in (np.uint16, np.int16):
-    _binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    binary_fill_holes[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype in (np.uint32, np.int32):
-    _binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    binary_fill_holes[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype in (np.uint64, np.int64):
-    _binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    binary_fill_holes[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype == np.float32:
-    _binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    binary_fill_holes[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype == np.float64:
-    _binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+    binary_fill_holes[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   else:
     raise TypeError("Type {} not supported.".format(dtype))
 

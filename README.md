@@ -2,16 +2,25 @@
 
 # Fill Voids
 ```python
+# PYTHON
 import fill_voids
 
 img = ... # 3d binary image 
 filled_image = fill_voids.fill(img, in_place=False) # in_place allows editing of original image
-
 ```
+```cpp 
+// C++ 
+#include "fill_voids.hpp"
 
+size_t sx, sy, sz;
+sx = sy = sz = 512;
+
+uint8_t* labels = ...; // 512x512x512 binary image
+fill_voids::binary_fill_holes<uint8_t>(labels, sx, sy, sz); // modifies labels as a side effect
+```
 <p style="font-style: italics;" align="center">
-<img height=384 src="https://raw.githubusercontent.com/seung-lab/fill_voids/master/comparison.png" alt="Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 0.1 (blue) scipy 1.3.3" /><br>
-Fig. 1: Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 0.1 (blue) scipy 1.3.3. In this test, fill_voids (`in_place=False`) is significantly faster than scipy with lower memory usage. 
+<img height=384 src="https://raw.githubusercontent.com/seung-lab/fill_voids/master/comparison.png" alt="Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 1.1.0 (blue) fill_voids 1.1.0 with `in_place=True` (red) scipy 1.4.1" /><br>
+Fig. 1: Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 1.1.0 (blue) fill_voids 1.1.0 with `in_place=True` (red) scipy 1.4.1. In this test, fill_voids (`in_place=False`) is significantly faster than scipy with lower memory usage. 
 </p>
 
 This library contains a 3D void filling algorithm, similar in function to [`scipy.ndimage.morphology.binary_fill_holes`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.binary_fill_holes.html), but with an eye towards higher performance and eventually multiple label support. The SciPy hole filling algorithm only applies to binary images and uses slow serial dilations. 
@@ -35,16 +44,12 @@ pip install fill-voids --no-binary :all:
 
 ### Current Algorithm
 
-1. Allocate a uint8 zeroed 3D image that is 2 voxels larger than the binary input image along each dimension.
-2. Paint the input image into the new image such that there is a black border around it setting foreground as 2.
-3. Flood fill (six connected) from a spot on the border (arbitarily taken to be (0,0,0)) and label the flood fill as 1.
-4. Write out a binary image the same size as the input from the temporary buffer where foreground is set as buffer != 1 (i.e. 0 or 2).
+1. Raster scan and mark every foreground voxel `2` for pre-existing foreground.
+2. Raster scan each face of the current image and the first time a black pixel (`0`) is encountered after either starting or enountering a foreground pixel, add that location to a stack.
+3. Flood fill (six connected) with the visited background color (`1`) in sequence from each location in the stack that is not already foreground.
+4. Write out a binary image the same size as the input mapped as buffer != 1 (i.e. 0 or 2). This means non-visited holes and foreground will be marked as `1` for foreground and the visited background will be marked as `0`.
 
 We improve performance significantly by using libdivide to make computing x,y,z coordinates from array index faster, by scanning right and left to take advantage of machine memory speed, by only placing a neighbor on the stack when we've either just started a scan or just passed a foreground pixel while scanning.
-
-### Future Binary Version Improvements  
-
-It would be possible to skip the allocating and painting steps by walking along each side of the image and adding newly encountered voids as seed points to the stack. This reduces the memory usage to near zero.
 
 ### Multi-Label Concept
 
