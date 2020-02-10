@@ -2,13 +2,22 @@
 
 # Fill Voids
 ```python
+# PYTHON
 import fill_voids
 
 img = ... # 3d binary image 
 filled_image = fill_voids.fill(img, in_place=False) # in_place allows editing of original image
-
 ```
+```cpp 
+// C++ 
+#include "fill_voids.hpp"
 
+size_t sx, sy, sz;
+sx = sy = sz = 512;
+
+uint8_t* labels = ...; // 512x512x512 binary image
+fill_voids::binary_fill_holes<uint8_t>(labels, sx, sy, sz); // modifies labels as a side effect
+```
 <p style="font-style: italics;" align="center">
 <img height=384 src="https://raw.githubusercontent.com/seung-lab/fill_voids/master/comparison.png" alt="Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 1.1.0 (blue) fill_voids 1.1.0 with `in_place=True` (red) scipy 1.4.1" /><br>
 Fig. 1: Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 1.1.0 (blue) fill_voids 1.1.0 with `in_place=True` (red) scipy 1.4.1. In this test, fill_voids (`in_place=False`) is significantly faster than scipy with lower memory usage. 
