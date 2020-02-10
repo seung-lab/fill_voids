@@ -94,6 +94,22 @@ inline void add_neighbors(
 }
 
 template <typename T>
+inline void push_stack(
+  T* labels, const size_t loc,
+  std::stack<size_t> &stack, bool &placed
+) {
+  if (labels[loc] == 0) {
+    if (!placed) {
+      stack.push(loc);
+    }
+    placed = true;
+  }
+  else {
+    placed = false;
+  }  
+}
+
+template <typename T>
 void initialize_stack(
     T* labels, 
     const size_t sx, const size_t sy, const size_t sz,
@@ -108,26 +124,10 @@ void initialize_stack(
   for (size_t y = 0; y < sy; y++) {
     for (size_t x = 0; x < sx; x++) {
       loc = x + sx * y;
-      if (labels[loc] == 0) {
-        if (!placed_front) {
-          stack.push(loc);
-        }
-        placed_front = true;
-      }
-      else {
-        placed_front = false;
-      }
-
+      push_stack<T>(labels, loc, stack, placed_front);
+      
       loc = x + sx * y + sxy * (sz - 1);
-      if (labels[loc] == 0) {
-        if (!placed_back) {
-          stack.push(loc);
-        }
-        placed_back = true;
-      }
-      else {
-        placed_back = false;
-      }
+      push_stack<T>(labels, loc, stack, placed_back);
     }
   }
 
@@ -137,25 +137,10 @@ void initialize_stack(
   for (size_t z = 0; z < sz; z++) {
     for (size_t x = 0; x < sx; x++) {
       loc = x + sxy * z;
-      if (labels[loc] == 0) {
-        if (!placed_front) {
-          stack.push(loc);
-        }
-        placed_front = true;
-      }
-      else {
-        placed_front = false;
-      }
+      push_stack<T>(labels, loc, stack, placed_front);
+      
       loc = x + sx * (sy - 1) + sxy * z;
-      if (labels[loc] == 0) {
-        if (!placed_back) {
-          stack.push(loc);
-        }
-        placed_back = true;
-      }
-      else {
-        placed_back = false;
-      }  
+      push_stack<T>(labels, loc, stack, placed_back);
     }
   }
 
@@ -165,25 +150,10 @@ void initialize_stack(
   for (size_t z = 0; z < sz; z++) {
     for (size_t y = 0; y < sy; y++) {
       loc = sx * y + sxy * z;
-      if (labels[loc] == 0) {
-        if (!placed_front) {
-          stack.push(loc);
-        }
-        placed_front = true;
-      }
-      else {
-        placed_front = false;
-      }
+      push_stack<T>(labels, loc, stack, placed_front);
+      
       loc = (sx - 1) + sx * y + sxy * z;
-      if (labels[loc] == 0) {
-        if (!placed_back) {
-          stack.push(loc);
-        }
-        placed_back = true;
-      }
-      else {
-        placed_back = false;
-      }    
+      push_stack<T>(labels, loc, stack, placed_back); 
     }
   }
 }
