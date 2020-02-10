@@ -1,3 +1,5 @@
+import pytest 
+
 import fill_voids
 import scipy.ndimage
 from scipy.ndimage.morphology import binary_fill_holes
@@ -29,20 +31,19 @@ def test_scipy_comparison():
 
     assert np.all(fv == spy)
 
-def test_dtypes():
-  DTYPES = (
-    np.bool, np.int8, np.uint8, np.uint16, np.int16, 
-    np.int32, np.uint32, np.int64, np.uint64, 
-    np.float32, np.float64
-  )
+DTYPES = (
+  np.bool, np.int8, np.uint8, np.uint16, np.int16, 
+  np.int32, np.uint32, np.int64, np.uint64, 
+  np.float32, np.float64
+)
 
+@pytest.mark.parametrize("dtype", DTYPES)
+def test_dtypes(dtype):
   binimg = img == SEGIDS[0]
 
   comparison = fill_voids.fill(binimg, in_place=False)
-
-  for dtype in DTYPES:
-    res = fill_voids.fill(binimg.astype(dtype), in_place=False)
-    assert np.all(comparison == res)
+  res = fill_voids.fill(binimg.astype(dtype), in_place=False)
+  assert np.all(comparison == res)
 
 def test_zero_array():
   labels = np.zeros((0,), dtype=np.uint8)
@@ -64,3 +65,24 @@ def test_return_count():
   filled, ct = fill_voids.fill(labels, return_fill_count=True)
   assert np.any(labels == False)
   assert ct == 27
+
+@pytest.mark.parametrize("dimension", [1,2,3,4,5,6])
+def test_dimensions(dimension):
+  size = [5] * dimension
+  for i in range(3, dimension):
+    size[i] = 1
+
+  labels = np.ones(size, dtype=np.uint8)
+  labels = fill_voids.fill(labels)
+  assert labels.ndim == dimension
+
+  if dimension <= 3:
+    return
+    
+  size[dimension - 1] = 2
+  labels = np.ones(size, dtype=np.uint8)
+  try:
+    labels = fill_voids.fill(labels)
+    assert False 
+  except fill_voids.DimensionError:
+    pass
