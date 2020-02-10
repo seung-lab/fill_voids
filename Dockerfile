@@ -1,9 +1,9 @@
 FROM quay.io/pypa/manylinux1_x86_64
 MAINTAINER William Silversmith
 
-ADD . /cc3d
+ADD . /fill_voids
 
-WORKDIR "/cc3d"
+WORKDIR "/fill_voids"
 
 ENV CC "g++"
 
