@@ -7,6 +7,7 @@ import fill_voids
 
 img = ... # 3d binary image 
 filled_image = fill_voids.fill(img, in_place=False) # in_place allows editing of original image
+filled_image, N = fill_voids.fill(img, return_fill_count=True) # returns number of voxels filled in
 ```
 ```cpp 
 // C++ 
@@ -16,7 +17,9 @@ size_t sx, sy, sz;
 sx = sy = sz = 512;
 
 uint8_t* labels = ...; // 512x512x512 binary image
-fill_voids::binary_fill_holes<uint8_t>(labels, sx, sy, sz); // modifies labels as a side effect
+
+// modifies labels as a side effect, returns number of voxels filled in
+size_t fill_ct = fill_voids::binary_fill_holes<uint8_t>(labels, sx, sy, sz); 
 ```
 <p style="font-style: italics;" align="center">
 <img height=384 src="https://raw.githubusercontent.com/seung-lab/fill_voids/master/comparison.png" alt="Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 1.1.0 (blue) fill_voids 1.1.0 with `in_place=True` (red) scipy 1.4.1" /><br>
