@@ -109,6 +109,18 @@ inline void push_stack(
   }  
 }
 
+/* The idea here is to scan the six faces
+ * of the image and insert an exploration
+ * point into the stack whenever an exterior  
+ * void (defined as touching the edge of the 
+ * image) is first encountered.
+ *
+ * This is a lower memory version of the previous
+ * logic, which copied the entire image into a buffer 
+ * with a 1 pixel black border and explored from <0,0,0> 
+ * which exploits the knowledge that that border touches
+ * everything and will find those exterior voids automatically.
+ */
 template <typename T>
 void initialize_stack(
     T* labels, 
@@ -151,7 +163,7 @@ void initialize_stack(
     for (size_t y = 0; y < sy; y++) {
       loc = sx * y + sxy * z;
       push_stack<T>(labels, loc, stack, placed_front);
-      
+
       loc = (sx - 1) + sx * y + sxy * z;
       push_stack<T>(labels, loc, stack, placed_back); 
     }
