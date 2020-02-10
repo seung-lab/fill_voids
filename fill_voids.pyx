@@ -89,7 +89,7 @@ def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
   if not in_place:
     labels = np.copy(labels, order='F')
   else:
-    label = fastremap.asfortranarray(labels)
+    labels = fastremap.asfortranarray(labels)
 
   dtype = labels.dtype
 
