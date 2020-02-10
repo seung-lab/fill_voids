@@ -70,6 +70,9 @@ cdef extern from "fill_voids.hpp" namespace "fill_voids":
     size_t sx, size_t sy, size_t sz
   )
 
+class DimensionError(Exception):
+  pass
+
 def fill(labels, in_place=False, return_fill_count=False):
   """
   fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False)
@@ -87,15 +90,33 @@ def fill(labels, in_place=False, return_fill_count=False):
   else:
     Return: IMG
   """
-  if labels.size == 0:
-    if return_fill_count:
-      return (labels, 0)
+  ndim = labels.ndim 
+  shape = labels.shape 
+
+  while labels.ndim < 3:
+    labels = labels[..., np.newaxis]
+  while labels.ndim > 3:
+    if labels.shape[-1] == 1:
+      labels = labels[..., 0]
     else:
-      return labels
+      raise DimensionError("The input volume must be (effectively) a 1D, 2D or 3D image: " + str(shape))
 
-  return _fill(labels, in_place, return_fill_count)
+  if labels.size == 0:
+    num_filled = 0
+  else:
+    (labels, num_filled) = _fill(labels, in_place)
 
-def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False):
+  while labels.ndim > ndim:
+    labels = labels[..., 0]
+  while labels.ndim < ndim:
+    labels = labels[..., np.newaxis]
+
+  if return_fill_count:
+    return (labels, num_filled)
+  else:
+    return labels
+
+def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
   if not in_place:
     labels = np.copy(labels, order='F')
   else:
@@ -120,9 +141,7 @@ def _fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_
   else:
     raise TypeError("Type {} not supported.".format(dtype))
 
-  if return_fill_count:
-    return (labels, num_filled)
-  return labels
+  return (labels, num_filled)
 
 def void_shard():
   """??? what's this ???"""
