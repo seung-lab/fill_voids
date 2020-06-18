@@ -40,6 +40,56 @@
 namespace fill_voids {
 
 template <typename T>
+inline void push_stack(
+  T* labels, const size_t loc,
+  std::stack<size_t> &stack, bool &placed
+) {
+  if (labels[loc] == 0) {
+    if (!placed) {
+      stack.push(loc);
+    }
+    placed = true;
+  }
+  else {
+    placed = false;
+  }  
+}
+
+template <typename T>
+inline void add_neighbors(
+  T* visited, std::stack<size_t> &stack,
+  const size_t sx, const size_t sy,
+  const size_t cur, const size_t y,
+  bool &yplus, bool &yminus
+) {
+  const size_t sxyv = sx * sy;
+
+  // Only add a seed point if we've just 
+  // started OR have just passed a foreground
+  // voxel.
+
+  if (y > 0) {
+    if (visited[cur-sx]) {
+      yminus = yminus || (visited[cur-sx] == FOREGROUND);
+    }
+    else if (yminus) {
+      stack.push( cur - sx );
+      yminus = false;
+    }
+  }
+
+  if (y < sy - 1) {
+    if (visited[cur+sx]) {
+      yplus = yplus || (visited[cur+sx] == FOREGROUND);
+    }
+    else if (yplus) {
+      stack.push( cur + sx );
+      yplus = false;
+    }
+  }
+}
+
+template <typename T>
 inline void add_neighbors(
   T* visited, std::stack<size_t> &stack,
   const size_t sx, const size_t sy, const size_t sz, 
@@ -93,20 +143,41 @@ inline void add_neighbors(
   }
 }
 
+/* The idea here is to scan the four sides
+ * of the image and insert an exploration
+ * point into the stack whenever an exterior  
+ * void (defined as touching the edge of the 
+ * image) is first encountered.
+ */
 template <typename T>
-inline void push_stack(
-  T* labels, const size_t loc,
-  std::stack<size_t> &stack, bool &placed
-) {
-  if (labels[loc] == 0) {
-    if (!placed) {
-      stack.push(loc);
-    }
-    placed = true;
+void initialize_stack(
+    T* labels, 
+    const size_t sx, const size_t sy,
+    std::stack<size_t> &stack
+  ) {
+
+  bool placed_front = false;
+  bool placed_back = false;
+
+  size_t loc;
+  for (size_t x = 0; x < sx; x++) {
+    loc = x;
+    push_stack<T>(labels, loc, stack, placed_front);
+    
+    loc = x + sx * (sy - 1);
+    push_stack<T>(labels, loc, stack, placed_back);
   }
-  else {
-    placed = false;
-  }  
+
+  placed_front = false;
+  placed_back = false;
+
+  for (size_t y = 0; y < sy; y++) {
+    loc = sx * y;
+    push_stack<T>(labels, loc, stack, placed_front);
+    
+    loc = (sx - 1) + sx * y;
+    push_stack<T>(labels, loc, stack, placed_back);
+  }
 }
 
 /* The idea here is to scan the six faces
@@ -171,7 +242,88 @@ void initialize_stack(
 }
 
 template <typename T>
-size_t binary_fill_holes(
+size_t binary_fill_holes2d(
+  T* labels, 
+  const size_t sx, const size_t sy
+) {
+
+  const size_t sxy = sx * sy;
+  const size_t voxels = sx * sy;
+
+  if (voxels == 0) {
+    return 0;
+  }
+
+  // mark all foreground as 2 (FOREGROUND) 
+  // so we can mark visited as 1 (VISITED_BACKGROUND) 
+  // without overwriting foreground as we want foreground 
+  // to be 2 and voids to be 0 (BACKGROUND)
+  for (size_t i = 0; i < voxels; i++) {
+    labels[i] = static_cast<T>(static_cast<uint8_t>(labels[i] != 0) * 2);
+  }
+
+  const libdivide::divider<size_t> fast_sx(sx); 
+
+  std::stack<size_t> stack; 
+  initialize_stack(labels, sx, sy, stack);
+
+  while (!stack.empty()) {
+    size_t loc = stack.top();
+    stack.pop();
+
+    if (labels[loc]) {
+      continue;
+    }
+
+    size_t y = loc / fast_sx;
+    size_t x = (loc - (y * sx));
+    size_t startx = y * sx;
+
+    bool yplus = true;
+    bool yminus = true;
+
+    for (size_t cur = loc; cur < startx + sx; cur++) {
+      if (labels[cur]) {
+        break;
+      }
+      labels[cur] = VISITED_BACKGROUND;
+      add_neighbors<T>(
+        labels, stack,
+        sx, sy, 
+        cur, y,
+        yplus, yminus
+      );
+    }
+
+    yplus = true;
+    yminus = true;
+
+    // avoid integer underflow
+    for (int64_t cur = static_cast<int64_t>(loc) - 1; cur >= static_cast<int64_t>(startx); cur--) {
+      if (labels[cur]) {
+        break;
+      }
+      labels[cur] = VISITED_BACKGROUND;
+      add_neighbors<T>(
+        labels, stack,
+        sx, sy,
+        cur, y,
+        yplus, yminus
+      );
+    }    
+  }
+
+  size_t num_filled = 0;
+  for (size_t i = 0; i < voxels; i++) {
+    num_filled += static_cast<size_t>(labels[i] == BACKGROUND);
+    labels[i] = static_cast<T>(labels[i] != VISITED_BACKGROUND);
+  }
+
+  return num_filled;
+}
+
+template <typename T>
+size_t binary_fill_holes3d(
   T* labels, 
   const size_t sx, const size_t sy, const size_t sz
 ) {

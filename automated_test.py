@@ -11,7 +11,7 @@ import numpy as np
 img = np.load('test_data.npy')
 SEGIDS = np.unique(img)[1:]
 
-def test_scipy_comparison():
+def test_scipy_comparison3d():
   segids = np.copy(SEGIDS)
   np.random.shuffle(segids)
 
@@ -30,6 +30,45 @@ def test_scipy_comparison():
     spy = binary_fill_holes(binimg)
 
     assert np.all(fv == spy)
+
+def test_scipy_comparison2d():
+  segids = np.copy(SEGIDS)
+  np.random.shuffle(segids)
+
+  for segid in tqdm(segids[:10]):
+    print(segid)
+    for z in tqdm(range(img.shape[2])):
+      binimg = img[:,:,z] == segid
+
+      orig_binimg = np.copy(binimg, order='F')
+      fv = fill_voids.fill(binimg, in_place=False)
+      fvip = fill_voids.fill(binimg, in_place=True)
+
+      assert np.all(fv == fvip)
+
+      spy = binary_fill_holes(binimg)
+
+      assert np.all(fv == spy)
+
+def test_2d_3d_differ():
+  labels = np.zeros((10,10), dtype=np.bool)
+  labels[1:9,1:9] = True
+  labels[4:8,4:8] = False
+
+  expected_result2d = np.zeros((10,10), dtype=np.bool)
+  expected_result2d[1:9,1:9] = True
+
+  expected_result3d = np.copy(labels).reshape(10,10,1)
+
+  filled_labels, N = fill_voids.fill(labels, in_place=False, return_fill_count=True)
+  assert N == 16
+  assert np.all(filled_labels == expected_result2d)
+
+  labels = labels[..., np.newaxis]
+  
+  filled_labels, N = fill_voids.fill(labels, in_place=False, return_fill_count=True)
+  assert N == 0
+  assert np.all(filled_labels == expected_result3d)
 
 DTYPES = (
   np.bool, np.int8, np.uint8, np.uint16, np.int16, 
