@@ -101,6 +101,10 @@ def fill(labels, in_place=False, return_fill_count=False):
     else:
       raise DimensionError("The input volume must be (effectively) a 1D, 2D or 3D image: " + str(shape))
 
+  dtype = labels.dtype
+  if labels.dtype == np.bool:
+    labels = labels.view(np.uint8)
+
   if labels.size == 0:
     num_filled = 0
   else:
@@ -110,6 +114,8 @@ def fill(labels, in_place=False, return_fill_count=False):
     labels = labels[..., 0]
   while labels.ndim < ndim:
     labels = labels[..., np.newaxis]
+
+  labels = labels.view(dtype)
 
   if return_fill_count:
     return (labels, num_filled)
