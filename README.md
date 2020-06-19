@@ -5,7 +5,7 @@
 # PYTHON
 import fill_voids
 
-img = ... # 3d binary image 
+img = ... # 2d or 3d binary image 
 filled_image = fill_voids.fill(img, in_place=False) # in_place allows editing of original image
 filled_image, N = fill_voids.fill(img, return_fill_count=True) # returns number of voxels filled in
 ```
@@ -19,17 +19,19 @@ sx = sy = sz = 512;
 uint8_t* labels = ...; // 512x512x512 binary image
 
 // modifies labels as a side effect, returns number of voxels filled in
-size_t fill_ct = fill_voids::binary_fill_holes<uint8_t>(labels, sx, sy, sz); 
+size_t fill_ct = fill_voids::binary_fill_holes<uint8_t>(labels, sx, sy, sz); // 3D
+
+// let labels now represent a 512x512 2D image
+size_t fill_ct = fill_voids::binary_fill_holes<uint8_t>(labels, sx, sy); // 2D
 ```
 <p style="font-style: italics;" align="center">
 <img height=384 src="https://raw.githubusercontent.com/seung-lab/fill_voids/master/comparison.png" alt="Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 1.1.0 (blue) fill_voids 1.1.0 with `in_place=True` (red) scipy 1.4.1" /><br>
 Fig. 1: Filling five labels using SciPy binary_fill_holes vs fill_voids from a 512x512x512 densely labeled connectomics segmentation. (black) fill_voids 1.1.0 (blue) fill_voids 1.1.0 with `in_place=True` (red) scipy 1.4.1. In this test, fill_voids (`in_place=False`) is significantly faster than scipy with lower memory usage. 
 </p>
 
-This library contains a 3D void filling algorithm, similar in function to [`scipy.ndimage.morphology.binary_fill_holes`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.binary_fill_holes.html), but with an eye towards higher performance and eventually multiple label support. The SciPy hole filling algorithm only applies to binary images and uses slow serial dilations. 
+This library contains both 2D and 3D void filling algorithms, similar in function to [`scipy.ndimage.morphology.binary_fill_holes`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.binary_fill_holes.html), but with an eye towards higher performance. The SciPy hole filling algorithm uses slow serial dilations. 
 
-The current version of this library uses a scan line flood fill of the background labels and 
-then labels everything not filled as foreground.
+The current version of this library uses a scan line flood fill of the background labels and then labels everything not filled as foreground.
 
 ### pip Installation 
 
