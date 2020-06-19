@@ -62,8 +62,6 @@ inline void add_neighbors(
   const size_t cur, const size_t y,
   bool &yplus, bool &yminus
 ) {
-  const size_t sxyv = sx * sy;
-
   // Only add a seed point if we've just 
   // started OR have just passed a foreground
   // voxel.
@@ -246,8 +244,7 @@ size_t binary_fill_holes2d(
   T* labels, 
   const size_t sx, const size_t sy
 ) {
-
-  const size_t sxy = sx * sy;
+  
   const size_t voxels = sx * sy;
 
   if (voxels == 0) {
@@ -276,7 +273,6 @@ size_t binary_fill_holes2d(
     }
 
     size_t y = loc / fast_sx;
-    size_t x = (loc - (y * sx));
     size_t startx = y * sx;
 
     bool yplus = true;
