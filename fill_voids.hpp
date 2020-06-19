@@ -404,6 +404,21 @@ size_t binary_fill_holes3d(
   return num_filled;
 }
 
+template <typename T>
+size_t binary_fill_holes(
+  T* labels, 
+  const size_t sx, const size_t sy, const size_t sz
+) {
+  return binary_fill_holes3d<T>(labels, sx, sy, sz);
+}
+
+template <typename T>
+size_t binary_fill_holes(
+  T* labels, 
+  const size_t sx, const size_t sy
+) {
+  return binary_fill_holes2d<T>(labels, sx, sy);
+}
 
 };
 
