@@ -39,7 +39,7 @@ The current version of this library uses a scan line flood fill of the backgroun
 pip install fill-voids
 ```
 
-If there's not binary for your platform and you have a C++ compiler try:
+If there's no binary for your platform and you have a C++ compiler try:
 
 ```bash 
 sudo apt-get install python3-dev # This is for Ubuntu, but whatever is appropriate for you
