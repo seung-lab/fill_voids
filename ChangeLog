@@ -1,0 +1,47 @@
+CHANGES
+=======
+
+* chore: change dockerfile to reflect requirements\_test.txt -> requirements\_dev.txt
+* docs: mention 2d version, remove implication of multi-label coming soon
+* refactor: make cpp interface nicer
+* chore: remove unused variables
+
+2.0.0
+-----
+
+* fix: inconsistency with TypeError and DimensionError
+* chore: add appveyor for windows binaries
+* chore: adding tox, cleanup Dockerfile
+* feat: adds support for 2d images
+* fix: handle bool type properly on MacOS
+
+1.1.0
+-----
+
+* refactor: update Dockerfile to use a more sensible directory structure
+* docs: show how to use return\_fill\_count
+* feat: return number of voxels filled in + 1D, 2D, and 3D support (#2)
+* perf: remove extra copy operation at the front (#1)
+* docs: add badge
+* docs: touch up wording
+* docs: add install instructions
+* docs: change summary from Kimimaro
+
+1.0.0
+-----
+
+* chore: add tqdm to test requirements
+* docs: update algorithm description
+* fix+test: throws exception on zero size array + test for it
+* fix: only assign new stack location if FOREGROUND seen
+* refactor: reduce code duplication
+* docs: adjust documentation to comport with new scanline algorithm
+* perf: reduce usage of stack
+* fix+perf: scanline version working
+* wip: scanline algorithm
+* fix: rename requirements\_test.py -> requirements\_test.txt
+* fix: add support for floating types
+* fixdocs: image display broken
+* feat: working fill\_voids
+* docs: describe algorithm and potential improvements
+* Initial commit

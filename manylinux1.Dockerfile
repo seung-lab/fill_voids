@@ -5,7 +5,7 @@ ADD . /fill_voids
 
 WORKDIR "/fill_voids"
 
-ENV CC "g++"
+ENV CXX "g++"
 
 RUN rm -rf *.so build __pycache__ dist 
 
