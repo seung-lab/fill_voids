@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+2.0.1
+-----
+
+* chore: update build system
+* chore: add 3.9 to tox
+* chore: retranspile with cython for python3.9
+* docs: fix spelling mistake
 * chore: change dockerfile to reflect requirements\_test.txt -> requirements\_dev.txt
 * docs: mention 2d version, remove implication of multi-label coming soon
 * refactor: make cpp interface nicer

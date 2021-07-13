@@ -34,7 +34,7 @@ from libc.stdint cimport (
   int8_t, int16_t, int32_t, int64_t,
   uint8_t, uint16_t, uint32_t, uint64_t
 )
-from libcpp cimport bool
+from libcpp cimport bool as native_bool
 from cpython cimport array 
 import array
 import sys
@@ -107,7 +107,7 @@ def fill(labels, in_place=False, return_fill_count=False):
       raise DimensionError("The input volume must be (effectively) a 1D, 2D or 3D image: " + str(shape))
 
   dtype = labels.dtype
-  if labels.dtype == np.bool:
+  if labels.dtype == bool:
     labels = labels.view(np.uint8)
 
   if labels.size == 0:
@@ -141,7 +141,7 @@ def _fill3d(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
 
   cdef size_t num_filled = 0
 
-  if dtype in (np.uint8, np.int8, np.bool):
+  if dtype in (np.uint8, np.int8, bool):
     num_filled = binary_fill_holes3d[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype in (np.uint16, np.int16):
     num_filled = binary_fill_holes3d[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
@@ -168,7 +168,7 @@ def _fill2d(cnp.ndarray[NUMBER, cast=True, ndim=2] labels, in_place=False):
 
   cdef size_t num_filled = 0
 
-  if dtype in (np.uint8, np.int8, np.bool):
+  if dtype in (np.uint8, np.int8, bool):
     num_filled = binary_fill_holes2d[uint8_t](<uint8_t*>&labels[0,0], labels.shape[0], labels.shape[1])
   elif dtype in (np.uint16, np.int16):
     num_filled = binary_fill_holes2d[uint16_t](<uint16_t*>&labels[0,0], labels.shape[0], labels.shape[1])
