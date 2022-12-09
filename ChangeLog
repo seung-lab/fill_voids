@@ -1,6 +1,19 @@
 CHANGES
 =======
 
+2.0.3
+-----
+
+* chore: update tox.ini
+* chore: update cpp code for py311
+
+2.0.2
+-----
+
+* chore: skip pypy2.7
+* fix: remove deprecation notice about np.bool
+* chore: add github actions
+
 2.0.1
 -----
 
