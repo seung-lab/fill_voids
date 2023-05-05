@@ -4,6 +4,7 @@ CHANGES
 2.0.3
 -----
 
+* build: update GHA for new python versions
 * chore: update tox.ini
 * chore: update cpp code for py311
 
