@@ -1,7 +1,13 @@
 #!/usr/bin/env python
 import setuptools
 
-import numpy as np
+class NumpyImport:
+  def __repr__(self):
+    import numpy as np
+
+    return np.get_include()
+
+  __fspath__ = __repr__
 
 # NOTE: If fill_voids.cpp does not exist, you must run
 # cython -3 --cplus fill_voids.pyx
@@ -16,7 +22,7 @@ setuptools.setup(
       'fill_voids',
       sources=[ 'fill_voids.cpp' ],
       language='c++',
-      include_dirs=[ np.get_include() ],
+      include_dirs=[ NumpyImport() ],
       extra_compile_args=[
         '-std=c++11', '-O3', '-ffast-math'
       ]
