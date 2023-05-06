@@ -13,14 +13,14 @@ class NumpyImport:
 # cython -3 --cplus fill_voids.pyx
 
 setuptools.setup(
-  setup_requires=['pbr', 'numpy'],
+  setup_requires=['pbr', 'numpy', 'cython'],
   extras_require={
      'test': ['scipy'],
   },
   ext_modules=[
     setuptools.Extension(
       'fill_voids',
-      sources=[ 'fill_voids.cpp' ],
+      sources=[ 'fill_voids.pyx' ],
       language='c++',
       include_dirs=[ NumpyImport() ],
       extra_compile_args=[
