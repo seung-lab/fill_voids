@@ -6,9 +6,10 @@ from scipy.ndimage.morphology import binary_fill_holes
 
 from tqdm import tqdm
 
+import crackle
 import numpy as np 
 
-img = np.load('test_data.npy')
+img = crackle.load('test_data.npy.ckl.gz')
 SEGIDS = np.unique(img)[1:]
 
 def test_scipy_comparison3d():
