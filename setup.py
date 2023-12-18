@@ -22,7 +22,7 @@ setuptools.setup(
       'fill_voids',
       sources=[ 'fill_voids.pyx' ],
       language='c++',
-      include_dirs=[ NumpyImport() ],
+      include_dirs=[ str(NumpyImport()) ],
       extra_compile_args=[
         '-std=c++11', '-O3', '-ffast-math'
       ]
