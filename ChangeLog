@@ -1,6 +1,18 @@
 CHANGES
 =======
 
+* install: fix str conversion error
+* ci: update to py312
+
+2.0.5
+-----
+
+* test: switch to using crackle compression
+* chore: update config
+* install: switch to using pyx
+* install: update numpy import
+* build: update build process for py311
+
 2.0.3
 -----
 
