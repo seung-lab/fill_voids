@@ -26,7 +26,7 @@ jobs:
         uses: pypa/cibuildwheel@v2.16.2
         # to supply options, put them in 'env', like:
         env:
-          CIBW_BEFORE_BUILD: pip install oldest-supported-numpy setuptools wheel
+          CIBW_BEFORE_BUILD: pip install oldest-supported-numpy setuptools wheel cython
 
       - uses: actions/upload-artifact@v2
         with:
