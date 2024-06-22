@@ -78,9 +78,11 @@ cdef extern from "fill_voids.hpp" namespace "fill_voids":
 class DimensionError(Exception):
   pass
 
+
+@cython.binding(True)
 def fill(labels, in_place=False, return_fill_count=False):
   """
-  fill(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False, return_fill_count=False)
+  Fills holes in a 1D, 2D, or 3D binary image.
 
   labels: a binary valued numpy array of any common 
     integer or floating dtype
