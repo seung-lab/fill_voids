@@ -6,7 +6,7 @@ on:
     tags:
       - '*'
 env:
-  CIBW_SKIP: cp27-* cp33-* cp34-* cp35-* pp27* pp36* pp37*
+  CIBW_SKIP: pp37*
 
 jobs:
   build_wheels:
@@ -14,7 +14,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-2019]
+        os: [ubuntu-latest, macos-latest, windows-2019]
         arch: [auto]
         include:
           - os: ubuntu-latest
@@ -23,10 +23,10 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Build wheels
-        uses: pypa/cibuildwheel@v2.16.2
+        uses: pypa/cibuildwheel@v2.19.1
         # to supply options, put them in 'env', like:
         env:
-          CIBW_BEFORE_BUILD: pip install oldest-supported-numpy setuptools wheel cython
+          CIBW_BEFORE_BUILD: pip install numpy setuptools wheel cython
 
       - uses: actions/upload-artifact@v2
         with:
