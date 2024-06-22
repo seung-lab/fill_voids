@@ -4,6 +4,10 @@ CHANGES
 2.0.6
 -----
 
+* build: add macbuild.zsh script
+* build: upgrading build env
+* build: use tox more correctly
+* ci: skip macos for now
 * build: update build system
 * install: fix str conversion error
 * ci: update to py312
