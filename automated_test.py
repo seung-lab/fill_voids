@@ -2,7 +2,7 @@ import pytest
 
 import fill_voids
 import scipy.ndimage
-from scipy.ndimage.morphology import binary_fill_holes
+from scipy.ndimage import binary_fill_holes
 
 from tqdm import tqdm
 
@@ -19,7 +19,7 @@ def test_scipy_comparison3d():
   for segid in tqdm(segids[:10]):
     print(segid)
     binimg = img == segid
-    slices = scipy.ndimage.find_objects(binimg)[0]
+    slices = scipy.ndimage.find_objects(binimg.view(np.uint8))[0]
     binimg = binimg[slices]
 
     orig_binimg = np.copy(binimg, order='F')
