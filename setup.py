@@ -19,8 +19,8 @@ setuptools.setup(
   },
   ext_modules=[
     setuptools.Extension(
-      'fill_voids',
-      sources=[ 'fill_voids.pyx' ],
+      'fill_voids.fill_voids',
+      sources=[ 'fill_voids/fill_voids.pyx' ],
       language='c++',
       include_dirs=[ str(NumpyImport()) ],
       extra_compile_args=[
@@ -28,6 +28,7 @@ setuptools.setup(
       ]
     ),
   ],
+  packages=setuptools.find_packages(),
   long_description_content_type='text/markdown',
   pbr=True,
 )
