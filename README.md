@@ -1,4 +1,4 @@
-[![PyPI version](https://badge.fury.io/py/fill-voids.svg)](https://badge.fury.io/py/fill-voids)  
+[![PyPI version](https://badge.fury.io/py/fill-voids.svg)](https://badge.fury.io/py/fill-voids) [![Tests](https://github.com/seung-lab/fill_voids/actions/workflows/test.yml/badge.svg)](https://github.com/seung-lab/fill_voids/actions/workflows/test.yml)
 
 # Fill Voids
 ```python
