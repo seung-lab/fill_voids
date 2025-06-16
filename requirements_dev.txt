@@ -3,3 +3,4 @@ scipy
 tqdm
 tox
 crackle-codec
+mypy
