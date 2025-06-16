@@ -2,7 +2,7 @@ import pytest
 
 import fill_voids
 import scipy.ndimage
-from scipy.ndimage.morphology import binary_fill_holes
+from scipy.ndimage import binary_fill_holes
 
 from tqdm import tqdm
 
@@ -18,7 +18,7 @@ def test_scipy_comparison3d():
 
   for segid in tqdm(segids[:10]):
     print(segid)
-    binimg = img == segid
+    binimg = (img == segid).view(np.uint8)
     slices = scipy.ndimage.find_objects(binimg)[0]
     binimg = binimg[slices]
 
@@ -52,11 +52,11 @@ def test_scipy_comparison2d():
       assert np.all(fv == spy)
 
 def test_2d_3d_differ():
-  labels = np.zeros((10,10), dtype=np.bool)
+  labels = np.zeros((10,10), dtype=bool)
   labels[1:9,1:9] = True
   labels[4:8,4:8] = False
 
-  expected_result2d = np.zeros((10,10), dtype=np.bool)
+  expected_result2d = np.zeros((10,10), dtype=bool)
   expected_result2d[1:9,1:9] = True
 
   expected_result3d = np.copy(labels).reshape(10,10,1)
@@ -72,7 +72,7 @@ def test_2d_3d_differ():
   assert np.all(filled_labels == expected_result3d)
 
 DTYPES = (
-  np.bool, np.int8, np.uint8, np.uint16, np.int16, 
+  bool, np.int8, np.uint8, np.uint16, np.int16, 
   np.int32, np.uint32, np.int64, np.uint64, 
   np.float32, np.float64
 )
