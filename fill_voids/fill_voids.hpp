@@ -20,6 +20,9 @@
  * Date: December 2019 - Februrary 2020
  */
 
+#ifndef FILLVOIDS_HPP
+#define FILLVOIDS_HPP
+
 #include <algorithm>
 #include <cmath>
 #include <cstdio>
@@ -30,14 +33,13 @@
 
 #include "libdivide.h"
 
-#ifndef FILLVOIDS_HPP
-#define FILLVOIDS_HPP
-
-#define BACKGROUND 0
-#define VISITED_BACKGROUND 1
-#define FOREGROUND 2
-
 namespace fill_voids {
+
+enum Label {
+  BACKGROUND = 0,
+  VISITED_BACKGROUND = 1,
+  FOREGROUND = 2
+};
 
 template <typename T>
 inline void push_stack(
@@ -68,7 +70,7 @@ inline void add_neighbors(
 
   if (y > 0) {
     if (visited[cur-sx]) {
-      yminus = yminus || (visited[cur-sx] == FOREGROUND);
+      yminus = yminus || (visited[cur-sx] == Label::FOREGROUND);
     }
     else if (yminus) {
       stack.push( cur - sx );
@@ -78,7 +80,7 @@ inline void add_neighbors(
 
   if (y < sy - 1) {
     if (visited[cur+sx]) {
-      yplus = yplus || (visited[cur+sx] == FOREGROUND);
+      yplus = yplus || (visited[cur+sx] == Label::FOREGROUND);
     }
     else if (yplus) {
       stack.push( cur + sx );
@@ -102,7 +104,7 @@ inline void add_neighbors(
 
   if (y > 0) {
     if (visited[cur-sx]) {
-      yminus = yminus || (visited[cur-sx] == FOREGROUND);
+      yminus = yminus || (visited[cur-sx] == Label::FOREGROUND);
     }
     else if (yminus) {
       stack.push( cur - sx );
@@ -112,7 +114,7 @@ inline void add_neighbors(
 
   if (y < sy - 1) {
     if (visited[cur+sx]) {
-      yplus = yplus || (visited[cur+sx] == FOREGROUND);
+      yplus = yplus || (visited[cur+sx] == Label::FOREGROUND);
     }
     else if (yplus) {
       stack.push( cur + sx );
@@ -122,7 +124,7 @@ inline void add_neighbors(
 
   if (z > 0) {
     if (visited[cur-sxyv]) {
-      zminus = zminus || (visited[cur-sxyv] == FOREGROUND);
+      zminus = zminus || (visited[cur-sxyv] == Label::FOREGROUND);
     }
     else if (zminus) {
       stack.push( cur - sxyv );
@@ -132,7 +134,7 @@ inline void add_neighbors(
 
   if (z < sz - 1) {
     if (visited[cur+sxyv]) {
-      zplus = zplus || (visited[cur+sxyv] == FOREGROUND);
+      zplus = zplus || (visited[cur+sxyv] == Label::FOREGROUND);
     }
     else if (zplus) {
       stack.push( cur + sxyv );
@@ -282,7 +284,7 @@ size_t binary_fill_holes2d(
       if (labels[cur]) {
         break;
       }
-      labels[cur] = VISITED_BACKGROUND;
+      labels[cur] = Label::VISITED_BACKGROUND;
       add_neighbors<T>(
         labels, stack,
         sx, sy, 
@@ -299,7 +301,7 @@ size_t binary_fill_holes2d(
       if (labels[cur]) {
         break;
       }
-      labels[cur] = VISITED_BACKGROUND;
+      labels[cur] = Label::VISITED_BACKGROUND;
       add_neighbors<T>(
         labels, stack,
         sx, sy,
@@ -311,8 +313,8 @@ size_t binary_fill_holes2d(
 
   size_t num_filled = 0;
   for (size_t i = 0; i < voxels; i++) {
-    num_filled += static_cast<size_t>(labels[i] == BACKGROUND);
-    labels[i] = static_cast<T>(labels[i] != VISITED_BACKGROUND);
+    num_filled += static_cast<size_t>(labels[i] == Label::BACKGROUND);
+    labels[i] = static_cast<T>(labels[i] != Label::VISITED_BACKGROUND);
   }
 
   return num_filled;
@@ -366,7 +368,7 @@ size_t binary_fill_holes3d(
       if (labels[cur]) {
         break;
       }
-      labels[cur] = VISITED_BACKGROUND;
+      labels[cur] = Label::VISITED_BACKGROUND;
       add_neighbors<T>(
         labels, stack,
         sx, sy, sz, 
@@ -385,7 +387,7 @@ size_t binary_fill_holes3d(
       if (labels[cur]) {
         break;
       }
-      labels[cur] = VISITED_BACKGROUND;
+      labels[cur] = Label::VISITED_BACKGROUND;
       add_neighbors<T>(
         labels, stack,
         sx, sy, sz, 
@@ -397,8 +399,8 @@ size_t binary_fill_holes3d(
 
   size_t num_filled = 0;
   for (size_t i = 0; i < voxels; i++) {
-    num_filled += static_cast<size_t>(labels[i] == BACKGROUND);
-    labels[i] = static_cast<T>(labels[i] != VISITED_BACKGROUND);
+    num_filled += static_cast<size_t>(labels[i] == Label::BACKGROUND);
+    labels[i] = static_cast<T>(labels[i] != Label::VISITED_BACKGROUND);
   }
 
   return num_filled;
@@ -421,9 +423,5 @@ size_t binary_fill_holes(
 }
 
 };
-
-#undef BACKGROUND
-#undef VISITED_BACKGROUND
-#undef FOREGROUND
 
 #endif
