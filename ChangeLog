@@ -1,6 +1,20 @@
 CHANGES
 =======
 
+2.1.1
+-----
+
+* ci: don't built py314 just yet
+* ci: don't test py314 just yet
+* ci: skip x64 testing
+* ci: don't test py314 on windows
+* ci: test on py314
+* ci: bump windows to latest
+* ci: update cibuildwheel to 3.1.4
+* chore: update AUTHORS and ChangeLog
+* chore: update libdivide.h to latest
+* refactor: move macro definitions to enum
+
 2.1.0
 -----
 

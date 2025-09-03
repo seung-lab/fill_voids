@@ -32,7 +32,7 @@ jobs:
         env:
           CIBW_BEFORE_BUILD: pip install numpy cython setuptools wheel pkginfo twine
           CIBW_ARCHS_MACOS: "x86_64 arm64"
-          CIBW_ARCHS: auto64
+          CIBW_ARCHS: ${{ matrix.arch == 'aarch64' && 'aarch64' || 'auto64' }}
 
       - name: Upload built wheels
         uses: actions/upload-artifact@v4
