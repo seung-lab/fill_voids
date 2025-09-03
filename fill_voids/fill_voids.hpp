@@ -136,12 +136,12 @@ public:
 // modify this pass to also ensure that the output labels are
 // numbered from 1 sequentially.
 int64_t relabel(
-    uint8_t* out_labels, 
-    uint32_t* provisional,
-    const int64_t sx, const int64_t sy, const int64_t sz,
-    const int64_t num_labels, 
-    DisjointSet<uint32_t> &equivalences
-  ) {
+  uint8_t* out_labels, 
+  uint32_t* provisional,
+  const int64_t sx, const int64_t sy, const int64_t sz,
+  const int64_t num_labels, 
+  DisjointSet<uint32_t> &equivalences
+) {
 
   if (num_labels == 1) {
     return 0;
@@ -149,7 +149,6 @@ int64_t relabel(
 
   uint32_t label;
   std::unique_ptr<uint8_t[]> renumber(new uint8_t[num_labels + 1]());
-  uint32_t next_label = 1;
 
   for (int64_t i = 1; i <= num_labels; i++) {
     label = equivalences.root(i);
@@ -283,7 +282,7 @@ auto binary_fill_holes3d_ccl(
     }
   }
 
-  const int64_t final_foreground_count = relabel(out_labels, provisional, sx, sy, sz, equivalences);
+  const int64_t final_foreground_count = relabel(out_labels, provisional.get(), sx, sy, sz, next_label, equivalences);
   const int64_t num_filled = final_foreground_count - foreground_count;
 
   return std::make_tuple(out_labels, num_filled);
