@@ -6,7 +6,7 @@ on:
     tags:
       - '*'
 env:
-  CIBW_SKIP: pp*
+  CIBW_SKIP: pp* cp314*
 
 jobs:
   build_wheels:
