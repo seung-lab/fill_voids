@@ -167,18 +167,14 @@ int64_t relabel(
 }
 
 template <typename T>
-auto binary_fill_holes3d_ccl(
+int64_t binary_fill_holes3d_ccl(
     T* in_labels, 
     const int64_t sx, const int64_t sy, const int64_t sz,
-    uint8_t* out_labels = NULL
+    uint8_t* out_labels
 ) {
 
   const int64_t sxy = sx * sy;
   const int64_t voxels = sxy * sz;
-
-  if (out_labels == NULL) {
-    out_labels = new uint8_t[voxels]();
-  }
 
   DisjointSet<uint32_t> equivalences((voxels >> 1) + 1);
   std::unique_ptr<uint32_t[]> provisional(new uint32_t[voxels]());
@@ -221,10 +217,10 @@ auto binary_fill_holes3d_ccl(
 
         const T cur = in_labels[loc];
 
-        if (x > 0 && in_labels[loc + M]) {
+        if (x > 0 && cur == in_labels[loc + M]) {
           provisional[loc] = provisional[loc + M];
 
-          if (y > 0 && in_labels[loc + K] && cur != in_labels[loc + J]) {
+          if (y > 0 && cur == in_labels[loc + K] && cur != in_labels[loc + J]) {
             equivalences.unify(provisional[loc], provisional[loc + K]); 
             if (z > 0 && in_labels[loc + E]) {
               if (cur != in_labels[loc + D] && cur != in_labels[loc + B]) {
@@ -232,18 +228,18 @@ auto binary_fill_holes3d_ccl(
               }
             }
           }
-          else if (z > 0 && in_labels[loc + E] && cur != in_labels[loc + D]) {
+          else if (z > 0 && cur == in_labels[loc + E] && cur != in_labels[loc + D]) {
             equivalences.unify(provisional[loc], provisional[loc + E]); 
           }
         }
-        else if (y > 0 && in_labels[loc + K]) {
+        else if (y > 0 && cur == in_labels[loc + K]) {
           provisional[loc] = provisional[loc + K];
 
-          if (z > 0 && in_labels[loc + E] && cur != in_labels[loc + B]) {
+          if (z > 0 && cur == in_labels[loc + E] && cur != in_labels[loc + B]) {
             equivalences.unify(provisional[loc], provisional[loc + E]); 
           }
         }
-        else if (z > 0 && in_labels[loc + E]) {
+        else if (z > 0 && cur == in_labels[loc + E]) {
           provisional[loc] = provisional[loc + E];
         }
         else {
@@ -285,7 +281,7 @@ auto binary_fill_holes3d_ccl(
   const int64_t final_foreground_count = relabel(out_labels, provisional.get(), sx, sy, sz, next_label, equivalences);
   const int64_t num_filled = final_foreground_count - foreground_count;
 
-  return std::make_tuple(out_labels, num_filled);
+  return num_filled;
 }
 
 template <typename T>

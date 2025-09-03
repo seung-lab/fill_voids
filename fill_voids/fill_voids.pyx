@@ -89,6 +89,7 @@ def fill(
   labels, 
   in_place=False, 
   return_fill_count=False,
+  use_ccl=False,
 ):
   """
   Fills holes in a 1D, 2D, or 3D binary image.
@@ -126,7 +127,10 @@ def fill(
   elif labels.ndim == 2:
     (labels, num_filled) = _fill2d(labels, in_place)
   elif labels.ndim == 3:
-    (labels, num_filled) = _fill3d(labels, in_place)
+    if use_ccl:
+      (labels, num_filled) = _fill3d_ccl(labels, in_place)
+    else:
+      (labels, num_filled) = _fill3d(labels, in_place)
   else:
     raise DimensionError("fill_voids only handles 1D, 2D, and 3D data. Got: " + str(shape))
 
