@@ -1,6 +1,29 @@
 CHANGES
 =======
 
+2.1.0
+-----
+
+* CI: Added automated testing (#12)
+* Add typing support (#11)
+* install: fix license metadata
+* fixtest: get test to run
+* install: remove --fast-math
+
+2.0.8
+-----
+
+* ci: update build
+* license: change license to LGPLv3+
+
+2.0.7
+-----
+
+* feat: better help message
+* ci: don't process pypy
+* ci: skip pp310
+* ci: setup for numpy 2.0
+
 2.0.6
 -----
 
