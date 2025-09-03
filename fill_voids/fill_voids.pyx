@@ -73,6 +73,11 @@ cdef extern from "fill_voids.hpp" namespace "fill_voids":
     T* labels, 
     size_t sx, size_t sy, size_t sz
   )
+  cdef size_t binary_fill_holes3d_ccl[T](
+    T* labels, 
+    size_t sx, size_t sy, size_t sz,
+    uint8_t* out
+  )
 
 
 class DimensionError(Exception):
@@ -80,7 +85,11 @@ class DimensionError(Exception):
 
 
 @cython.binding(True)
-def fill(labels, in_place=False, return_fill_count=False):
+def fill(
+  labels, 
+  in_place=False, 
+  return_fill_count=False,
+):
   """
   Fills holes in a 1D, 2D, or 3D binary image.
 
@@ -155,6 +164,31 @@ def _fill3d(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
     num_filled = binary_fill_holes3d[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
   elif dtype == np.float64:
     num_filled = binary_fill_holes3d[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2])
+  else:
+    raise TypeError("Type {} not supported.".format(dtype))
+
+  return (labels, num_filled)
+
+def _fill3d_ccl(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
+  labels = fastremap.asfortranarray(labels)
+  cdef cnp.ndarray[uint8_t, ndim=3] out = np.zeros([ labels.shape[0], labels.shape[1], labels.shape[2] ], dtype=bool, order="F")
+
+  dtype = labels.dtype
+
+  cdef size_t num_filled = 0
+
+  if dtype in (np.uint8, np.int8, bool):
+    num_filled = binary_fill_holes3d_ccl[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
+  elif dtype in (np.uint16, np.int16):
+    num_filled = binary_fill_holes3d_ccl[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
+  elif dtype in (np.uint32, np.int32):
+    num_filled = binary_fill_holes3d_ccl[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
+  elif dtype in (np.uint64, np.int64):
+    num_filled = binary_fill_holes3d_ccl[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
+  elif dtype == np.float32:
+    num_filled = binary_fill_holes3d_ccl[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
+  elif dtype == np.float64:
+    num_filled = binary_fill_holes3d_ccl[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
   else:
     raise TypeError("Type {} not supported.".format(dtype))
 

@@ -27,6 +27,7 @@
 #include <cmath>
 #include <cstdio>
 #include <cstdint>
+#include <memory>
 #include <vector>
 #include <stack>
 #include <string>
@@ -40,6 +41,253 @@ enum Label {
   VISITED_BACKGROUND = 1,
   FOREGROUND = 2
 };
+
+template <typename T>
+class DisjointSet {
+public:
+  T *ids;
+  size_t length;
+
+  DisjointSet () {
+    length = 65536; // 2^16, some "reasonable" starting size
+    ids = new T[length]();
+  }
+
+  DisjointSet (size_t len) {
+    length = len;
+    ids = new T[length]();
+  }
+
+  DisjointSet (const DisjointSet &cpy) {
+    length = cpy.length;
+    ids = new T[length]();
+
+    for (int i = 0; i < length; i++) {
+      ids[i] = cpy.ids[i];
+    }
+  }
+
+  ~DisjointSet () {
+    delete []ids;
+  }
+
+  T root (T n) {
+    T i = ids[n];
+    while (i != ids[i]) {
+      ids[i] = ids[ids[i]]; // path compression
+      i = ids[i];
+    }
+
+    return i;
+  }
+
+  bool find (T p, T q) {
+    return root(p) == root(q);
+  }
+
+  void add(T p) {
+    if (p >= length) {
+      printf("Connected Components Error: Label %lli cannot be mapped to union-find array of length %lu.\n", static_cast<long long int>(p), length);
+      throw std::runtime_error("maximum length exception");
+    }
+
+    if (ids[p] == 0) {
+      ids[p] = p;
+    }
+  }
+
+  void unify (T p, T q) {
+    if (p == q) {
+      return;
+    }
+
+    T i = root(p);
+    T j = root(q);
+
+    if (i == 0) {
+      add(p);
+      i = p;
+    }
+
+    if (j == 0) {
+      add(q);
+      j = q;
+    }
+
+    ids[i] = j;
+  }
+
+  void print() {
+    int size = std::min(static_cast<int>(length), 15);
+    for (int i = 0; i < size; i++) {
+      printf("%d, ", ids[i]);
+    }
+    printf("\n");
+  }
+
+  // would be easy to write remove. 
+  // Will be O(n).
+};
+
+
+// This is the second raster pass of the two pass algorithm family.
+// The input array (output_labels) has been assigned provisional 
+// labels and this resolves them into their final labels. We
+// modify this pass to also ensure that the output labels are
+// numbered from 1 sequentially.
+int64_t relabel(
+    uint8_t* out_labels, 
+    uint32_t* provisional,
+    const int64_t sx, const int64_t sy, const int64_t sz,
+    const int64_t num_labels, 
+    DisjointSet<uint32_t> &equivalences
+  ) {
+
+  if (num_labels == 1) {
+    return 0;
+  }
+
+  uint32_t label;
+  std::unique_ptr<uint8_t[]> renumber(new uint8_t[num_labels + 1]());
+  uint32_t next_label = 1;
+
+  for (int64_t i = 1; i <= num_labels; i++) {
+    label = equivalences.root(i);
+    renumber[i] = label > 0;
+  }
+
+  const int64_t voxels = sx * sy * sz;
+  int64_t foreground_count = 0;
+  // Raster Scan 2: Write final labels based on equivalences
+  for (int64_t i = 0; i < voxels; i++) {
+    out_labels[i] = renumber[provisional[i]];
+    foreground_count += out_labels[i];
+  }
+
+  return foreground_count;
+}
+
+template <typename T>
+auto binary_fill_holes3d_ccl(
+    T* in_labels, 
+    const int64_t sx, const int64_t sy, const int64_t sz,
+    uint8_t* out_labels = NULL
+) {
+
+  const int64_t sxy = sx * sy;
+  const int64_t voxels = sxy * sz;
+
+  if (out_labels == NULL) {
+    out_labels = new uint8_t[voxels]();
+  }
+
+  DisjointSet<uint32_t> equivalences((voxels >> 1) + 1);
+  std::unique_ptr<uint32_t[]> provisional(new uint32_t[voxels]());
+
+  /*
+    Layout of forward pass mask (which faces backwards). 
+    N is the current location.
+
+    z = -1     z = 0
+    A B C      J K L   y = -1 
+    D E F      M N     y =  0
+    G H I              y = +1
+   -1 0 +1    -1 0   <-- x axis
+  */
+
+  // Z - 1
+  const int64_t B = -sx - sxy;
+  const int64_t E = -sxy;
+  const int64_t D = -1 - sxy;
+
+  // Current Z
+  const int64_t K = -sx;
+  const int64_t M = -1;
+  const int64_t J = -1 - sx;
+  // N = 0;
+
+  int64_t loc = 0;
+  int64_t row = 0;
+  uint32_t next_label = 0;
+
+  int64_t foreground_count = 0;
+
+  // Raster Scan 1: Set temporary labels and 
+  // record equivalences in a disjoint set.
+
+  for (int64_t z = 0; z < sz; z++) {
+    for (int64_t y = 0; y < sy; y++, row++) {
+      for (int64_t x = 0; x < sx; x++) {
+        loc = x + sx * (y + sy * z);
+
+        const T cur = in_labels[loc];
+
+        if (x > 0 && in_labels[loc + M]) {
+          provisional[loc] = provisional[loc + M];
+
+          if (y > 0 && in_labels[loc + K] && cur != in_labels[loc + J]) {
+            equivalences.unify(provisional[loc], provisional[loc + K]); 
+            if (z > 0 && in_labels[loc + E]) {
+              if (cur != in_labels[loc + D] && cur != in_labels[loc + B]) {
+                equivalences.unify(provisional[loc], provisional[loc + E]);
+              }
+            }
+          }
+          else if (z > 0 && in_labels[loc + E] && cur != in_labels[loc + D]) {
+            equivalences.unify(provisional[loc], provisional[loc + E]); 
+          }
+        }
+        else if (y > 0 && in_labels[loc + K]) {
+          provisional[loc] = provisional[loc + K];
+
+          if (z > 0 && in_labels[loc + E] && cur != in_labels[loc + B]) {
+            equivalences.unify(provisional[loc], provisional[loc + E]); 
+          }
+        }
+        else if (z > 0 && in_labels[loc + E]) {
+          provisional[loc] = provisional[loc + E];
+        }
+        else {
+          next_label++;
+          provisional[loc] = next_label;
+          equivalences.add(provisional[loc]);
+        }
+
+        foreground_count += in_labels[loc] > 0;
+      }
+    }
+  }
+
+  for (int64_t z = 0; z < sz; z++) {
+    for (int64_t y = 0; y < sy; y++) {
+      loc = sx * (y + sy * z);
+      if (in_labels[loc] == 0) {
+        equivalences.unify(0, provisional[loc]);
+      }
+    }
+  }
+  for (int64_t z = 0; z < sz; z++) {
+    for (int64_t x = 0; x < sx; x++) {
+      loc = x + sxy * z;
+      if (in_labels[loc] == 0) {
+        equivalences.unify(0, provisional[loc]);
+      }
+    }
+  }
+  for (int64_t y = 0; y < sy; y++) {
+    for (int64_t x = 0; x < sx; x++) {
+      loc = x + sx * y;
+      if (in_labels[loc] == 0) {
+        equivalences.unify(0, provisional[loc]);
+      }
+    }
+  }
+
+  const int64_t final_foreground_count = relabel(out_labels, provisional, sx, sy, sz, equivalences);
+  const int64_t num_filled = final_foreground_count - foreground_count;
+
+  return std::make_tuple(out_labels, num_filled);
+}
 
 template <typename T>
 inline void push_stack(
