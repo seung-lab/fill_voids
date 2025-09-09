@@ -114,12 +114,22 @@ public:
       j = q;
     }
 
-    ids[i] = j;
+    if (i < j) {
+      ids[j] = i;
+    }
+    else {
+      ids[i] = j;
+    }
+  }
+
+  void clear() {
+    for (int64_t i = 0; i < length; i++) {
+      ids[i] = i;
+    }
   }
 
   void print() {
-    int size = std::min(static_cast<int>(length), 15);
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < length; i++) {
       printf("%d, ", ids[i]);
     }
     printf("\n");
@@ -129,42 +139,94 @@ public:
   // Will be O(n).
 };
 
-
-// This is the second raster pass of the two pass algorithm family.
-// The input array (output_labels) has been assigned provisional 
-// labels and this resolves them into their final labels. We
-// modify this pass to also ensure that the output labels are
-// numbered from 1 sequentially.
-int64_t relabel(
+uint8_t online_relabel(
   uint8_t* out_labels, 
-  uint32_t* provisional,
   const int64_t sx, const int64_t sy, const int64_t sz,
-  const int64_t num_labels, 
-  DisjointSet<uint32_t> &equivalences
+  const int64_t start_loc, const int64_t end_loc,
+  DisjointSet<uint8_t>& equivalences,
+  const std::vector<uint8_t>& current_active_labels,
+  const std::vector<uint8_t>& previous_active_labels
 ) {
+  uint8_t label = 0;
+  uint8_t renumber[256] = {};
+  bool active[256] = {};
 
-  if (num_labels == 1) {
-    return 0;
+  for (const uint8_t i : current_active_labels) {
+    active[i] = true;
   }
 
-  uint32_t label;
-  std::unique_ptr<uint8_t[]> renumber(new uint8_t[num_labels + 1]());
+  for (const uint8_t i : previous_active_labels) {
+    active[i] = true;
+  }
 
-  for (int64_t i = 1; i <= num_labels; i++) {
+  uint8_t next_cannonical_label = 2;
+
+  for (int64_t i = 1; i < 256; i++) {
     label = equivalences.root(i);
-    renumber[i] = label > 0;
+    if (label <= 1) {
+      renumber[i] = label;
+    }
+    else if (label & !active[label]) {
+      renumber[i] = 1;
+      equivalences.ids[i] = 1;
+    }
+    else {
+      renumber[i] = next_cannonical_label++;
+    }
   }
 
-  const int64_t voxels = sx * sy * sz;
-  int64_t foreground_count = 0;
   // Raster Scan 2: Write final labels based on equivalences
-  for (int64_t i = 0; i < voxels; i++) {
-    out_labels[i] = renumber[provisional[i]];
-    foreground_count += out_labels[i];
+  for (int64_t i = start_loc; i < end_loc; i++) {
+    out_labels[i] = renumber[out_labels[i]];
   }
 
-  return foreground_count;
+  return next_cannonical_label;
 }
+
+uint8_t final_relabel(
+  uint8_t* out_labels, 
+  const int64_t sx, const int64_t sy, const int64_t sz,
+  const int64_t start_loc, const int64_t end_loc,
+  DisjointSet<uint8_t>& equivalences,
+  const std::vector<uint8_t>& current_active_labels,
+  const std::vector<uint8_t>& previous_active_labels
+) {
+  uint8_t label = 0;
+  uint8_t renumber[256] = {};
+  bool active[256] = {};
+
+  for (const uint8_t i : current_active_labels) {
+    active[i] = true;
+  }
+
+  for (const uint8_t i : previous_active_labels) {
+    active[i] = true;
+  }
+
+  uint8_t next_cannonical_label = 2;
+
+  for (int64_t i = 1; i < 256; i++) {
+    label = equivalences.root(i);
+    if (label <= 1) {
+      renumber[i] = label;
+    }
+    else if (label & !active[label]) {
+      renumber[i] = 1;
+      equivalences.ids[i] = 1;
+    }
+    else {
+      renumber[i] = next_cannonical_label++;
+    }
+  }
+
+  // Raster Scan 2: Write final labels based on equivalences
+  for (int64_t i = start_loc; i < end_loc; i++) {
+    out_labels[i] = renumber[out_labels[i]];
+  }
+
+  return next_cannonical_label;
+}
+
 
 template <typename T>
 int64_t binary_fill_holes3d_ccl(
@@ -176,8 +238,10 @@ int64_t binary_fill_holes3d_ccl(
   const int64_t sxy = sx * sy;
   const int64_t voxels = sxy * sz;
 
-  DisjointSet<uint32_t> equivalences((voxels >> 1) + 1);
-  std::unique_ptr<uint32_t[]> provisional(new uint32_t[voxels]());
+  DisjointSet<uint8_t> equivalences(256);
+
+  equivalences.add(0);
+  equivalences.add(1);
 
   /*
     Layout of forward pass mask (which faces backwards). 
@@ -202,70 +266,151 @@ int64_t binary_fill_holes3d_ccl(
   // N = 0;
 
   int64_t loc = 0;
-  int64_t row = 0;
-  uint32_t next_label = 0;
+  uint8_t next_label = 1;
+  int64_t relabel_from = 0;
+  bool touching_border = true;
 
-  int64_t foreground_count = 0;
+  std::vector<uint8_t> previous_active_labels;
+  std::vector<uint8_t> current_active_labels;
+  current_active_labels.reserve(256);
+  previous_active_labels.reserve(256);
+
+  int64_t original_foreground_count = 0;
+
+  equivalences.print();
 
   // Raster Scan 1: Set temporary labels and 
   // record equivalences in a disjoint set.
 
   for (int64_t z = 0; z < sz; z++) {
-    for (int64_t y = 0; y < sy; y++, row++) {
-      for (int64_t x = 0; x < sx; x++) {
-        loc = x + sx * (y + sy * z);
+    std::swap(current_active_labels, previous_active_labels);
+    current_active_labels.clear();
 
-        const T cur = in_labels[loc];
+    for (int64_t y = 0; y < sy; y++) {
+      // printf("%d, %d | %d\n", y, z, next_label);  
+      const int64_t row_start = sx * (y + sy * z);
+      loc = row_start;
+      T cur = in_labels[row_start];
+
+      original_foreground_count += (cur != 0);
+
+      if (cur != 0) {
+        if (y > 0 && cur == in_labels[loc + K]) {
+          out_labels[loc] = out_labels[loc + K];
+          if (z > 0 && cur == in_labels[loc + E]) {
+            equivalences.unify(out_labels[loc], out_labels[loc + E]);
+          }
+        }
+        else if (z > 0 && cur == in_labels[loc + E]) {
+          out_labels[loc] = out_labels[loc + E];
+        }
+        else if (next_label == 255) {
+          // equivalences.print();
+          next_label = online_relabel(out_labels, sx, sy, sz, relabel_from, loc, equivalences, current_active_labels, previous_active_labels);
+          out_labels[loc] = next_label;
+          equivalences.clear();
+          equivalences.add(next_label);
+          current_active_labels.push_back(next_label);
+          relabel_from = loc;
+        }
+        else {
+          next_label++;
+          out_labels[loc] = next_label;
+          equivalences.add(out_labels[loc]);
+          current_active_labels.push_back(next_label);
+        }
+      }
+
+      touching_border = cur == 0;
+
+      for (int64_t x = 1; x < sx; x++) {
+        loc = row_start + x;
+        cur = in_labels[loc];
+
+        original_foreground_count += (cur > 0);
+
+        if (cur) {
+          touching_border = false;
+          out_labels[loc] = 1;
+          continue;
+        }
+        else if (touching_border) {
+          continue;
+        }
 
         if (x > 0 && cur == in_labels[loc + M]) {
-          provisional[loc] = provisional[loc + M];
+          out_labels[loc] = out_labels[loc + M];
 
           if (y > 0 && cur == in_labels[loc + K] && cur != in_labels[loc + J]) {
-            equivalences.unify(provisional[loc], provisional[loc + K]); 
-            if (z > 0 && in_labels[loc + E]) {
+            equivalences.unify(out_labels[loc], out_labels[loc + K]); 
+            if (z > 0 && cur == in_labels[loc + E]) {
               if (cur != in_labels[loc + D] && cur != in_labels[loc + B]) {
-                equivalences.unify(provisional[loc], provisional[loc + E]);
+                equivalences.unify(out_labels[loc], out_labels[loc + E]);
               }
             }
           }
           else if (z > 0 && cur == in_labels[loc + E] && cur != in_labels[loc + D]) {
-            equivalences.unify(provisional[loc], provisional[loc + E]); 
+            equivalences.unify(out_labels[loc], out_labels[loc + E]); 
           }
         }
         else if (y > 0 && cur == in_labels[loc + K]) {
-          provisional[loc] = provisional[loc + K];
+          out_labels[loc] = out_labels[loc + K];
 
           if (z > 0 && cur == in_labels[loc + E] && cur != in_labels[loc + B]) {
-            equivalences.unify(provisional[loc], provisional[loc + E]); 
+            equivalences.unify(out_labels[loc], out_labels[loc + E]); 
           }
         }
         else if (z > 0 && cur == in_labels[loc + E]) {
-          provisional[loc] = provisional[loc + E];
+          out_labels[loc] = out_labels[loc + E];
+        }
+        else if (next_label == 255) {
+          // equivalences.print();
+          next_label = online_relabel(out_labels, sx, sy, sz, relabel_from, loc, equivalences, current_active_labels, previous_active_labels);
+          // printf("next label: %d\n", next_label);
+          out_labels[loc] = next_label;
+          // printf("wow\n");
+          equivalences.clear();
+          // printf("cleared\n");
+          equivalences.add(next_label);
+          current_active_labels.push_back(next_label);
+          // printf("add\n");
+          relabel_from = loc;
+          // printf("relabel_from\n");
         }
         else {
           next_label++;
-          provisional[loc] = next_label;
-          equivalences.add(provisional[loc]);
+          out_labels[loc] = next_label;
+          equivalences.add(out_labels[loc]);
+          current_active_labels.push_back(next_label);
         }
-
-        foreground_count += in_labels[loc] > 0;
       }
     }
   }
+
+  // printf("nl %d\n", next_label);
 
   for (int64_t z = 0; z < sz; z++) {
     for (int64_t y = 0; y < sy; y++) {
       loc = sx * (y + sy * z);
       if (in_labels[loc] == 0) {
-        equivalences.unify(0, provisional[loc]);
+        equivalences.unify(0, out_labels[loc]);
+      }
+      loc = (sx-1) + sx * (y + sy * z);
+      if (in_labels[loc] == 0) {
+        equivalences.unify(0, out_labels[loc]);
       }
     }
   }
+
   for (int64_t z = 0; z < sz; z++) {
     for (int64_t x = 0; x < sx; x++) {
       loc = x + sxy * z;
       if (in_labels[loc] == 0) {
-        equivalences.unify(0, provisional[loc]);
+        equivalences.unify(0, out_labels[loc]);
+      }
+      loc = x + sx * (sy-1) + sxy * z;
+      if (in_labels[loc] == 0) {
+        equivalences.unify(0, out_labels[loc]);
       }
     }
   }
@@ -273,13 +418,35 @@ int64_t binary_fill_holes3d_ccl(
     for (int64_t x = 0; x < sx; x++) {
       loc = x + sx * y;
       if (in_labels[loc] == 0) {
-        equivalences.unify(0, provisional[loc]);
+        equivalences.unify(0, out_labels[loc]);
+      }
+      loc = x + sx * y + sxy * (sz-1);
+      if (in_labels[loc] == 0) {
+        equivalences.unify(0, out_labels[loc]);
       }
     }
   }
 
-  const int64_t final_foreground_count = relabel(out_labels, provisional.get(), sx, sy, sz, next_label, equivalences);
-  const int64_t num_filled = final_foreground_count - foreground_count;
+  // printf("relabel_from: %d\n", relabel_from);
+
+  // printf("equivalences:\n");
+  // equivalences.print();
+
+  for (int i = 2; i < 256; i++) {
+    equivalences.ids[i] = (equivalences.root(i) > 0);
+  }
+
+  // printf("equivalences:\n");
+  // equivalences.print();
+
+  online_relabel(out_labels, sx, sy, sz, relabel_from, voxels, equivalences, current_active_labels, previous_active_labels);
+
+  int64_t final_foreground_count = 0;
+  for (int64_t i = 0; i < voxels; i++) {
+    final_foreground_count += out_labels[i] > 0;
+  }
+
+  const int64_t num_filled = final_foreground_count - original_foreground_count;
 
   return num_filled;
 }

@@ -9,7 +9,7 @@ latent energies of the void.
 
 Author: William Silversmith
 Affiliation: Seung Lab, Princeton Neuroscience Institute
-Date: December 2019
+Date: December 2019 - September 2025
 
 *****************************************************************
 This file is part of fill_voids.
@@ -125,26 +125,26 @@ def fill(
   if labels.size == 0:
     num_filled = 0
   elif labels.ndim == 2:
-    (labels, num_filled) = _fill2d(labels, in_place)
+    (out_labels, num_filled) = _fill2d(labels, in_place)
   elif labels.ndim == 3:
     if use_ccl:
-      (labels, num_filled) = _fill3d_ccl(labels, in_place)
+      (out_labels, num_filled) = _fill3d_ccl(labels, in_place)
     else:
-      (labels, num_filled) = _fill3d(labels, in_place)
+      (out_labels, num_filled) = _fill3d(labels, in_place)
   else:
     raise DimensionError("fill_voids only handles 1D, 2D, and 3D data. Got: " + str(shape))
 
-  while labels.ndim > ndim:
-    labels = labels[..., 0]
-  while labels.ndim < ndim:
-    labels = labels[..., np.newaxis]
+  while out_labels.ndim > ndim:
+    out_labels = out_labels[..., 0]
+  while out_labels.ndim < ndim:
+    out_labels = out_labels[..., np.newaxis]
 
-  labels = labels.view(dtype)
+  # out_labels = out_labels.view(dtype)
 
   if return_fill_count:
-    return (labels, num_filled)
+    return (out_labels, num_filled)
   else:
-    return labels
+    return out_labels
 
 def _fill3d(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
   if not in_place:
@@ -175,28 +175,28 @@ def _fill3d(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
 
 def _fill3d_ccl(cnp.ndarray[NUMBER, cast=True, ndim=3] labels, in_place=False):
   labels = fastremap.asfortranarray(labels)
-  cdef cnp.ndarray[uint8_t, ndim=3] out = np.zeros([ labels.shape[0], labels.shape[1], labels.shape[2] ], dtype=bool, order="F")
+  cdef cnp.ndarray[uint8_t, ndim=3] out_labels = np.zeros([ labels.shape[0], labels.shape[1], labels.shape[2] ], dtype=np.uint8, order="F")
 
   dtype = labels.dtype
 
   cdef size_t num_filled = 0
 
   if dtype in (np.uint8, np.int8, bool):
-    num_filled = binary_fill_holes3d_ccl[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
+    num_filled = binary_fill_holes3d_ccl[uint8_t](<uint8_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out_labels[0,0,0])
   elif dtype in (np.uint16, np.int16):
-    num_filled = binary_fill_holes3d_ccl[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
+    num_filled = binary_fill_holes3d_ccl[uint16_t](<uint16_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out_labels[0,0,0])
   elif dtype in (np.uint32, np.int32):
-    num_filled = binary_fill_holes3d_ccl[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
+    num_filled = binary_fill_holes3d_ccl[uint32_t](<uint32_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out_labels[0,0,0])
   elif dtype in (np.uint64, np.int64):
-    num_filled = binary_fill_holes3d_ccl[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
+    num_filled = binary_fill_holes3d_ccl[uint64_t](<uint64_t*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out_labels[0,0,0])
   elif dtype == np.float32:
-    num_filled = binary_fill_holes3d_ccl[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
+    num_filled = binary_fill_holes3d_ccl[float](<float*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out_labels[0,0,0])
   elif dtype == np.float64:
-    num_filled = binary_fill_holes3d_ccl[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out[0,0,0])
+    num_filled = binary_fill_holes3d_ccl[double](<double*>&labels[0,0,0], labels.shape[0], labels.shape[1], labels.shape[2], <uint8_t*>&out_labels[0,0,0])
   else:
     raise TypeError("Type {} not supported.".format(dtype))
 
-  return (labels, num_filled)
+  return (out_labels, num_filled)
 
 def _fill2d(cnp.ndarray[NUMBER, cast=True, ndim=2] labels, in_place=False):
   if not in_place:

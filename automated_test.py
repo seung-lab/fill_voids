@@ -23,8 +23,8 @@ def test_scipy_comparison3d():
     binimg = binimg[slices]
 
     orig_binimg = np.copy(binimg, order='F')
-    fv = fill_voids.fill(binimg, in_place=False)
-    fvip = fill_voids.fill(binimg, in_place=True)
+    fv = fill_voids.fill(binimg, in_place=False, use_ccl=True)
+    fvip = fill_voids.fill(binimg, in_place=True, use_ccl=True)
 
     assert np.all(fv == fvip)
 
