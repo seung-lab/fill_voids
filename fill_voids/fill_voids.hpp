@@ -277,7 +277,7 @@ int64_t binary_fill_holes3d_ccl(
 
   int64_t original_foreground_count = 0;
 
-  equivalences.print();
+  // equivalences.print();
 
   // Raster Scan 1: Set temporary labels and 
   // record equivalences in a disjoint set.
@@ -323,7 +323,18 @@ int64_t binary_fill_holes3d_ccl(
 
       touching_border = cur == 0;
 
-      for (int64_t x = 1; x < sx; x++) {
+      int64_t end = 0;
+      for (int64_t x = sx - 1; x >= 1; x--) {
+        loc = row_start + x;
+        cur = in_labels[loc];
+
+        if (cur != 0) {
+          break;
+        }
+        end = x + 1;
+      }
+
+      for (int64_t x = 1; x < end; x++) {
         loc = row_start + x;
         cur = in_labels[loc];
 
