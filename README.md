@@ -58,11 +58,6 @@ We improve performance significantly by using libdivide to make computing x,y,z 
 
 ### Multi-Label Concept
 
-Similarly to the [connected-components-3d](https://github.com/seung-lab/connected-components-3d) and [euclidean-distance-3d](https://github.com/seung-lab/euclidean-distance-transform-3d) projects, in connectomics, it can be common to want to apply void filling algorithms to all labels within a densely packed volume. A multi-label algorithm can be much faster than even the fastest serial application of a binary algorithm. Here's how this might go given an input image I:
+For multi-label void filling, see https://github.com/seung-lab/fastmorph/
 
-1. Compute M = max(I)
-2. Perform the fill as in the binary algorithm labeling the surrounding void as M+1. This means all voids are now either legitimate and can be filled or holes in-between labels.
-3. Raster scan through the volume. If a new void is encountered, we must determine if it is fillable or an in-between one which will not be filled.
-4. On encountering the void, record the last label seen and contour trace around it. If only that label is encountered during contour tracing, it is fillable. If another label is encountered, it is not fillable. 
-5. During the contour trace, mark the trace using an integer not already used, such as M+2. If that label is encountered in the future, you'll know what to fill between it and the next label encountered based on the fillable determination. This phase stops when either the twin of the first M+2 label is encountered or when futher contour tracing isn't possible (in the case of single voxel gaps).
-6. (Inner Labels) If another label is encountered in the middle of a void, contour trace around it and mark the boundary with the same M+2 label that started the current fill.
+
